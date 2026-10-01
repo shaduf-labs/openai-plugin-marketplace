@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "status": "current",
+  "current_answer": "OpenAI plugins are installable packages of reusable skills, tool connections or both. The universal plugin directory is their shared public distribution source for supported ChatGPT and Codex surfaces; eligibility and execution remain plugin-, host-, account-, workspace- and provider-dependent.",
+  "catalogue_card": {
+    "question": "What is OpenAI’s new plugin marketplace, what can people use today, and how can developers build and publish useful plugins?",
+    "text": "A developer-first task guide: choose architecture, inspect the original two-file package, design tests and trust boundaries, then separate public review from distribution, maintenance and commercial constraints."
+  },
+  "summary": [
+    "Choose the smallest sufficient architecture and actual supported host; four dated patterns remain untested and account-dependent.",
+    "The exact Meeting Evidence source/downloads have narrow static/ZIP evidence only; behavior and public submission remain unperformed.",
+    "Ten distinct task routes separate building, testing, permissions, first public review, distribution, maintenance and business constraints.",
+    "Local catalogs, workspace sharing, submission, approval and choosing Publish remain distinct; public updates and commerce policy impose limits."
+  ],
+  "uncertainty": [
+    "Universal-directory rollout/announcement date not established.",
+    "Exact account tiers, per-surface parity, provider scopes and authenticated workflow reliability remain unverified.",
+    "Annotation justification and MCP endpoint-change guidance conflict; inspect live portal/support.",
+    "No review SLA, discovery guarantee, adoption or revenue evidence."
+  ],
+  "checked_at": "2026-09-29T19:30:00Z",
+  "meaningfully_updated_at": "2026-09-29T20:26:55Z",
+  "freshness_note": "Primary documentation, provider sources and a read-only listing sample checked 29 September 2026. Ten-route editorial expansion reuses those observations without a new source check or product workflow test. Prices/rules/access may change."
+}

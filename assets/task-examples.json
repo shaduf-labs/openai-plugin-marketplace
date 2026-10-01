@@ -1,0 +1,144 @@
+{
+  "checked_at": "2026-09-29",
+  "selection_basis": "Four task patterns with primary documentation, upstream package or observed listing evidence; not popularity or tested outcomes.",
+  "shared_caveat": "Documented and observed listing do not mean installed by this research, authenticated, executed, universally eligible, or free agent usage.",
+  "examples": [
+    {
+      "id": "superpowers",
+      "exact_name": "Superpowers",
+      "task": "Turn a feature idea into a reviewed design and test-driven implementation plan.",
+      "component_pattern": "Skill-centered coding workflows. OpenAI curated manifest declares skills and hooks:{} but no MCP dependency. Broader upstream includes host-specific hooks and an optional visual companion.",
+      "upstream_url": "https://github.com/obra/superpowers",
+      "package_url": "https://github.com/openai/plugins/blob/main/plugins/superpowers/.codex-plugin/plugin.json",
+      "directory_name": "Superpowers",
+      "evidence_status": [
+        "primary upstream/package inspected",
+        "listing observed in account-scoped read-only search",
+        "not invoked"
+      ],
+      "supported_surfaces_verified": [
+        "Codex CLI",
+        "Codex in desktop app (upstream installation instructions)"
+      ],
+      "other_surfaces": "Upstream describes separate client adaptations; current ChatGPT web/mobile behavior and automatic hooks not tested or established for this package.",
+      "account_plan_workspace_restrictions": "Eligible Codex environment and workspace plugin permission; exact subscription tier not verified. Agent execution, filesystem access and optional subagent capacity depend on host.",
+      "provider_authentication": "No external-service authentication declared by the checked curated skills package; Git/service actions and optional network features may require separate setup.",
+      "provider_cost_verified": "MIT open-source package; no separate package-license fee stated. Vendor offers enterprise support but its fees were not verified. Host model/API usage remains separate.",
+      "limits": [
+        "Do not treat upstream automatic activation claims as our test evidence",
+        "Review workflows, scripts and optional network/telemetry behavior before enabling",
+        "Install separately for each client; current curated archive can differ from upstream main"
+      ],
+      "install": "Codex /plugins → search exact name → inspect package/policy → Install plugin → new session.",
+      "illustrative_prompt": "Use Superpowers to clarify this small feature and produce an implementation plan. Do not edit files or start agents yet.",
+      "result_check": "A scoped design and plan that names assumptions and tests, not merely a claim that Superpowers ran.",
+      "remove": "Supported browser → Uninstall plugin; CLI Space disables an installed entry. Legacy standalone skill installations are separate and were not audited.",
+      "last_checked": "2026-09-29",
+      "tested_by_us": false
+    },
+    {
+      "id": "github",
+      "exact_name": "GitHub",
+      "task": "Summarize one authorized pull request, identify risks and inspect failed checks without posting.",
+      "component_pattern": "Hybrid GitHub connector and CLI workflow. Public package declares .app.json and .mcp.json; research environment cached package differed from upstream in MCP wiring.",
+      "upstream_url": "https://github.com/openai/plugins/tree/main/plugins/github",
+      "provider_url": "https://github.com/",
+      "pricing_url": "https://github.com/pricing",
+      "directory_name": "GitHub",
+      "evidence_status": [
+        "primary package inspected",
+        "listing observed as pre-existing installed entry",
+        "not authenticated or invoked in this study"
+      ],
+      "supported_surfaces_verified": [
+        "Codex package documented by upstream manifest; listing visible to this research environment"
+      ],
+      "other_surfaces": "Shared-directory support is documented generally, but per-surface GitHub operation parity was not verified.",
+      "account_plan_workspace_restrictions": "Plugin permitted in chosen workspace; a GitHub identity with access to requested repository for account-connected work. Organization approval and specific ChatGPT/Codex plan eligibility not verified.",
+      "provider_authentication": "Connect GitHub if the chosen connector flow prompts; CLI fallback has its own credentials/setup. Checked app mappings are optional; do not claim every operation universally needs OAuth.",
+      "provider_cost_verified": "GitHub Free displayed US$0/month and unlimited public/private repositories. Extra service features and host usage can cost separately; no plugin-specific price verified.",
+      "limits": [
+        "Repository visibility and permissions still apply",
+        "Upstream package and pre-existing local cache are not identical",
+        "Do not infer a successful connection from installed:true metadata"
+      ],
+      "install": "Find exact GitHub name in supported plugin browser; inspect required app and connect authorized account if needed; install; new chat/session.",
+      "illustrative_prompt": "Use GitHub to summarize [one PR URL I can access]. Cite the diff and relevant checks; distinguish unknowns. Do not post comments, push, merge or rerun jobs.",
+      "result_check": "Verify PR/repository identity, citations and check state against GitHub. Prose alone is not proof of remote retrieval.",
+      "remove": "Uninstall plugin if allowed; separately disconnect the authorized GitHub integration in ChatGPT/provider settings if no longer needed.",
+      "last_checked": "2026-09-29",
+      "tested_by_us": false
+    },
+    {
+      "id": "canva",
+      "exact_name": "Canva",
+      "task": "Turn an outline into a presentation draft that can be opened and edited in Canva.",
+      "component_pattern": "Connected design service with editable design outputs; current listing describes Codex design workflows and a Canva account connection.",
+      "upstream_url": "https://www.canva.com/",
+      "pricing_url": "https://www.canva.com/pricing/",
+      "directory_name": "Canva",
+      "evidence_status": [
+        "listing observed in account-scoped read-only search",
+        "provider pricing/usage pages inspected",
+        "not installed, connected or invoked"
+      ],
+      "supported_surfaces_verified": [
+        "Codex workflow explicitly described by observed listing"
+      ],
+      "other_surfaces": "Visible in this ChatGPT-backed directory search; individual ChatGPT web/mobile feature parity not verified.",
+      "account_plan_workspace_restrictions": "Connect a Canva account; plugin must be permitted by account/workspace. Listing says bulk create requires an eligible Canva Enterprise plan, even though provider's general plan table has other bulk-design features.",
+      "provider_authentication": "Canva account connection required by observed listing.",
+      "provider_cost_verified": "Canva Free exists; fetched US annual pricing showed Pro US$144/year for one person and Business US$250/year per person, excluding applicable tax. Region/billing can change. Exact plugin-specific charge not verified.",
+      "ai_usage": "Listing says design/image generation uses Canva AI credits. Provider help describes a shared plan-dependent monthly allowance; Free up to 20 Standard OR Premium uses under simple/lower-consumption assumptions, not 20 guaranteed plugin tasks. Paid plans have higher allowances.",
+      "limits": [
+        "Bulk Create plugin entitlement is narrower than general Canva plan features",
+        "Never equate a free provider account with unlimited AI generation",
+        "Review licensing/export and account-specific limits before committing money"
+      ],
+      "install": "Search exact Canva name in plugin browser; review requested permissions; install/connect when prompted; start a new chat/session.",
+      "illustrative_prompt": "Use Canva to draft a five-slide presentation from this outline. Keep the wording editable, avoid premium-only assets if possible, and do not publish.",
+      "result_check": "Open the returned design in the correct Canva account; inspect all pages, text, assets and any entitlement warnings.",
+      "remove": "Uninstall if allowed and separately disconnect/revoke Canva connection if no longer wanted.",
+      "last_checked": "2026-09-29",
+      "tested_by_us": false
+    },
+    {
+      "id": "apple-messages",
+      "exact_name": "Apple Messages",
+      "task": "Find a specified conversation on your own Mac and draft a reply for review.",
+      "component_pattern": "Local desktop Messages access; not a remote cloud connector or SMS route to ChatGPT.",
+      "upstream_url": "https://learn.chatgpt.com/docs/plugins#use-apple-messages-from-codex",
+      "directory_name": "Apple Messages",
+      "evidence_status": [
+        "explicit current official documentation",
+        "not returned by non-exhaustive account-scoped directory queries",
+        "not installed or invoked"
+      ],
+      "supported_surfaces_verified": [
+        "ChatGPT Work in macOS ChatGPT desktop app, Apple Silicon arm64 build",
+        "Codex in that desktop app"
+      ],
+      "excluded_surfaces": [
+        "regular ChatGPT Chat",
+        "direct ChatGPT web/mobile access",
+        "Codex CLI",
+        "IDE extension"
+      ],
+      "account_plan_workspace_restrictions": "Official guide says all plans, but Apple Silicon macOS desktop app required; administrators can disable through Computer Use.",
+      "provider_authentication": "Existing local Messages app/chat access plus requested macOS permissions. No cloud-provider OAuth requirement established.",
+      "provider_cost_verified": "No separate plugin fee established by official guide. Underlying messaging/carrier charges and exact host usage cost not verified; all-plans availability is not a zero-cost messaging promise.",
+      "limits": [
+        "Review recipient/content before each send",
+        "Persistent per-chat send approval removes later final review",
+        "Full access/disabled prompts can interfere with send confirmation; retain an approval mode"
+      ],
+      "install": "Desktop Plugins → Apple Messages → install → new Codex/Work chat → grant requested macOS permissions.",
+      "illustrative_prompt": "Use Apple Messages to find my conversation with [person] about [specific topic] and draft a reply. Do not send it.",
+      "result_check": "Compare the quoted conversation and recipient with Messages on the Mac; draft remains unsent.",
+      "remove": "Uninstall where supported; independently manage macOS access. To restore per-send approvals use Settings → Computer use → Manage next to Messages → remove the always-allowed chat.",
+      "last_checked": "2026-09-29",
+      "tested_by_us": false
+    }
+  ],
+  "evidence_basis": "Primary guidance/upstream provider sources plus 29 September 2026 read-only, account-scoped and non-exhaustive listing search. No workflow installed/invoked. Apple Messages is documented, not listing-observed."
+}

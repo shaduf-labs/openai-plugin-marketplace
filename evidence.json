@@ -1,0 +1,295 @@
+{
+  "schema_version": "1.0.0",
+  "items": [
+    {
+      "evidence_id": "overview",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins",
+      "title": "Plugins overview",
+      "claim": "Shared directory for installable skills/connections on supported ChatGPT/Codex surfaces.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "architecture",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/concepts/plugins",
+      "title": "Plugin architecture",
+      "claim": "Package, skill, tool connection and optional UI are different layers.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "skills",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/concepts/skills",
+      "title": "Skills",
+      "claim": "Skills carry task instructions/resources rather than creating service access.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mcp",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/concepts/mcp-server",
+      "title": "MCP server",
+      "claim": "MCP servers expose tools/data/results; optional UI and service permissions remain separate.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "package",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/build/plugins",
+      "title": "Package your plugin",
+      "claim": "Portable layout, automatic root skills discovery, local catalogs and updates.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "user",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/plugins",
+      "title": "Current plugins user guide",
+      "claim": "Current surface restrictions, first use/removal, IDE exclusion and Apple Messages desktop constraints.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "buildskill",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/build/skills",
+      "title": "Build skills",
+      "claim": "Focused workflow boundaries and explicit/implicit/negative tests.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "creator",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/build-plugins",
+      "title": "Build plugins",
+      "claim": "Creator flow, account-dependent app access and private-first tests.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "submit",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission",
+      "title": "Upload and submit",
+      "claim": "Public submission stages and unsupported MCP addition to existing skills-only public listings.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "review",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/app-review",
+      "title": "MCP review and distribution",
+      "claim": "MCP production review; approval/publication/discretionary distribution are distinct.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "policy",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
+      "title": "Plugin guidelines",
+      "claim": "Production utility and physical-goods commerce; existing paid account use differs from prohibited digital sales/upsells.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "security",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/guides/security-privacy",
+      "title": "Security & Privacy",
+      "claim": "Least privilege, minimization, prompt injection defenses, action consent and UI/CSP security.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "errors",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission-errors",
+      "title": "Submission error reference",
+      "claim": "Final validation differs from upload checks; MCP cases and annotation fields. Annotation justification conflicts with guidelines.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "migrate",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/migrate-custom-gpts",
+      "title": "Custom GPT migration guidance",
+      "claim": "Enterprise-scoped migration; actions/model do not transfer; other-plan timelines may differ and no calendar deadline provided.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "pluginchange",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/changelog",
+      "title": "Plugin UI changelog",
+      "claim": "Dated March 2026 distribution milestone, not a date for today’s universal directory.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "change",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/changelog",
+      "title": "ChatGPT & Codex changelog",
+      "claim": "25 March 2026 Codex milestone; historical IDE language conflicts with current guide.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "devday",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/blog/codex-at-devday",
+      "title": "DevDay 2025 retrospective",
+      "claim": "10 October 2025 retrospective identifies Apps SDK as a DevDay launch, not today’s directory launch.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "apichange",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/api/docs/changelog",
+      "title": "API changelog",
+      "claim": "6 October 2025 DevDay feature date; SDK association is cross-source inference.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "supermanifest",
+      "source_type": "primary-provider-source",
+      "source_url": "https://github.com/openai/plugins/blob/main/plugins/superpowers/.codex-plugin/plugin.json",
+      "title": "Superpowers curated manifest",
+      "claim": "Inspected curated Superpowers manifest version 6.3.0 declares skills, empty hooks and no MCP dependency.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "super",
+      "source_type": "primary-provider-source",
+      "source_url": "https://github.com/obra/superpowers",
+      "title": "Superpowers upstream",
+      "claim": "Upstream coding workflow/install context; broader variants have optional hooks/visual companion. Not our invocation evidence.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "github",
+      "source_type": "primary-provider-source",
+      "source_url": "https://github.com/openai/plugins/tree/main/plugins/github",
+      "title": "GitHub package",
+      "claim": "Upstream hybrid repository/PR/CI workflow; not a test or account eligibility claim.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "githubmanifest",
+      "source_type": "primary-provider-source",
+      "source_url": "https://github.com/openai/plugins/blob/main/plugins/github/.codex-plugin/plugin.json",
+      "title": "GitHub manifest",
+      "claim": "Public GitHub package declares app/MCP config; pre-existing cache differed.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "githubapp",
+      "source_type": "primary-provider-source",
+      "source_url": "https://raw.githubusercontent.com/openai/plugins/main/plugins/github/.app.json",
+      "title": "GitHub app mapping",
+      "claim": "Optional connection mappings do not establish user authentication.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "ghprice",
+      "source_type": "primary-provider-source",
+      "source_url": "https://github.com/pricing",
+      "title": "GitHub pricing",
+      "claim": "GitHub Free US$0/month observation; host and extra provider usage remain separate.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "canva",
+      "source_type": "primary-provider-source",
+      "source_url": "https://www.canva.com/",
+      "title": "Canva",
+      "claim": "Provider context only; plugin capabilities/entitlements are dated account-scoped listing observations, not proven by this homepage.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "cvprice",
+      "source_type": "primary-provider-source",
+      "source_url": "https://www.canva.com/pricing/",
+      "title": "Canva pricing",
+      "claim": "Dated US annual Canva pricing observations; region/billing/tax and plugin entitlements vary.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "cvusage",
+      "source_type": "primary-provider-source",
+      "source_url": "https://www.canva.com/help/ai-access-variantb/",
+      "title": "Canva AI allowance",
+      "claim": "Plan-dependent shared AI allowances are not guaranteed plugin-task counts.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "schema",
+      "source_type": "primary-provider-source",
+      "source_url": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+      "title": "Agent Plugins 1.0.0 schema",
+      "claim": "Portable Agent Plugins 1.0.0 manifest schema; our local checker covers only a narrow subset.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "workspace",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/enterprise/plugin-management",
+      "title": "Workspace plugin management",
+      "claim": "Independent workspace access/connection gates and Desktop-only raw MCP imports.",
+      "accessed_at": "2026-09-29T19:30:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    }
+  ]
+}

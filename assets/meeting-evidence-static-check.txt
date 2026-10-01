@@ -1,0 +1,3 @@
+PASS: JSON syntax, expected documented manifest subset, one skill's simple front matter, no MCP/hooks/app declarations, marketplace example, and test fixtures.
+NOT TESTED: full external schema, host installation, skill activation, model output, public submission, scans, review, or publication.
+PASS: local ZIP integrity and one root; wrote meeting-evidence-0.1.0.zip with 2 runtime files.

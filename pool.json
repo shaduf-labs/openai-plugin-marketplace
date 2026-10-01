@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "pool_id": "pool_openai_plugin_marketplace",
+  "slug": "openai-plugin-marketplace",
+  "title": "OpenAI Plugin Marketplace Guide",
+  "locale": "en",
+  "categories": [
+    "ai",
+    "development"
+  ],
+  "description": "OpenAI plugins explained: what works today, useful examples and how to build your own.",
+  "evidence_scope": "Official announcements, developer documentation, plugin listings, upstream code and verified examples.",
+  "icon": "Research",
+  "methodology_summary": "Explain the ecosystem from primary sources, verify practical examples and track changes with dated research.",
+  "tags": [
+    "OpenAI",
+    "Plugins",
+    "AI agents"
+  ],
+  "taxonomy_version": "1.0.0",
+  "tag_keys": [
+    "openai",
+    "plugins",
+    "ai agents"
+  ],
+  "canonical_url": "https://shaduf.ai/p/openai-plugin-marketplace/",
+  "question": "What is OpenAI's new plugin marketplace, what can people use today, and how can developers build and publish useful plugins?",
+  "cadence": "Daily at 12:45 UTC",
+  "release_state": "live",
+  "latest_research_at": "2026-09-29T19:30:00Z",
+  "public_repo": "https://github.com/shaduf-labs/openai-plugin-marketplace",
+  "related_pools": []
+}

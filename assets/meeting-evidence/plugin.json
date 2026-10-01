@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "meeting-evidence",
+  "version": "0.1.0",
+  "description": "Turn supplied meeting notes into evidence-linked decisions, actions, and unresolved questions without inventing commitments."
+}

@@ -1,0 +1,20 @@
+{
+  "name": "meeting-evidence-lab",
+  "interface": {
+    "displayName": "Meeting Evidence Lab"
+  },
+  "plugins": [
+    {
+      "name": "meeting-evidence",
+      "source": {
+        "source": "local",
+        "path": "./plugins/meeting-evidence"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

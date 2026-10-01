@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "runs": [
+    {
+      "run_id": "run:manual:fd738d91e578cfe8ed9f0546674d8d42",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-29T18:51:21.849Z",
+      "completed_at": "2026-09-29T19:30:00Z",
+      "title": "OpenAI plugins: package, access and publication",
+      "summary": "Bounded documentation synthesis, account-scoped listing observation and an original statically checked example; no product invocation or universal rollout date established.",
+      "report_path": "/p/openai-plugin-marketplace/reports/2026-09-29.html",
+      "entrypoint": "reports/2026-09-29.html"
+    }
+  ]
+}

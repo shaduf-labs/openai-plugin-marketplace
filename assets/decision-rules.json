@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-09-29",
+  "type": "original editorial decision framework, not account eligibility",
+  "rules": [
+    {
+      "condition": "IDE extension",
+      "route": "No current plugin support; consider a separately supported standalone skill or switch host",
+      "basis": "https://learn.chatgpt.com/docs/plugins"
+    },
+    {
+      "condition": "One-off, supplied data and compatible built-in tools",
+      "route": "Try normal prompt/built-in capability; no plugin may be needed",
+      "basis": "https://developers.openai.com/plugins/concepts/plugins"
+    },
+    {
+      "condition": "Repeatable, supplied data",
+      "route": "Author/test a focused skill; package only if install/share adds value",
+      "basis": "https://developers.openai.com/plugins/build/skills"
+    },
+    {
+      "condition": "External data/action, existing integration fits",
+      "route": "Inspect exact name, surface, workspace/provider authorization and entitlement; begin read-only/draft",
+      "basis": "https://learn.chatgpt.com/docs/plugins"
+    },
+    {
+      "condition": "Apple Messages",
+      "route": "Apple Silicon macOS desktop Work/Codex only; retain send approval",
+      "basis": "https://learn.chatgpt.com/docs/plugins"
+    },
+    {
+      "condition": "Reusable custom workflow, no suitable integration",
+      "route": "Build small package; MCP only for necessary live capability, UI optional",
+      "basis": "https://developers.openai.com/plugins/concepts/plugins"
+    }
+  ],
+  "public_roadmap_limit": "Adding MCP to an existing skills-only public plugin is currently unsupported.",
+  "limit_source": "https://developers.openai.com/plugins/deploy/submission",
+  "privacy": "No account access, network requests, cookies, local storage, installation or external actions. Dropdowns are local suggestions only."
+}

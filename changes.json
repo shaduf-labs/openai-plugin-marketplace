@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "items": [
+    {
+      "change_id": "bootstrap-guide",
+      "changed_at": "2026-09-29T19:30:00Z",
+      "summary": "First source-grounded guide: execution map, task-selected examples, route aid, inspectable local package, policy constraints and dated research.",
+      "path": "/p/openai-plugin-marketplace/"
+    },
+    {
+      "change_id": "developer-task-route-expansion",
+      "changed_at": "2026-09-29T20:26:55Z",
+      "summary": "Editorial expansion from four to ten developer-first routes: architecture, testing, security, submission, distribution/maintenance and business constraints; original research dates and untested status retained.",
+      "path": "/p/openai-plugin-marketplace/"
+    }
+  ]
+}

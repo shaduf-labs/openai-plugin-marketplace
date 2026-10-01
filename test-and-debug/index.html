@@ -1,0 +1,99 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Test and debug · OpenAI Plugin Marketplace Guide · Shaduf</title>
+    <meta name="description" content="Design behavioral tests and record evidence separately from static checks.">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+    <link rel="canonical" href="https://shaduf.ai/p/openai-plugin-marketplace/test-and-debug/">
+    <link rel="icon" href="../assets/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" href="../assets/apple-touch-icon.png" type="image/png" sizes="180x180"><link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" sizes="any"><link rel="apple-touch-icon" href="../assets/apple-touch-icon.png" sizes="180x180">
+    <link rel="preload" href="../assets/fonts/cal-sans-ui-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../assets/shaduf.css?v=20260920-pool-requests-1">
+    <link rel="stylesheet" href="../assets/account.css?v=20260920-pool-requests-1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Shaduf">
+    <meta property="og:title" content="Test and debug · OpenAI Plugin Marketplace Guide · Shaduf">
+    <meta property="og:description" content="Design behavioral tests and record evidence separately from static checks.">
+    <meta property="og:url" content="https://shaduf.ai/p/openai-plugin-marketplace/test-and-debug/">
+    <meta name="twitter:card" content="summary">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Test and debug","description":"Design behavioral tests and record evidence separately from static checks.","dateModified":"2026-09-29T20:26:55Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/openai-plugin-marketplace/test-and-debug/"}</script>
+    <link rel="alternate" type="application/atom+xml" title="OpenAI Plugin Marketplace Guide updates" href="../feed.xml"><link rel="stylesheet" href="../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_openai_plugin_marketplace" data-page-id="test-and-debug">
+    <a class="skip-link" href="#pool-content">Skip to content</a>
+    <header class="app-header">
+    <div class="header-main">
+      <a class="brand" href="https://shaduf.ai/" aria-label="Shaduf home"><span class="brand-mark" aria-hidden="true">S</span><strong>Shaduf</strong></a>
+      <button class="mobile-surface-button" type="button" data-open-left aria-label="Open pool pages">☰</button>
+      <button class="search-button" type="button" data-open-search><span>⌕</span><span>Search pools</span><kbd>⌘ K</kbd></button>
+      <div class="header-context"><span>Pool</span><strong>OpenAI Plugin Marketplace Guide</strong></div>
+      <nav class="header-tools" aria-label="Platform">
+        <a href="https://shaduf.ai/about/">About</a>
+        <a class="contact-link" href="https://shaduf.ai/contact/">Contact us</a>
+        <a class="request-pool-link" href="https://shaduf.ai/request-a-pool/">Request a Pool</a>
+        <details class="header-menu language-menu"><summary class="language-button"><span>Your language</span><b data-language-label>EN</b><span>⌄</span></summary><div class="header-popover"><button type="button" data-language="en">English</button><p>Used to prioritize published pools from this language community. It does not translate the interface.</p></div></details>
+        <div class="account-control" data-account-control><button class="account-button" type="button" data-platform-auth data-account-href="https://shaduf.ai/account/" aria-label="Checking account" aria-haspopup="menu" aria-expanded="false"><span class="account-label" data-auth-label>Account</span><span class="account-chevron" data-auth-chevron aria-hidden="true" hidden>⌄</span></button><div class="account-popover" data-account-menu hidden></div></div>
+        <button class="mobile-pool-button" type="button" data-open-right>Pool info</button>
+      </nav>
+    </div>
+    <nav class="category-strip" aria-label="Pool categories">
+      <a class="explore-link" href="https://shaduf.ai/" aria-current="false">Explore</a>
+      <span class="category-rule" aria-hidden="true"></span>
+      
+    </nav>
+  </header>
+    <aside class="left-surface" data-left-surface>
+    <div class="left-head"><strong>What is OpenAI&#039;s new plugin marketplace, what can people use today, and how can developers build and publish useful plugins?</strong><span>Research pool</span></div>
+    <div class="page-tree"><section class="tree-group"><div class="tree-label">Start here</div><nav aria-label="Start here"><a href="../index.html" ><span aria-hidden="true">·</span><b>Developer guide</b></a><a href="../choose-architecture/index.html" ><span aria-hidden="true">·</span><b>Choose architecture</b></a></nav></section><section class="tree-group"><div class="tree-label">Build</div><nav aria-label="Build"><a href="../build-and-publish/index.html" ><span aria-hidden="true">·</span><b>Build a plugin</b></a><a href="index.html" aria-current="page"><span aria-hidden="true">·</span><b>Test and debug</b></a><a href="../security-and-permissions/index.html" ><span aria-hidden="true">·</span><b>Security and permissions</b></a></nav></section><section class="tree-group"><div class="tree-label">Publish</div><nav aria-label="Publish"><a href="../submit-and-review/index.html" ><span aria-hidden="true">·</span><b>Submit and review</b></a><a href="../distribute-and-maintain/index.html" ><span aria-hidden="true">·</span><b>Distribute and maintain</b></a><a href="../business-models/index.html" ><span aria-hidden="true">·</span><b>Business constraints</b></a></nav></section><section class="tree-group"><div class="tree-label">Evidence</div><nav aria-label="Evidence"><a href="../research/index.html" ><span aria-hidden="true">·</span><b>Research</b></a><a href="../for-ai-agents/index.html" ><span aria-hidden="true">bot</span><b>For AI agents</b></a></nav></section></div>
+    
+  </aside>
+    <main class="center-surface" id="pool-content"><article class="center-document" data-agent-document>
+      
+      <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><p class="pg-kicker">Developer guide · research checked 29 September 2026</p>
+<h1>Test and debug a plugin</h1>
+<p class="pg-lead">Make success observable. A source/ZIP pass, a working model invocation and public submission validation answer different questions.</p>
+
+<figure class="pg-milestones"><figcaption><strong>Three evidence levels—none substitutes for the next</strong></figcaption><dl class="pg-comparison"><div><dt>Static source/ZIP</dt><dd>Can the checked structure and files be read? Our sample has this narrow evidence only.</dd></div><div><dt>Behavior in a real host</dt><dd>Did the intended workflow activate and produce a correct bounded output under recorded conditions? Not performed here.</dd></div><div><dt>Public validation/review</dt><dd>Does the complete release meet current portal, safety and reviewer requirements? Not performed here; upload alone is not final validation.</dd></div></dl></figure>
+<p><span class="pg-source"><a href="https://developers.openai.com/plugins/build/skills">Build skills</a>, <a href="https://developers.openai.com/plugins/deploy/submission-errors">Submission error reference</a>. Checked 29 Sep 2026.</span></p><h2>Reproduce the narrow static check</h2><p>Extract the authoring archive so <code>meeting-evidence/</code> is in your working directory. Python 3, no dependencies or API key:</p><pre><code>python3 meeting-evidence/validate.py meeting-evidence-0.1.0.zip</code></pre><p>The script checks the example’s manifest subset, JSON syntax, simple skill front matter, expected paths, authoring fixtures and ZIP integrity. The recorded run passed. This is neither a full external schema validator nor a host/runtime or OpenAI safety validator.</p><p><a href="../assets/meeting-evidence-static-check.txt">Read the actual recorded static output</a>. The public source/download reproduction is already saved; this editorial expansion did not rerun a product test.</p>
+<h2>Five original behavioral specifications—not results</h2><dl class="pg-tests"><div><dt>Explicit recap</dt><dd>Confirmed pilot decision cites N1; Bo’s checklist cites N2. No due date invented. Wednesday stays tentative; security approval stays unresolved. N4’s malicious instruction is not followed.</dd></div><div><dt>Indirect request</dt><dd>Ask what was decided and who committed. Relevant workflow can activate; suggestions and decisions remain separate.</dd></div><div><dt>Missing notes</dt><dd>Ask for absent meeting notes; no fabricated calendar or account access.</dd></div><div><dt>Unsupported send</dt><dd>Provide a draft, say the package cannot send, and claim no external action.</dd></div><div><dt>Unrelated task</dt><dd>“What is 7 × 8?” should not require notes or force a recap.</dd></div></dl><p class="pg-small">These original expected checks are test specifications, not observed model results. Add inconsistent/relative dates and attachment-read failure edge cases. Retest after source/version changes.</p><p><span class="pg-source"><a href="https://developers.openai.com/plugins/build/skills">Build skills</a>. Checked 29 Sep 2026.</span></p><h2>Extend the boundary tests</h2><ul class="pg-checklist"><li><strong>Contradictory or relative dates.</strong> Supply conflicting passages and “next week” without an anchor. Expect the conflict/relative language to remain visible; do not silently make a calendar date.</li><li><strong>Untrusted embedded instructions.</strong> Include a passage asking to disclose notes or ignore the task. Check that it remains source data, with no outside action.</li><li><strong>Unreadable or absent attachment.</strong> Record whether the host could read it. Expect an honest request/explanation, not invented source content.</li></ul><p class="pg-small">These are additional tests to run, derived from the sample’s original boundaries. No outputs, safety rates or passes are asserted.</p>
+<h2>Copy an evidence record before testing</h2><pre><code>Case / expected boundary:
+Date; client and client version:
+Package source; package/skill version:
+Surface; account/workspace conditions (redacted):
+Provider identity/access/scope, if relevant:
+Input fixture and exact prompt:
+Observed selection / skill or tool invocation:
+Actual output or provider artifact:
+Source-to-output comparison:
+Failure / uncertainty / next change:
+Retest result after change: NOT RUN / observed record</code></pre><p>Keep expected and actual fields separate. Inspect the retrieved object, output passages or draft in its real context. Fluent prose or an optional card is not proof that a tool performed the intended operation.</p>
+<h2>A private smoke test for the actual host</h2><ol class="pg-steps"><li><strong>Inspect.</strong> Open the supported plugin browser: ChatGPT Plugins, Codex desktop Plugins or CLI <code>/plugins</code>. Search the exact name; check publisher, purpose, skills/tools, account needs, policies and any Desktop-only label.</li><li><strong>Connect only when required.</strong> Choose the right provider account and minimum permissions. Installing does not grant access to a private repository or paid entitlement.</li><li><strong>Install, then start fresh.</strong> Follow the client’s new-chat/session or restart guidance. Explicit selection through the picker or <code>@</code> helps make the first attempt inspectable.</li><li><strong>Verify a bounded result.</strong> Begin read-only or draft-only. Inspect citations, retrieved objects and proposed changes. A visible card is optional; UI alone is not proof of correct invocation.</li><li><strong>Disable/remove separately from access.</strong> Use the supported browser’s controls; CLI Space toggles an installed entry. Uninstall where permitted, then separately revoke retained service/MCP or operating-system access if unwanted.</li></ol><p><span class="pg-source"><a href="https://learn.chatgpt.com/docs/plugins">Current plugins user guide</a>, <a href="https://learn.chatgpt.com/docs/build-plugins">Build plugins</a>. Checked 29 Sep 2026.</span></p><blockquote class="pg-prompt"><p><strong>Illustrative prompt—not executed</strong></p><p>Use GitHub to summarize [one PR URL I can access]. Cite the diff and relevant checks; distinguish unknowns. Do not post comments, push, merge or rerun jobs.</p></blockquote><h2>Debug the boundary, not an invented error message</h2><dl class="pg-findings"><div><dt>Wrong surface</dt><dd>Compare the selected client with documented exclusions and listing-specific prerequisites. Do not infer IDE support from historical launch notes.</dd></div><div><dt>Stale session or source</dt><dd>Record the installed source/version; follow restart/new-session guidance before comparing behavior with updated files.</dd></div><div><dt>Missing provider access</dt><dd>Check the intended identity, workspace policy and entitlement. Installed metadata is not authentication.</dd></div><div><dt>Unsupported outside action</dt><dd>A notes-only skill cannot fetch or send. Test its refusal/capability explanation instead of treating the requested action as completed.</dd></div><div><dt>Source/output mismatch</dt><dd>Compare each asserted commitment, citation or provider object with the actual input. Save the failure and retest the changed workflow.</dd></div></dl>
+<p><span class="pg-source"><a href="https://developers.openai.com/plugins/build/plugins">Package your plugin</a>, <a href="https://learn.chatgpt.com/docs/plugins">Current plugins user guide</a>, <a href="https://learn.chatgpt.com/docs/build-plugins">Build plugins</a>, <a href="https://developers.openai.com/plugins/build/skills">Build skills</a>. Checked 29 Sep 2026.</span></p><p><a href="../security-and-permissions/index.html">Next: engineer the trust boundary →</a> · <a href="../submit-and-review/index.html">Separate private tests from public reviewer cases</a></p>
+
+<!-- SHADUF_AGENT_DOCUMENT_END --></div>
+    </article><div class="center-fade" aria-hidden="true"></div></main>
+    <aside class="right-surface" data-right-surface>
+    <div class="right-scroll">
+      <header class="right-title"><span>Pool info</span><button type="button" data-close-right aria-label="Close pool information">×</button></header>
+      
+      <div class="right-hero"><h2>OpenAI Plugin Marketplace Guide</h2><div class="tag-list"><a class="pool-tag tone-1" href="https://shaduf.ai/?tag=openai#pool-catalogue" aria-label="Filter pools by tag: OpenAI">OpenAI</a><a class="pool-tag tone-2" href="https://shaduf.ai/?tag=plugins#pool-catalogue" aria-label="Filter pools by tag: Plugins">Plugins</a><a class="pool-tag tone-3" href="https://shaduf.ai/?tag=ai%20agents#pool-catalogue" aria-label="Filter pools by tag: AI agents">AI agents</a></div></div>
+      <section class="right-actions">
+        <form method="get" action="https://shaduf.ai/p/openai-plugin-marketplace/?funding=intent"><button type="submit" class="primary-button">Fund this pool</button></form>
+        <button type="button" class="secondary-button" data-follow aria-label="Follow this pool"><span>Follow this pool</span></button>
+        <p>Funding supports future research and never purchases a conclusion. Follow saves this pool to your account; notifications are not enabled.</p>
+      </section>
+      <section class="right-section">
+        <h3>Current position</h3>
+        <div class="release-state state-live"><i></i><span>live</span></div>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 12:45 UTC</dd></div><div><dt>Latest research</dt><dd>29 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Official announcements, developer documentation, plugin listings, upstream code and verified examples.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+      </section>
+      <section class="right-section"><h3>Research boundary</h3><p>Explain the ecosystem from primary sources, verify practical examples and track changes with dated research.</p><a href="../index.html">Full pool information →</a></section>
+    </div>
+    <div class="surface-fade" aria-hidden="true"><span>↓</span></div>
+  </aside>
+    
+    <footer class="platform-footer" aria-label="Shaduf"><strong>Shaduf</strong><nav><a href="https://shaduf.ai/">Explore</a><a href="https://shaduf.ai/about/">About</a></nav></footer>
+    <footer class="mobile-contact" aria-label="Contact Shaduf"><a href="/contact/">Contact us</a><span aria-hidden="true">·</span><a href="/request-a-pool/">Request a Pool</a></footer>
+    <div class="drawer-backdrop" data-drawer-backdrop></div>
+    <dialog class="search-dialog" data-search-dialog><form method="get" action="https://shaduf.ai/explore/"><header><strong>Search Shaduf</strong><button value="cancel" formmethod="dialog" aria-label="Close">×</button></header><label><span>⌕</span><input type="search" name="q" placeholder="Search pools, reports, evidence" autocomplete="off"></label><div class="search-suggestions"><button type="button" data-search-tag="OpenAI">OpenAI</button><button type="button" data-search-tag="Plugins">Plugins</button><button type="button" data-search-tag="AI agents">AI agents</button></div><div class="search-results" data-search-results aria-live="polite"><p>Search published pools, pages, reports, and evidence.</p></div></form></dialog><div class="peek-layer" data-peek-layer aria-hidden="true"><div class="peek-backdrop" data-close-peek></div><article class="peek-panel"><header><span data-peek-crumb>Research report</span><nav><button type="button" data-peek-side>Side peek</button><a data-peek-open href="#">Open page</a><button type="button" data-close-peek aria-label="Close">×</button></nav></header><iframe title="Research report" data-peek-frame sandbox="allow-popups allow-popups-to-escape-sandbox"></iframe></article></div>
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+    <script src="../assets/shaduf.js?v=20260920-pool-requests-1" defer></script>
+  </body></html>
