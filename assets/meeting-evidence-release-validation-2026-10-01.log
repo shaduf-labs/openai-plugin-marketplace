@@ -1,0 +1,333 @@
+ENGINEERING SELF-TESTS ONLY. Host/model/security/public results remain NOT RUN.
+
+CASE valid_source_zip
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/source --runtime-zip /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/runtime/meeting-evidence-0.1.0.zip --json /tmp/meeting-evidence-rehearsal-6dqca2ud/valid_source_zip.json
+PASS_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 0
+expected exit/codes: 0 / 
+TOOLING ASSERTION: PASS
+
+CASE valid_source_only
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/source --json /tmp/meeting-evidence-rehearsal-6dqca2ud/valid_source_only.json
+PASS_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 0
+expected exit/codes: 0 / 
+TOOLING ASSERTION: PASS
+
+CASE valid_zip_only
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --runtime-zip /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/runtime/meeting-evidence-0.1.0.zip --json /tmp/meeting-evidence-rehearsal-6dqca2ud/valid_zip_only.json
+PASS_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 0
+expected exit/codes: 0 / 
+TOOLING ASSERTION: PASS
+
+CASE malformed_json
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/malformed_json --json /tmp/meeting-evidence-rehearsal-6dqca2ud/malformed_json.json
+ERROR MANIFEST_JSON [source:plugin.json]: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+FAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 1
+expected exit/codes: 1 / MANIFEST_JSON
+TOOLING ASSERTION: PASS
+
+CASE manifest_null
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/manifest_null --json /tmp/meeting-evidence-rehearsal-6dqca2ud/manifest_null.json
+ERROR MANIFEST_OBJECT [source:plugin.json]: Manifest must be a JSON object.
+FAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 1
+expected exit/codes: 1 / MANIFEST_OBJECT
+TOOLING ASSERTION: PASS
+
+CASE yaml_boolean_description
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/yaml_boolean_description --json /tmp/meeting-evidence-rehearsal-6dqca2ud/yaml_boolean_description.json
+ERROR SKILL_SIMPLE_FRONTMATTER [source:skills/meeting-evidence/SKILL.md]: Profile supports exactly name/description as plain single-line strings, not arbitrary YAML.
+FAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 1
+expected exit/codes: 1 / SKILL_SIMPLE_FRONTMATTER
+TOOLING ASSERTION: PASS
+
+CASE required_identity
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/required_identity --json /tmp/meeting-evidence-rehearsal-6dqca2ud/required_identity.json
+ERROR MANIFEST_REQUIRED [source:plugin.json]: Required by this profile: name; schema itself requires only $schema/name.
+FAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 1
+expected exit/codes: 1 / MANIFEST_REQUIRED
+TOOLING ASSERTION: PASS
+
+CASE invalid_schema_name
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/invalid_schema_name --json /tmp/meeting-evidence-rehearsal-6dqca2ud/invalid_schema_name.json
+ERROR MANIFEST_NAME [source:plugin.json]: Name does not meet the checked 1.0.0 schema name rule.
+FAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 1
+expected exit/codes: 1 / MANIFEST_NAME
+TOOLING ASSERTION: PASS
+
+CASE mcp_component
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/mcp_component --json /tmp/meeting-evidence-rehearsal-6dqca2ud/mcp_component.json
+OUT_OF_SCOPE COMPONENT_OUT_OF_SCOPE [/tmp/meeting-evidence-rehearsal-6dqca2ud/mcp_component/mcp.json]: Other layouts/components can be valid; this two-file profile does not evaluate them.
+OUT_OF_SCOPE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 3
+expected exit/codes: 3 / COMPONENT_OUT_OF_SCOPE
+TOOLING ASSERTION: PASS
+
+CASE compatibility_layout
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/compatibility_layout --json /tmp/meeting-evidence-rehearsal-6dqca2ud/compatibility_layout.json
+OUT_OF_SCOPE COMPONENT_OUT_OF_SCOPE [/tmp/meeting-evidence-rehearsal-6dqca2ud/compatibility_layout/.codex-plugin]: Other layouts/components can be valid; this two-file profile does not evaluate them.
+OUT_OF_SCOPE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 3
+expected exit/codes: 3 / COMPONENT_OUT_OF_SCOPE
+TOOLING ASSERTION: PASS
+
+CASE bad_frontmatter
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/bad_frontmatter --json /tmp/meeting-evidence-rehearsal-6dqca2ud/bad_frontmatter.json
+ERROR SKILL_FRONTMATTER [source:skills/meeting-evidence/SKILL.md]: Expected opening/closing --- lines.
+FAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 1
+expected exit/codes: 1 / SKILL_FRONTMATTER
+TOOLING ASSERTION: PASS
+
+CASE missing_skill
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/missing_skill --json /tmp/meeting-evidence-rehearsal-6dqca2ud/missing_skill.json
+ERROR FILE_MISSING [/tmp/meeting-evidence-rehearsal-6dqca2ud/missing_skill/skills/meeting-evidence/SKILL.md]: Required profile runtime file is missing.
+FAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 1
+expected exit/codes: 1 / FILE_MISSING
+TOOLING ASSERTION: PASS
+
+CASE invalid_utf8
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/invalid_utf8 --json /tmp/meeting-evidence-rehearsal-6dqca2ud/invalid_utf8.json
+ERROR UTF8 [source:skills/meeting-evidence/SKILL.md]: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+FAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 1
+expected exit/codes: 1 / UTF8
+TOOLING ASSERTION: PASS
+
+CASE empty_body
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/empty_body --json /tmp/meeting-evidence-rehearsal-6dqca2ud/empty_body.json
+ERROR SKILL_BODY_EMPTY [source:skills/meeting-evidence/SKILL.md]: Skill instructions are empty.
+FAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 1
+expected exit/codes: 1 / SKILL_BODY_EMPTY
+TOOLING ASSERTION: PASS
+
+CASE skill_identity
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/skill_identity --json /tmp/meeting-evidence-rehearsal-6dqca2ud/skill_identity.json
+ERROR SKILL_IDENTITY [source:skills/meeting-evidence/SKILL.md]: Skill name must match the meeting-evidence directory/profile identity.
+FAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 1
+expected exit/codes: 1 / SKILL_IDENTITY
+TOOLING ASSERTION: PASS
+
+CASE duplicate_json_key
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/duplicate_json_key --json /tmp/meeting-evidence-rehearsal-6dqca2ud/duplicate_json_key.json
+ERROR MANIFEST_JSON [source:plugin.json]: Duplicate JSON key: name
+FAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 1
+expected exit/codes: 1 / MANIFEST_JSON
+TOOLING ASSERTION: PASS
+
+CASE unexpected_artifact
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --runtime-zip /tmp/meeting-evidence-rehearsal-6dqca2ud/unexpected_artifact.zip --json /tmp/meeting-evidence-rehearsal-6dqca2ud/unexpected_artifact.json
+ERROR ZIP_UNEXPECTED [README.md]: Not in the two-file runtime allowlist; do not ship authoring aids.
+FAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 1
+expected exit/codes: 1 / ZIP_UNEXPECTED
+TOOLING ASSERTION: PASS
+
+CASE unsafe_zip_path
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --runtime-zip /tmp/meeting-evidence-rehearsal-6dqca2ud/unsafe_zip_path.zip --json /tmp/meeting-evidence-rehearsal-6dqca2ud/unsafe_zip_path.json
+ERROR ZIP_UNSAFE_PATH [../escape.txt]: Kit policy rejects unsafe/noncanonical paths; no extraction is performed.
+FAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 1
+expected exit/codes: 1 / ZIP_UNSAFE_PATH
+TOOLING ASSERTION: PASS
+
+CASE zip_symlink
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --runtime-zip /tmp/meeting-evidence-rehearsal-6dqca2ud/zip_symlink.zip --json /tmp/meeting-evidence-rehearsal-6dqca2ud/zip_symlink.json
+ERROR ZIP_NOT_REGULAR [linked.txt]: Kit policy accepts only two regular files, not directories/symlinks/special entries.
+FAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 1
+expected exit/codes: 1 / ZIP_NOT_REGULAR
+TOOLING ASSERTION: PASS
+
+CASE duplicate_zip
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --runtime-zip /tmp/meeting-evidence-rehearsal-6dqca2ud/duplicate_zip.zip --json /tmp/meeting-evidence-rehearsal-6dqca2ud/duplicate_zip.json
+ERROR ZIP_DUPLICATE [plugin.json]: Kit policy rejects duplicate/case/Unicode-colliding paths.
+FAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 1
+expected exit/codes: 1 / ZIP_DUPLICATE
+TOOLING ASSERTION: PASS
+
+CASE source_zip_mismatch
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/source --runtime-zip /tmp/meeting-evidence-rehearsal-6dqca2ud/source_zip_mismatch.zip --json /tmp/meeting-evidence-rehearsal-6dqca2ud/source_zip_mismatch.json
+ERROR SOURCE_ZIP_MISMATCH [skills/meeting-evidence/SKILL.md]: Source and runtime ZIP bytes differ; inspect version/content and repackage.
+FAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 1
+expected exit/codes: 1 / SOURCE_ZIP_MISMATCH
+TOOLING ASSERTION: PASS
+
+CASE source_symlink
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/source_symlink --json /tmp/meeting-evidence-rehearsal-6dqca2ud/source_symlink.json
+ERROR SOURCE_SYMLINK [/tmp/meeting-evidence-rehearsal-6dqca2ud/source_symlink/skills/meeting-evidence/SKILL.md]: Kit policy rejects symlinks in runtime paths.
+FAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 1
+expected exit/codes: 1 / SOURCE_SYMLINK
+TOOLING ASSERTION: PASS
+
+CASE missing_source_path
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/does-not-exist --json /tmp/meeting-evidence-rehearsal-6dqca2ud/missing_source_path.json
+IO SOURCE_PATH [/tmp/meeting-evidence-rehearsal-6dqca2ud/does-not-exist]: Explicit source path must be an existing directory.
+IO_ERROR: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 2
+expected exit/codes: 2 / SOURCE_PATH
+TOOLING ASSERTION: PASS
+
+CASE cli_missing_args
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py
+
+stderr: usage: rehearse.py [-h] [--source SOURCE] [--runtime-zip RUNTIME_ZIP]
+                   [--write-zip WRITE_ZIP] [--json JSON]
+rehearse.py: error: Provide --source and/or --runtime-zip.
+exit: 2
+expected exit/codes: 2 / 
+TOOLING ASSERTION: PASS
+
+CASE cli_no_source_for_packaging
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --runtime-zip /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/runtime/meeting-evidence-0.1.0.zip --write-zip /tmp/meeting-evidence-rehearsal-6dqca2ud/new.zip
+
+stderr: usage: rehearse.py [-h] [--source SOURCE] [--runtime-zip RUNTIME_ZIP]
+                   [--write-zip WRITE_ZIP] [--json JSON]
+rehearse.py: error: --write-zip requires --source.
+exit: 2
+expected exit/codes: 2 / 
+TOOLING ASSERTION: PASS
+
+CASE cli_refuse_in_source_output
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/source --write-zip /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/source/forbidden.zip
+
+stderr: usage: rehearse.py [-h] [--source SOURCE] [--runtime-zip RUNTIME_ZIP]
+                   [--write-zip WRITE_ZIP] [--json JSON]
+rehearse.py: error: Outputs must be outside the source-package directory.
+exit: 2
+expected exit/codes: 2 / 
+TOOLING ASSERTION: PASS
+
+CASE cli_refuse_overwrite
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/source --write-zip /tmp/meeting-evidence-rehearsal-6dqca2ud/already.zip
+
+stderr: usage: rehearse.py [-h] [--source SOURCE] [--runtime-zip RUNTIME_ZIP]
+                   [--write-zip WRITE_ZIP] [--json JSON]
+rehearse.py: error: Refusing to overwrite output: /tmp/meeting-evidence-rehearsal-6dqca2ud/already.zip
+exit: 2
+expected exit/codes: 2 / 
+TOOLING ASSERTION: PASS
+
+CASE selftest_cli_same_outputs
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/selftest.py --log /tmp/meeting-evidence-rehearsal-6dqca2ud/same-evidence --summary /tmp/meeting-evidence-rehearsal-6dqca2ud/same-evidence
+
+stderr: usage: selftest.py [-h] [--log LOG] [--summary SUMMARY]
+selftest.py: error: --log and --summary output paths must differ.
+exit: 2
+expected exit/codes: 2 / 
+TOOLING ASSERTION: PASS
+
+CASE selftest_cli_dangling_output
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/selftest.py --log /tmp/meeting-evidence-rehearsal-6dqca2ud/dangling-evidence
+
+stderr: usage: selftest.py [-h] [--log LOG] [--summary SUMMARY]
+selftest.py: error: Output must be new with existing parent: /tmp/meeting-evidence-rehearsal-6dqca2ud/dangling-evidence
+exit: 2
+expected exit/codes: 2 / 
+TOOLING ASSERTION: PASS
+
+CASE repair_allowlisted_packaging
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/repair_source --write-zip /tmp/meeting-evidence-rehearsal-6dqca2ud/repaired-a.zip --json /tmp/meeting-evidence-rehearsal-6dqca2ud/repair_allowlisted_packaging.json
+INFO ZIP_WRITTEN [/tmp/meeting-evidence-rehearsal-6dqca2ud/repaired-a.zip]: Wrote exactly the two allowlisted files; deterministic stored ZIP.
+PASS_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 0
+expected exit/codes: 0 / ZIP_WRITTEN
+TOOLING ASSERTION: PASS
+
+CASE deterministic_second_packaging
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/repair_source --write-zip /tmp/meeting-evidence-rehearsal-6dqca2ud/repaired-b.zip --json /tmp/meeting-evidence-rehearsal-6dqca2ud/deterministic_second_packaging.json
+INFO ZIP_WRITTEN [/tmp/meeting-evidence-rehearsal-6dqca2ud/repaired-b.zip]: Wrote exactly the two allowlisted files; deterministic stored ZIP.
+PASS_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 0
+expected exit/codes: 0 / ZIP_WRITTEN
+TOOLING ASSERTION: PASS
+
+CASE repaired_source_zip
+$ /usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/repair_source --runtime-zip /tmp/meeting-evidence-rehearsal-6dqca2ud/repaired-a.zip --json /tmp/meeting-evidence-rehearsal-6dqca2ud/repaired_source_zip.json
+PASS_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 0
+expected exit/codes: 0 / 
+TOOLING ASSERTION: PASS
+
+INVARIANT {"allowlisted_payload_equals_unchanged_source": true, "archive_a_sha256": "85f476b863c99a8c08ebe202af3c519fb659aaaa03bd0de4c5f5bf8c154c824e", "archive_b_sha256": "85f476b863c99a8c08ebe202af3c519fb659aaaa03bd0de4c5f5bf8c154c824e", "bytes_equal": true, "id": "deterministic_zip_and_unchanged_payload", "tooling_assertion_passed": true}
+
+SELF-TEST PASS; host/public NOT RUN; no model success rate computed.
+
+SEPARATE READ-ONLY BASELINE PAIR CHECK
+$ python3 runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source runner/examples/first-useful-plugin --runtime-zip runner/examples/meeting-evidence-0.1.0.zip --json runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/evidence/baseline-pair-check.json
+PASS_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1
+NOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.
+stderr: 
+exit: 0
+
+FINAL SELF-TEST INVOCATION
+$ PYTHONDONTWRITEBYTECODE=1 python3 runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/selftest.py --log runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/validation.log --summary runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/validation-summary.json
+exit: 0
+Fixture-construction stderr warning: Python zipfile UserWarning Duplicate name: plugin.json (intentional duplicate_zip fixture).
+Baseline/copy two runtime files and supplied ZIP: byte-for-byte equality verified.
+No runtime source/version edits, host invocation, safety scan, portal submission or publication.

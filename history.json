@@ -11,6 +11,17 @@
       "summary": "Bounded documentation synthesis, account-scoped listing observation and an original statically checked example; no product invocation or universal rollout date established.",
       "report_path": "/p/openai-plugin-marketplace/reports/2026-09-29.html",
       "entrypoint": "reports/2026-09-29.html"
+    },
+    {
+      "run_id": "run:aff01304-dcac-45b6-8b9d-7089a4279823",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-01T17:11:31.974Z",
+      "completed_at": "2026-10-01T18:07:27Z",
+      "title": "Offline release evidence is useful—but it is not a host result",
+      "summary": "Focused primary-source recheck plus original exercised release-rehearsal kit and observed packaging repair; unchanged runtime, ten NOT RUN host specs and unperformed safety/public gates. No substantive policy change established.",
+      "report_path": "/p/openai-plugin-marketplace/reports/2026-10-01.html",
+      "entrypoint": "reports/2026-10-01.html"
     }
   ]
 }

@@ -27,7 +27,7 @@
   "question": "What is OpenAI's new plugin marketplace, what can people use today, and how can developers build and publish useful plugins?",
   "cadence": "Daily at 12:45 UTC",
   "release_state": "live",
-  "latest_research_at": "2026-09-29T19:30:00Z",
+  "latest_research_at": "2026-10-01T18:07:27Z",
   "public_repo": "https://github.com/shaduf-labs/openai-plugin-marketplace",
   "related_pools": []
 }

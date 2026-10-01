@@ -71,3 +71,22 @@
 [data-agent-document] [data-agent-document] .pg-worksheet dd{min-height:2.5em}
 [data-agent-document] [data-agent-document] .pg-findings ul{padding-left:1.25rem}
 [data-agent-document] [data-agent-document] a{overflow-wrap:anywhere}
+
+[data-agent-document] [data-agent-document] .pg-gate-ledger{container-type:inline-size;margin:1.5rem 0;border-top:2px solid #608372;border-bottom:1px solid var(--border,#dce1db)}
+[data-agent-document] [data-agent-document] .pg-gate-ledger figcaption{text-align:left;padding:1.1rem 0;line-height:1.6}
+[data-agent-document] [data-agent-document] .pg-gate-ledger figcaption span{display:block;font-size:.85em;color:var(--muted,#626962);margin-top:.3rem}
+[data-agent-document] [data-agent-document] .pg-gate-row{display:flex;gap:1.25rem;padding:1.1rem 0;border-top:1px solid var(--border,#dce1db)}
+[data-agent-document] [data-agent-document] .pg-gate-title{display:flex;gap:.7rem;align-items:flex-start;flex:0 1 14rem;min-width:0;line-height:1.5}
+[data-agent-document] [data-agent-document] .pg-gate-title svg{flex:0 0 2rem;color:#52745f}
+[data-agent-document] [data-agent-document] .pg-gate-title>div{min-width:0}
+[data-agent-document] [data-agent-document] .pg-gate-state{display:block;font-size:.8em;line-height:1.65;color:var(--muted,#626962);margin-top:.45rem;padding-top:.4rem;border-top:1px dashed var(--border,#dce1db)}
+[data-agent-document] [data-agent-document] .pg-gate-observed{color:var(--text,#28352d);font-weight:600}
+[data-agent-document] [data-agent-document] .pg-gate-proof{flex:1 1 18rem;min-width:0}
+[data-agent-document] [data-agent-document] .pg-gate-proof p{margin:0 0 .65rem;line-height:1.65;font-size:.95em}
+[data-agent-document] [data-agent-document] .pg-gate-proof p:last-child{margin-bottom:0}
+[data-agent-document] [data-agent-document] .pg-evidence-break{display:flex;gap:.7rem;align-items:flex-start;padding:.8rem 0;color:var(--muted,#626962);font-size:.85em;line-height:1.6;background:color-mix(in srgb,var(--surface,#fff) 95%,#6b9475)}
+[data-agent-document] [data-agent-document] .pg-evidence-break span{flex:0 0 2rem;text-align:center}
+[data-agent-document] [data-agent-document] .pg-exit-codes{margin:1.25rem 0;padding-left:1rem;border-left:2px solid #90a495}
+[data-agent-document] [data-agent-document] .pg-exit-codes>div{padding:.65rem 0;border-bottom:1px solid var(--border,#dce1db)}
+[data-agent-document] [data-agent-document] .pg-exit-codes dd{margin:.3rem 0 0;font-size:.95em}
+@container(max-width:530px){[data-agent-document] [data-agent-document] .pg-gate-row{flex-direction:column;gap:.8rem}[data-agent-document] [data-agent-document] .pg-gate-title,[data-agent-document] [data-agent-document] .pg-gate-proof{flex:auto}}

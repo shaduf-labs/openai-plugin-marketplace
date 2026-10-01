@@ -12,6 +12,18 @@
       "changed_at": "2026-09-29T20:26:55Z",
       "summary": "Editorial expansion from four to ten developer-first routes: architecture, testing, security, submission, distribution/maintenance and business constraints; original research dates and untested status retained.",
       "path": "/p/openai-plugin-marketplace/"
+    },
+    {
+      "change_id": "release-rehearsal-2026-10-01",
+      "changed_at": "2026-10-01T18:07:27Z",
+      "summary": "Deepened Test and debug with a runnable 19-file kit, 33 observed TOOLING assertions, failure-to-allowlisted-repair, finite scope/exits, ten NOT RUN host cases and a blank record/rubric. Preserved old source/version/downloads and report.",
+      "path": "/p/openai-plugin-marketplace/test-and-debug/"
+    },
+    {
+      "change_id": "portable-host-public-gate-clarification-2026-10-01",
+      "changed_at": "2026-10-01T18:07:27Z",
+      "summary": "Clarified portable source versus Codex logo/composerIcon compatibility and primary public icon before conditional installation; separated privacy policy from skills-only URL import. Added dated report and focused ongoing-conflict note without refreshing saved catalog/pricing/migration/chronology.",
+      "path": "/p/openai-plugin-marketplace/reports/2026-10-01.html"
     }
   ]
 }

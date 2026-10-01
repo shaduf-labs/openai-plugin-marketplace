@@ -1,0 +1,1804 @@
+{
+  "evidence_kind": "checker self-tests only; not plugin/model/security/public behavior",
+  "checked_at": "2026-10-01T17:34:53.743303+00:00",
+  "python": "3.11.2",
+  "profile": "meeting-evidence-two-file-skills-only-v1",
+  "overall_tooling_assertions_passed": true,
+  "record_count": 33,
+  "command_count": 32,
+  "records": [
+    {
+      "id": "valid_source_zip",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/source --runtime-zip /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/runtime/meeting-evidence-0.1.0.zip --json /tmp/meeting-evidence-rehearsal-6dqca2ud/valid_source_zip.json",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "expected_stderr_contains": null,
+      "expected_codes": [],
+      "actual_codes": [],
+      "stdout": "PASS_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": "/srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/source",
+          "runtime_zip": "/srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/runtime/meeting-evidence-0.1.0.zip",
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/valid_source_zip.json"
+        },
+        "identities": {
+          "source": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          },
+          "zip": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          }
+        },
+        "hashes": {
+          "source": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+            "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+          },
+          "archive_sha256": "53b247aabc8f22b215b3d9060a19c457398da67fcda2eb46c25e5a2549180cdb",
+          "zip": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+            "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+          }
+        },
+        "status": "PASS_SCOPED_OFFLINE",
+        "exit_code": 0,
+        "diagnostics": [],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "valid_source_only",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/source --json /tmp/meeting-evidence-rehearsal-6dqca2ud/valid_source_only.json",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "expected_stderr_contains": null,
+      "expected_codes": [],
+      "actual_codes": [],
+      "stdout": "PASS_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": "/srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/source",
+          "runtime_zip": null,
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/valid_source_only.json"
+        },
+        "identities": {
+          "source": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          }
+        },
+        "hashes": {
+          "source": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+            "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+          }
+        },
+        "status": "PASS_SCOPED_OFFLINE",
+        "exit_code": 0,
+        "diagnostics": [],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "valid_zip_only",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --runtime-zip /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/runtime/meeting-evidence-0.1.0.zip --json /tmp/meeting-evidence-rehearsal-6dqca2ud/valid_zip_only.json",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "expected_stderr_contains": null,
+      "expected_codes": [],
+      "actual_codes": [],
+      "stdout": "PASS_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": null,
+          "runtime_zip": "/srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/runtime/meeting-evidence-0.1.0.zip",
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/valid_zip_only.json"
+        },
+        "identities": {
+          "zip": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          }
+        },
+        "hashes": {
+          "archive_sha256": "53b247aabc8f22b215b3d9060a19c457398da67fcda2eb46c25e5a2549180cdb",
+          "zip": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+            "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+          }
+        },
+        "status": "PASS_SCOPED_OFFLINE",
+        "exit_code": 0,
+        "diagnostics": [],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "malformed_json",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/malformed_json --json /tmp/meeting-evidence-rehearsal-6dqca2ud/malformed_json.json",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expected_stderr_contains": null,
+      "expected_codes": [
+        "MANIFEST_JSON"
+      ],
+      "actual_codes": [
+        "MANIFEST_JSON"
+      ],
+      "stdout": "ERROR MANIFEST_JSON [source:plugin.json]: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)\nFAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": "/tmp/meeting-evidence-rehearsal-6dqca2ud/malformed_json",
+          "runtime_zip": null,
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/malformed_json.json"
+        },
+        "identities": {},
+        "hashes": {
+          "source": {
+            "plugin.json": "9ff0e9578c9d552b1b05b559fb60c457559ddb52484bc0532abba80266e28b89",
+            "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+          }
+        },
+        "status": "FAIL_SCOPED_OFFLINE",
+        "exit_code": 1,
+        "diagnostics": [
+          {
+            "level": "ERROR",
+            "code": "MANIFEST_JSON",
+            "where": "source:plugin.json",
+            "detail": "Expecting property name enclosed in double quotes: line 1 column 3 (char 2)"
+          }
+        ],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "manifest_null",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/manifest_null --json /tmp/meeting-evidence-rehearsal-6dqca2ud/manifest_null.json",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expected_stderr_contains": null,
+      "expected_codes": [
+        "MANIFEST_OBJECT"
+      ],
+      "actual_codes": [
+        "MANIFEST_OBJECT"
+      ],
+      "stdout": "ERROR MANIFEST_OBJECT [source:plugin.json]: Manifest must be a JSON object.\nFAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": "/tmp/meeting-evidence-rehearsal-6dqca2ud/manifest_null",
+          "runtime_zip": null,
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/manifest_null.json"
+        },
+        "identities": {},
+        "hashes": {
+          "source": {
+            "plugin.json": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+            "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+          }
+        },
+        "status": "FAIL_SCOPED_OFFLINE",
+        "exit_code": 1,
+        "diagnostics": [
+          {
+            "level": "ERROR",
+            "code": "MANIFEST_OBJECT",
+            "where": "source:plugin.json",
+            "detail": "Manifest must be a JSON object."
+          }
+        ],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "yaml_boolean_description",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/yaml_boolean_description --json /tmp/meeting-evidence-rehearsal-6dqca2ud/yaml_boolean_description.json",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expected_stderr_contains": null,
+      "expected_codes": [
+        "SKILL_SIMPLE_FRONTMATTER"
+      ],
+      "actual_codes": [
+        "SKILL_SIMPLE_FRONTMATTER"
+      ],
+      "stdout": "ERROR SKILL_SIMPLE_FRONTMATTER [source:skills/meeting-evidence/SKILL.md]: Profile supports exactly name/description as plain single-line strings, not arbitrary YAML.\nFAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": "/tmp/meeting-evidence-rehearsal-6dqca2ud/yaml_boolean_description",
+          "runtime_zip": null,
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/yaml_boolean_description.json"
+        },
+        "identities": {
+          "source": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          }
+        },
+        "hashes": {
+          "source": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+            "skills/meeting-evidence/SKILL.md": "e9fad30d52bbf68026d16facb821b16934d4eb06e6f76f93ff6cbc72ccf6526f"
+          }
+        },
+        "status": "FAIL_SCOPED_OFFLINE",
+        "exit_code": 1,
+        "diagnostics": [
+          {
+            "level": "ERROR",
+            "code": "SKILL_SIMPLE_FRONTMATTER",
+            "where": "source:skills/meeting-evidence/SKILL.md",
+            "detail": "Profile supports exactly name/description as plain single-line strings, not arbitrary YAML."
+          }
+        ],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "required_identity",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/required_identity --json /tmp/meeting-evidence-rehearsal-6dqca2ud/required_identity.json",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expected_stderr_contains": null,
+      "expected_codes": [
+        "MANIFEST_REQUIRED"
+      ],
+      "actual_codes": [
+        "MANIFEST_REQUIRED"
+      ],
+      "stdout": "ERROR MANIFEST_REQUIRED [source:plugin.json]: Required by this profile: name; schema itself requires only $schema/name.\nFAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": "/tmp/meeting-evidence-rehearsal-6dqca2ud/required_identity",
+          "runtime_zip": null,
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/required_identity.json"
+        },
+        "identities": {
+          "source": {
+            "name": null,
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          }
+        },
+        "hashes": {
+          "source": {
+            "plugin.json": "13cc463da7fed9031349a95a5a7d26b271fe6174528654a2fdf535ea4e6853af",
+            "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+          }
+        },
+        "status": "FAIL_SCOPED_OFFLINE",
+        "exit_code": 1,
+        "diagnostics": [
+          {
+            "level": "ERROR",
+            "code": "MANIFEST_REQUIRED",
+            "where": "source:plugin.json",
+            "detail": "Required by this profile: name; schema itself requires only $schema/name."
+          }
+        ],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "invalid_schema_name",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/invalid_schema_name --json /tmp/meeting-evidence-rehearsal-6dqca2ud/invalid_schema_name.json",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expected_stderr_contains": null,
+      "expected_codes": [
+        "MANIFEST_NAME"
+      ],
+      "actual_codes": [
+        "MANIFEST_NAME"
+      ],
+      "stdout": "ERROR MANIFEST_NAME [source:plugin.json]: Name does not meet the checked 1.0.0 schema name rule.\nFAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": "/tmp/meeting-evidence-rehearsal-6dqca2ud/invalid_schema_name",
+          "runtime_zip": null,
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/invalid_schema_name.json"
+        },
+        "identities": {
+          "source": {
+            "name": "Meeting_Evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          }
+        },
+        "hashes": {
+          "source": {
+            "plugin.json": "5d22ff7e886b238092ee7203d14f8bb528578e042bf2da87a42b80c4d69afbb8",
+            "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+          }
+        },
+        "status": "FAIL_SCOPED_OFFLINE",
+        "exit_code": 1,
+        "diagnostics": [
+          {
+            "level": "ERROR",
+            "code": "MANIFEST_NAME",
+            "where": "source:plugin.json",
+            "detail": "Name does not meet the checked 1.0.0 schema name rule."
+          }
+        ],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "mcp_component",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/mcp_component --json /tmp/meeting-evidence-rehearsal-6dqca2ud/mcp_component.json",
+      "expected_exit": 3,
+      "actual_exit": 3,
+      "expected_stderr_contains": null,
+      "expected_codes": [
+        "COMPONENT_OUT_OF_SCOPE"
+      ],
+      "actual_codes": [
+        "COMPONENT_OUT_OF_SCOPE"
+      ],
+      "stdout": "OUT_OF_SCOPE COMPONENT_OUT_OF_SCOPE [/tmp/meeting-evidence-rehearsal-6dqca2ud/mcp_component/mcp.json]: Other layouts/components can be valid; this two-file profile does not evaluate them.\nOUT_OF_SCOPE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": "/tmp/meeting-evidence-rehearsal-6dqca2ud/mcp_component",
+          "runtime_zip": null,
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/mcp_component.json"
+        },
+        "identities": {
+          "source": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          }
+        },
+        "hashes": {
+          "source": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+            "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+          }
+        },
+        "status": "OUT_OF_SCOPE",
+        "exit_code": 3,
+        "diagnostics": [
+          {
+            "level": "OUT_OF_SCOPE",
+            "code": "COMPONENT_OUT_OF_SCOPE",
+            "where": "/tmp/meeting-evidence-rehearsal-6dqca2ud/mcp_component/mcp.json",
+            "detail": "Other layouts/components can be valid; this two-file profile does not evaluate them."
+          }
+        ],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "compatibility_layout",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/compatibility_layout --json /tmp/meeting-evidence-rehearsal-6dqca2ud/compatibility_layout.json",
+      "expected_exit": 3,
+      "actual_exit": 3,
+      "expected_stderr_contains": null,
+      "expected_codes": [
+        "COMPONENT_OUT_OF_SCOPE"
+      ],
+      "actual_codes": [
+        "COMPONENT_OUT_OF_SCOPE"
+      ],
+      "stdout": "OUT_OF_SCOPE COMPONENT_OUT_OF_SCOPE [/tmp/meeting-evidence-rehearsal-6dqca2ud/compatibility_layout/.codex-plugin]: Other layouts/components can be valid; this two-file profile does not evaluate them.\nOUT_OF_SCOPE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": "/tmp/meeting-evidence-rehearsal-6dqca2ud/compatibility_layout",
+          "runtime_zip": null,
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/compatibility_layout.json"
+        },
+        "identities": {},
+        "hashes": {},
+        "status": "OUT_OF_SCOPE",
+        "exit_code": 3,
+        "diagnostics": [
+          {
+            "level": "OUT_OF_SCOPE",
+            "code": "COMPONENT_OUT_OF_SCOPE",
+            "where": "/tmp/meeting-evidence-rehearsal-6dqca2ud/compatibility_layout/.codex-plugin",
+            "detail": "Other layouts/components can be valid; this two-file profile does not evaluate them."
+          }
+        ],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "bad_frontmatter",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/bad_frontmatter --json /tmp/meeting-evidence-rehearsal-6dqca2ud/bad_frontmatter.json",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expected_stderr_contains": null,
+      "expected_codes": [
+        "SKILL_FRONTMATTER"
+      ],
+      "actual_codes": [
+        "SKILL_FRONTMATTER"
+      ],
+      "stdout": "ERROR SKILL_FRONTMATTER [source:skills/meeting-evidence/SKILL.md]: Expected opening/closing --- lines.\nFAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": "/tmp/meeting-evidence-rehearsal-6dqca2ud/bad_frontmatter",
+          "runtime_zip": null,
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/bad_frontmatter.json"
+        },
+        "identities": {
+          "source": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          }
+        },
+        "hashes": {
+          "source": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+            "skills/meeting-evidence/SKILL.md": "2c81ad18e8cc293b21105a88182cb0fc1fa14c58030a31dbc2080088284c43a9"
+          }
+        },
+        "status": "FAIL_SCOPED_OFFLINE",
+        "exit_code": 1,
+        "diagnostics": [
+          {
+            "level": "ERROR",
+            "code": "SKILL_FRONTMATTER",
+            "where": "source:skills/meeting-evidence/SKILL.md",
+            "detail": "Expected opening/closing --- lines."
+          }
+        ],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "missing_skill",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/missing_skill --json /tmp/meeting-evidence-rehearsal-6dqca2ud/missing_skill.json",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expected_stderr_contains": null,
+      "expected_codes": [
+        "FILE_MISSING"
+      ],
+      "actual_codes": [
+        "FILE_MISSING"
+      ],
+      "stdout": "ERROR FILE_MISSING [/tmp/meeting-evidence-rehearsal-6dqca2ud/missing_skill/skills/meeting-evidence/SKILL.md]: Required profile runtime file is missing.\nFAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": "/tmp/meeting-evidence-rehearsal-6dqca2ud/missing_skill",
+          "runtime_zip": null,
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/missing_skill.json"
+        },
+        "identities": {
+          "source": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          }
+        },
+        "hashes": {
+          "source": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0"
+          }
+        },
+        "status": "FAIL_SCOPED_OFFLINE",
+        "exit_code": 1,
+        "diagnostics": [
+          {
+            "level": "ERROR",
+            "code": "FILE_MISSING",
+            "where": "/tmp/meeting-evidence-rehearsal-6dqca2ud/missing_skill/skills/meeting-evidence/SKILL.md",
+            "detail": "Required profile runtime file is missing."
+          }
+        ],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "invalid_utf8",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/invalid_utf8 --json /tmp/meeting-evidence-rehearsal-6dqca2ud/invalid_utf8.json",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expected_stderr_contains": null,
+      "expected_codes": [
+        "UTF8"
+      ],
+      "actual_codes": [
+        "UTF8"
+      ],
+      "stdout": "ERROR UTF8 [source:skills/meeting-evidence/SKILL.md]: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte\nFAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": "/tmp/meeting-evidence-rehearsal-6dqca2ud/invalid_utf8",
+          "runtime_zip": null,
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/invalid_utf8.json"
+        },
+        "identities": {
+          "source": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          }
+        },
+        "hashes": {
+          "source": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+            "skills/meeting-evidence/SKILL.md": "b3d510ef04275ca8e698e5b3cbb0ece3949ef9252f0cdc839e9ee347409a2209"
+          }
+        },
+        "status": "FAIL_SCOPED_OFFLINE",
+        "exit_code": 1,
+        "diagnostics": [
+          {
+            "level": "ERROR",
+            "code": "UTF8",
+            "where": "source:skills/meeting-evidence/SKILL.md",
+            "detail": "'utf-8' codec can't decode byte 0xff in position 0: invalid start byte"
+          }
+        ],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "empty_body",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/empty_body --json /tmp/meeting-evidence-rehearsal-6dqca2ud/empty_body.json",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expected_stderr_contains": null,
+      "expected_codes": [
+        "SKILL_BODY_EMPTY"
+      ],
+      "actual_codes": [
+        "SKILL_BODY_EMPTY"
+      ],
+      "stdout": "ERROR SKILL_BODY_EMPTY [source:skills/meeting-evidence/SKILL.md]: Skill instructions are empty.\nFAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": "/tmp/meeting-evidence-rehearsal-6dqca2ud/empty_body",
+          "runtime_zip": null,
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/empty_body.json"
+        },
+        "identities": {
+          "source": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          }
+        },
+        "hashes": {
+          "source": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+            "skills/meeting-evidence/SKILL.md": "844b2a3d9f9952de6bfc3930ee191c940a4d5a6e80af887125596df1fcc2c8ca"
+          }
+        },
+        "status": "FAIL_SCOPED_OFFLINE",
+        "exit_code": 1,
+        "diagnostics": [
+          {
+            "level": "ERROR",
+            "code": "SKILL_BODY_EMPTY",
+            "where": "source:skills/meeting-evidence/SKILL.md",
+            "detail": "Skill instructions are empty."
+          }
+        ],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "skill_identity",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/skill_identity --json /tmp/meeting-evidence-rehearsal-6dqca2ud/skill_identity.json",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expected_stderr_contains": null,
+      "expected_codes": [
+        "SKILL_IDENTITY"
+      ],
+      "actual_codes": [
+        "SKILL_IDENTITY"
+      ],
+      "stdout": "ERROR SKILL_IDENTITY [source:skills/meeting-evidence/SKILL.md]: Skill name must match the meeting-evidence directory/profile identity.\nFAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": "/tmp/meeting-evidence-rehearsal-6dqca2ud/skill_identity",
+          "runtime_zip": null,
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/skill_identity.json"
+        },
+        "identities": {
+          "source": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          }
+        },
+        "hashes": {
+          "source": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+            "skills/meeting-evidence/SKILL.md": "f7091357012ef6a2b9ca63e55952bcacb8eeb08b54bd09045b6559dc3ff7984b"
+          }
+        },
+        "status": "FAIL_SCOPED_OFFLINE",
+        "exit_code": 1,
+        "diagnostics": [
+          {
+            "level": "ERROR",
+            "code": "SKILL_IDENTITY",
+            "where": "source:skills/meeting-evidence/SKILL.md",
+            "detail": "Skill name must match the meeting-evidence directory/profile identity."
+          }
+        ],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "duplicate_json_key",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/duplicate_json_key --json /tmp/meeting-evidence-rehearsal-6dqca2ud/duplicate_json_key.json",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expected_stderr_contains": null,
+      "expected_codes": [
+        "MANIFEST_JSON"
+      ],
+      "actual_codes": [
+        "MANIFEST_JSON"
+      ],
+      "stdout": "ERROR MANIFEST_JSON [source:plugin.json]: Duplicate JSON key: name\nFAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": "/tmp/meeting-evidence-rehearsal-6dqca2ud/duplicate_json_key",
+          "runtime_zip": null,
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/duplicate_json_key.json"
+        },
+        "identities": {},
+        "hashes": {
+          "source": {
+            "plugin.json": "b49208b1dd9ea5b1ea4031c07b189f4b862a2bdd125b8915d054fde0a598dcc2",
+            "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+          }
+        },
+        "status": "FAIL_SCOPED_OFFLINE",
+        "exit_code": 1,
+        "diagnostics": [
+          {
+            "level": "ERROR",
+            "code": "MANIFEST_JSON",
+            "where": "source:plugin.json",
+            "detail": "Duplicate JSON key: name"
+          }
+        ],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "unexpected_artifact",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --runtime-zip /tmp/meeting-evidence-rehearsal-6dqca2ud/unexpected_artifact.zip --json /tmp/meeting-evidence-rehearsal-6dqca2ud/unexpected_artifact.json",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expected_stderr_contains": null,
+      "expected_codes": [
+        "ZIP_UNEXPECTED"
+      ],
+      "actual_codes": [
+        "ZIP_UNEXPECTED"
+      ],
+      "stdout": "ERROR ZIP_UNEXPECTED [README.md]: Not in the two-file runtime allowlist; do not ship authoring aids.\nFAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": null,
+          "runtime_zip": "/tmp/meeting-evidence-rehearsal-6dqca2ud/unexpected_artifact.zip",
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/unexpected_artifact.json"
+        },
+        "identities": {
+          "zip": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          }
+        },
+        "hashes": {
+          "archive_sha256": "5394a1f660f14b74daf312ac4b709c86cbd881cfe059e2b0a15e526e80094cd6",
+          "zip": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+            "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+          }
+        },
+        "status": "FAIL_SCOPED_OFFLINE",
+        "exit_code": 1,
+        "diagnostics": [
+          {
+            "level": "ERROR",
+            "code": "ZIP_UNEXPECTED",
+            "where": "README.md",
+            "detail": "Not in the two-file runtime allowlist; do not ship authoring aids."
+          }
+        ],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "unsafe_zip_path",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --runtime-zip /tmp/meeting-evidence-rehearsal-6dqca2ud/unsafe_zip_path.zip --json /tmp/meeting-evidence-rehearsal-6dqca2ud/unsafe_zip_path.json",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expected_stderr_contains": null,
+      "expected_codes": [
+        "ZIP_UNSAFE_PATH"
+      ],
+      "actual_codes": [
+        "ZIP_UNSAFE_PATH"
+      ],
+      "stdout": "ERROR ZIP_UNSAFE_PATH [../escape.txt]: Kit policy rejects unsafe/noncanonical paths; no extraction is performed.\nFAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": null,
+          "runtime_zip": "/tmp/meeting-evidence-rehearsal-6dqca2ud/unsafe_zip_path.zip",
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/unsafe_zip_path.json"
+        },
+        "identities": {
+          "zip": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          }
+        },
+        "hashes": {
+          "archive_sha256": "9b15a63e2e8ec8dcb8fe95c859ea969575cd2dddc90d585fd6de9e8b149dc4e9",
+          "zip": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+            "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+          }
+        },
+        "status": "FAIL_SCOPED_OFFLINE",
+        "exit_code": 1,
+        "diagnostics": [
+          {
+            "level": "ERROR",
+            "code": "ZIP_UNSAFE_PATH",
+            "where": "../escape.txt",
+            "detail": "Kit policy rejects unsafe/noncanonical paths; no extraction is performed."
+          }
+        ],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "zip_symlink",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --runtime-zip /tmp/meeting-evidence-rehearsal-6dqca2ud/zip_symlink.zip --json /tmp/meeting-evidence-rehearsal-6dqca2ud/zip_symlink.json",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expected_stderr_contains": null,
+      "expected_codes": [
+        "ZIP_NOT_REGULAR"
+      ],
+      "actual_codes": [
+        "ZIP_NOT_REGULAR"
+      ],
+      "stdout": "ERROR ZIP_NOT_REGULAR [linked.txt]: Kit policy accepts only two regular files, not directories/symlinks/special entries.\nFAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": null,
+          "runtime_zip": "/tmp/meeting-evidence-rehearsal-6dqca2ud/zip_symlink.zip",
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/zip_symlink.json"
+        },
+        "identities": {
+          "zip": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          }
+        },
+        "hashes": {
+          "archive_sha256": "79b2166795ee88b776d2316dd764db2c1dbc633daeb333f0b29962b1cdfee2da",
+          "zip": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+            "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+          }
+        },
+        "status": "FAIL_SCOPED_OFFLINE",
+        "exit_code": 1,
+        "diagnostics": [
+          {
+            "level": "ERROR",
+            "code": "ZIP_NOT_REGULAR",
+            "where": "linked.txt",
+            "detail": "Kit policy accepts only two regular files, not directories/symlinks/special entries."
+          }
+        ],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "duplicate_zip",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --runtime-zip /tmp/meeting-evidence-rehearsal-6dqca2ud/duplicate_zip.zip --json /tmp/meeting-evidence-rehearsal-6dqca2ud/duplicate_zip.json",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expected_stderr_contains": null,
+      "expected_codes": [
+        "ZIP_DUPLICATE"
+      ],
+      "actual_codes": [
+        "ZIP_DUPLICATE"
+      ],
+      "stdout": "ERROR ZIP_DUPLICATE [plugin.json]: Kit policy rejects duplicate/case/Unicode-colliding paths.\nFAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": null,
+          "runtime_zip": "/tmp/meeting-evidence-rehearsal-6dqca2ud/duplicate_zip.zip",
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/duplicate_zip.json"
+        },
+        "identities": {
+          "zip": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          }
+        },
+        "hashes": {
+          "archive_sha256": "63f6c7eb12d5d758cf1057d39543b259386576e15552e03d78df148e99b722f2",
+          "zip": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+            "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+          }
+        },
+        "status": "FAIL_SCOPED_OFFLINE",
+        "exit_code": 1,
+        "diagnostics": [
+          {
+            "level": "ERROR",
+            "code": "ZIP_DUPLICATE",
+            "where": "plugin.json",
+            "detail": "Kit policy rejects duplicate/case/Unicode-colliding paths."
+          }
+        ],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "source_zip_mismatch",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/source --runtime-zip /tmp/meeting-evidence-rehearsal-6dqca2ud/source_zip_mismatch.zip --json /tmp/meeting-evidence-rehearsal-6dqca2ud/source_zip_mismatch.json",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expected_stderr_contains": null,
+      "expected_codes": [
+        "SOURCE_ZIP_MISMATCH"
+      ],
+      "actual_codes": [
+        "SOURCE_ZIP_MISMATCH"
+      ],
+      "stdout": "ERROR SOURCE_ZIP_MISMATCH [skills/meeting-evidence/SKILL.md]: Source and runtime ZIP bytes differ; inspect version/content and repackage.\nFAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": "/srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/source",
+          "runtime_zip": "/tmp/meeting-evidence-rehearsal-6dqca2ud/source_zip_mismatch.zip",
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/source_zip_mismatch.json"
+        },
+        "identities": {
+          "source": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          },
+          "zip": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          }
+        },
+        "hashes": {
+          "source": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+            "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+          },
+          "archive_sha256": "23d321429236f72708c59bdd7d06ca209b2e56366c45218f8eeafcf47ff8aa2c",
+          "zip": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+            "skills/meeting-evidence/SKILL.md": "5d8f86a62a47911b280f17b157d4448e16655da84631bf8e1b6a73439677c384"
+          }
+        },
+        "status": "FAIL_SCOPED_OFFLINE",
+        "exit_code": 1,
+        "diagnostics": [
+          {
+            "level": "ERROR",
+            "code": "SOURCE_ZIP_MISMATCH",
+            "where": "skills/meeting-evidence/SKILL.md",
+            "detail": "Source and runtime ZIP bytes differ; inspect version/content and repackage."
+          }
+        ],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "source_symlink",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/source_symlink --json /tmp/meeting-evidence-rehearsal-6dqca2ud/source_symlink.json",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "expected_stderr_contains": null,
+      "expected_codes": [
+        "SOURCE_SYMLINK"
+      ],
+      "actual_codes": [
+        "SOURCE_SYMLINK"
+      ],
+      "stdout": "ERROR SOURCE_SYMLINK [/tmp/meeting-evidence-rehearsal-6dqca2ud/source_symlink/skills/meeting-evidence/SKILL.md]: Kit policy rejects symlinks in runtime paths.\nFAIL_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": "/tmp/meeting-evidence-rehearsal-6dqca2ud/source_symlink",
+          "runtime_zip": null,
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/source_symlink.json"
+        },
+        "identities": {
+          "source": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          }
+        },
+        "hashes": {
+          "source": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0"
+          }
+        },
+        "status": "FAIL_SCOPED_OFFLINE",
+        "exit_code": 1,
+        "diagnostics": [
+          {
+            "level": "ERROR",
+            "code": "SOURCE_SYMLINK",
+            "where": "/tmp/meeting-evidence-rehearsal-6dqca2ud/source_symlink/skills/meeting-evidence/SKILL.md",
+            "detail": "Kit policy rejects symlinks in runtime paths."
+          }
+        ],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "missing_source_path",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/does-not-exist --json /tmp/meeting-evidence-rehearsal-6dqca2ud/missing_source_path.json",
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "expected_stderr_contains": null,
+      "expected_codes": [
+        "SOURCE_PATH"
+      ],
+      "actual_codes": [
+        "SOURCE_PATH"
+      ],
+      "stdout": "IO SOURCE_PATH [/tmp/meeting-evidence-rehearsal-6dqca2ud/does-not-exist]: Explicit source path must be an existing directory.\nIO_ERROR: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": "/tmp/meeting-evidence-rehearsal-6dqca2ud/does-not-exist",
+          "runtime_zip": null,
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/missing_source_path.json"
+        },
+        "identities": {},
+        "hashes": {},
+        "status": "IO_ERROR",
+        "exit_code": 2,
+        "diagnostics": [
+          {
+            "level": "IO",
+            "code": "SOURCE_PATH",
+            "where": "/tmp/meeting-evidence-rehearsal-6dqca2ud/does-not-exist",
+            "detail": "Explicit source path must be an existing directory."
+          }
+        ],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "cli_missing_args",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py",
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "expected_stderr_contains": "Provide --source and/or --runtime-zip.",
+      "expected_codes": [],
+      "actual_codes": [],
+      "stdout": "",
+      "stderr": "usage: rehearse.py [-h] [--source SOURCE] [--runtime-zip RUNTIME_ZIP]\n                   [--write-zip WRITE_ZIP] [--json JSON]\nrehearse.py: error: Provide --source and/or --runtime-zip.\n",
+      "tooling_assertion_passed": true,
+      "evidence": null
+    },
+    {
+      "id": "cli_no_source_for_packaging",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --runtime-zip /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/runtime/meeting-evidence-0.1.0.zip --write-zip /tmp/meeting-evidence-rehearsal-6dqca2ud/new.zip",
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "expected_stderr_contains": "--write-zip requires --source.",
+      "expected_codes": [],
+      "actual_codes": [],
+      "stdout": "",
+      "stderr": "usage: rehearse.py [-h] [--source SOURCE] [--runtime-zip RUNTIME_ZIP]\n                   [--write-zip WRITE_ZIP] [--json JSON]\nrehearse.py: error: --write-zip requires --source.\n",
+      "tooling_assertion_passed": true,
+      "evidence": null
+    },
+    {
+      "id": "cli_refuse_in_source_output",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/source --write-zip /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/source/forbidden.zip",
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "expected_stderr_contains": "Outputs must be outside the source-package directory.",
+      "expected_codes": [],
+      "actual_codes": [],
+      "stdout": "",
+      "stderr": "usage: rehearse.py [-h] [--source SOURCE] [--runtime-zip RUNTIME_ZIP]\n                   [--write-zip WRITE_ZIP] [--json JSON]\nrehearse.py: error: Outputs must be outside the source-package directory.\n",
+      "tooling_assertion_passed": true,
+      "evidence": null
+    },
+    {
+      "id": "cli_refuse_overwrite",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/source --write-zip /tmp/meeting-evidence-rehearsal-6dqca2ud/already.zip",
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "expected_stderr_contains": "Refusing to overwrite output:",
+      "expected_codes": [],
+      "actual_codes": [],
+      "stdout": "",
+      "stderr": "usage: rehearse.py [-h] [--source SOURCE] [--runtime-zip RUNTIME_ZIP]\n                   [--write-zip WRITE_ZIP] [--json JSON]\nrehearse.py: error: Refusing to overwrite output: /tmp/meeting-evidence-rehearsal-6dqca2ud/already.zip\n",
+      "tooling_assertion_passed": true,
+      "evidence": null
+    },
+    {
+      "id": "selftest_cli_same_outputs",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/selftest.py --log /tmp/meeting-evidence-rehearsal-6dqca2ud/same-evidence --summary /tmp/meeting-evidence-rehearsal-6dqca2ud/same-evidence",
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "expected_stderr_contains": "--log and --summary output paths must differ.",
+      "expected_codes": [],
+      "actual_codes": [],
+      "stdout": "",
+      "stderr": "usage: selftest.py [-h] [--log LOG] [--summary SUMMARY]\nselftest.py: error: --log and --summary output paths must differ.\n",
+      "tooling_assertion_passed": true,
+      "evidence": null
+    },
+    {
+      "id": "selftest_cli_dangling_output",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/selftest.py --log /tmp/meeting-evidence-rehearsal-6dqca2ud/dangling-evidence",
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "expected_stderr_contains": "Output must be new with existing parent:",
+      "expected_codes": [],
+      "actual_codes": [],
+      "stdout": "",
+      "stderr": "usage: selftest.py [-h] [--log LOG] [--summary SUMMARY]\nselftest.py: error: Output must be new with existing parent: /tmp/meeting-evidence-rehearsal-6dqca2ud/dangling-evidence\n",
+      "tooling_assertion_passed": true,
+      "evidence": null
+    },
+    {
+      "id": "repair_allowlisted_packaging",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/repair_source --write-zip /tmp/meeting-evidence-rehearsal-6dqca2ud/repaired-a.zip --json /tmp/meeting-evidence-rehearsal-6dqca2ud/repair_allowlisted_packaging.json",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "expected_stderr_contains": null,
+      "expected_codes": [
+        "ZIP_WRITTEN"
+      ],
+      "actual_codes": [
+        "ZIP_WRITTEN"
+      ],
+      "stdout": "INFO ZIP_WRITTEN [/tmp/meeting-evidence-rehearsal-6dqca2ud/repaired-a.zip]: Wrote exactly the two allowlisted files; deterministic stored ZIP.\nPASS_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": "/tmp/meeting-evidence-rehearsal-6dqca2ud/repair_source",
+          "runtime_zip": null,
+          "write_zip": "/tmp/meeting-evidence-rehearsal-6dqca2ud/repaired-a.zip",
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/repair_allowlisted_packaging.json"
+        },
+        "identities": {
+          "source": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          },
+          "zip": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          }
+        },
+        "hashes": {
+          "source": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+            "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+          },
+          "archive_sha256": "85f476b863c99a8c08ebe202af3c519fb659aaaa03bd0de4c5f5bf8c154c824e",
+          "zip": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+            "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+          }
+        },
+        "status": "PASS_SCOPED_OFFLINE",
+        "exit_code": 0,
+        "diagnostics": [
+          {
+            "level": "INFO",
+            "code": "ZIP_WRITTEN",
+            "where": "/tmp/meeting-evidence-rehearsal-6dqca2ud/repaired-a.zip",
+            "detail": "Wrote exactly the two allowlisted files; deterministic stored ZIP."
+          }
+        ],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "deterministic_second_packaging",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/repair_source --write-zip /tmp/meeting-evidence-rehearsal-6dqca2ud/repaired-b.zip --json /tmp/meeting-evidence-rehearsal-6dqca2ud/deterministic_second_packaging.json",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "expected_stderr_contains": null,
+      "expected_codes": [
+        "ZIP_WRITTEN"
+      ],
+      "actual_codes": [
+        "ZIP_WRITTEN"
+      ],
+      "stdout": "INFO ZIP_WRITTEN [/tmp/meeting-evidence-rehearsal-6dqca2ud/repaired-b.zip]: Wrote exactly the two allowlisted files; deterministic stored ZIP.\nPASS_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": "/tmp/meeting-evidence-rehearsal-6dqca2ud/repair_source",
+          "runtime_zip": null,
+          "write_zip": "/tmp/meeting-evidence-rehearsal-6dqca2ud/repaired-b.zip",
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/deterministic_second_packaging.json"
+        },
+        "identities": {
+          "source": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          },
+          "zip": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          }
+        },
+        "hashes": {
+          "source": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+            "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+          },
+          "archive_sha256": "85f476b863c99a8c08ebe202af3c519fb659aaaa03bd0de4c5f5bf8c154c824e",
+          "zip": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+            "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+          }
+        },
+        "status": "PASS_SCOPED_OFFLINE",
+        "exit_code": 0,
+        "diagnostics": [
+          {
+            "level": "INFO",
+            "code": "ZIP_WRITTEN",
+            "where": "/tmp/meeting-evidence-rehearsal-6dqca2ud/repaired-b.zip",
+            "detail": "Wrote exactly the two allowlisted files; deterministic stored ZIP."
+          }
+        ],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "repaired_source_zip",
+      "command": "/usr/bin/python3 /srv/shaduf/workspaces/job-f13aa86deb55388a923608f59ce03eb09c2def0db4dcfbd94e75e5f1709c333a/workspace/runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source /tmp/meeting-evidence-rehearsal-6dqca2ud/repair_source --runtime-zip /tmp/meeting-evidence-rehearsal-6dqca2ud/repaired-a.zip --json /tmp/meeting-evidence-rehearsal-6dqca2ud/repaired_source_zip.json",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "expected_stderr_contains": null,
+      "expected_codes": [],
+      "actual_codes": [],
+      "stdout": "PASS_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+      "stderr": "",
+      "tooling_assertion_passed": true,
+      "evidence": {
+        "evidence_kind": "offline engineering checks; not plugin behavior",
+        "profile": "meeting-evidence-two-file-skills-only-v1",
+        "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+        "inputs": {
+          "source": "/tmp/meeting-evidence-rehearsal-6dqca2ud/repair_source",
+          "runtime_zip": "/tmp/meeting-evidence-rehearsal-6dqca2ud/repaired-a.zip",
+          "write_zip": null,
+          "json": "/tmp/meeting-evidence-rehearsal-6dqca2ud/repaired_source_zip.json"
+        },
+        "identities": {
+          "source": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          },
+          "zip": {
+            "name": "meeting-evidence",
+            "version": "0.1.0",
+            "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          }
+        },
+        "hashes": {
+          "source": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+            "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+          },
+          "archive_sha256": "85f476b863c99a8c08ebe202af3c519fb659aaaa03bd0de4c5f5bf8c154c824e",
+          "zip": {
+            "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+            "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+          }
+        },
+        "status": "PASS_SCOPED_OFFLINE",
+        "exit_code": 0,
+        "diagnostics": [],
+        "pending_gates": {
+          "host_installation_compatibility": "NOT RUN",
+          "explicit_skill_selection": "NOT RUN",
+          "implicit_activation": "NOT RUN",
+          "model_output_quality": "NOT RUN",
+          "security_evaluation": "NOT RUN",
+          "portal_upload_validation": "NOT RUN",
+          "final_public_validation": "NOT RUN",
+          "skill_safety_scan": "NOT RUN",
+          "review": "NOT RUN",
+          "approval": "NOT RUN",
+          "chosen_plugin_publication": "NOT RUN"
+        },
+        "submission_ready": false
+      }
+    },
+    {
+      "id": "deterministic_zip_and_unchanged_payload",
+      "tooling_assertion_passed": true,
+      "archive_a_sha256": "85f476b863c99a8c08ebe202af3c519fb659aaaa03bd0de4c5f5bf8c154c824e",
+      "archive_b_sha256": "85f476b863c99a8c08ebe202af3c519fb659aaaa03bd0de4c5f5bf8c154c824e",
+      "bytes_equal": true,
+      "allowlisted_payload_equals_unchanged_source": true
+    }
+  ],
+  "source_hashes_before": {
+    "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+    "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+  },
+  "source_hashes_after": {
+    "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+    "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+  },
+  "source_unchanged": true,
+  "host_behavior": "NOT RUN",
+  "public_validation_review": "NOT RUN",
+  "plugin_safety": "NOT RUN",
+  "submission_ready": false,
+  "temporary_fixture_paths": "Scratch fixtures removed after execution; recreate with this selftest.py.",
+  "selftest_invocation": "PYTHONDONTWRITEBYTECODE=1 python3 runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/selftest.py --log runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/validation.log --summary runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/validation-summary.json",
+  "selftest_exit": 0,
+  "separate_baseline_pair_check": {
+    "command": "python3 runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/rehearse.py --source runner/examples/first-useful-plugin --runtime-zip runner/examples/meeting-evidence-0.1.0.zip --json runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/evidence/baseline-pair-check.json",
+    "actual_exit": 0,
+    "stdout": "PASS_SCOPED_OFFLINE: meeting-evidence-two-file-skills-only-v1\nNOT RUN: host behavior, security evaluation, public validation/scans, review/approval/publication. NOT SUBMISSION-READY.\n",
+    "stderr": "",
+    "evidence": {
+      "evidence_kind": "offline engineering checks; not plugin behavior",
+      "profile": "meeting-evidence-two-file-skills-only-v1",
+      "scope": "Two runtime files; finite manifest subset; simple front matter; allowlisted paths, CRC reads and optional source/ZIP byte comparison. Not full schema, YAML, secret/safety scan or host validation.",
+      "inputs": {
+        "source": "runner/examples/first-useful-plugin",
+        "runtime_zip": "runner/examples/meeting-evidence-0.1.0.zip",
+        "write_zip": null,
+        "json": "runner/runs/aff01304-dcac-45b6-8b9d-7089a4279823/release-rehearsal/evidence/baseline-pair-check.json"
+      },
+      "identities": {
+        "source": {
+          "name": "meeting-evidence",
+          "version": "0.1.0",
+          "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+        },
+        "zip": {
+          "name": "meeting-evidence",
+          "version": "0.1.0",
+          "schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+        }
+      },
+      "hashes": {
+        "source": {
+          "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+          "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+        },
+        "archive_sha256": "53b247aabc8f22b215b3d9060a19c457398da67fcda2eb46c25e5a2549180cdb",
+        "zip": {
+          "plugin.json": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0",
+          "skills/meeting-evidence/SKILL.md": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+        }
+      },
+      "status": "PASS_SCOPED_OFFLINE",
+      "exit_code": 0,
+      "diagnostics": [],
+      "pending_gates": {
+        "host_installation_compatibility": "NOT RUN",
+        "explicit_skill_selection": "NOT RUN",
+        "implicit_activation": "NOT RUN",
+        "model_output_quality": "NOT RUN",
+        "security_evaluation": "NOT RUN",
+        "portal_upload_validation": "NOT RUN",
+        "final_public_validation": "NOT RUN",
+        "skill_safety_scan": "NOT RUN",
+        "review": "NOT RUN",
+        "approval": "NOT RUN",
+        "chosen_plugin_publication": "NOT RUN"
+      },
+      "submission_ready": false
+    }
+  },
+  "baseline_runtime_bytes_preserved": true
+}
