@@ -1,0 +1,23 @@
+{
+  "schema_version": "1",
+  "channel": "UNKNOWN",
+  "existing_public_listing_components": "UNKNOWN",
+  "proposed_mcp_addition": "UNKNOWN",
+  "simulation_only": "UNKNOWN",
+  "provenance_note": "Reader declaration only. Use public-safe labels, never secrets or credentials.",
+  "declared_loaded_version": "UNKNOWN",
+  "declared_loaded_source": "UNKNOWN",
+  "declared_published_version": "UNKNOWN",
+  "declared_review_status": "UNKNOWN",
+  "declared_deployment_id": "UNKNOWN",
+  "service": {
+    "endpoint_before": "UNKNOWN",
+    "endpoint_after": "UNKNOWN",
+    "endpoint_change": "UNKNOWN",
+    "implementation_change": "UNKNOWN",
+    "tool_contract_change": "UNKNOWN",
+    "tool_addition": "UNKNOWN",
+    "tool_removal": "UNKNOWN",
+    "permission_boundary_change": "UNKNOWN"
+  }
+}

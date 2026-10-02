@@ -1,0 +1,43 @@
+{
+  "schema_version": "1",
+  "kind": "BLANK_MANUAL_COMPANION_NOT_RECORDER_CONTEXT",
+  "instruction": "Future authorized tester fills actual evidence after performing it. Do not import this into recorder context; it does not replace prior ten host test records.",
+  "source_bundle": {
+    "actual_test_status": "NOT RUN",
+    "date_utc": "UNKNOWN",
+    "selected_runtime_scope": "UNKNOWN",
+    "manifest_name_and_version": "UNKNOWN",
+    "snapshot_fingerprint_and_record_path": "UNKNOWN"
+  },
+  "loaded_host_session": {
+    "actual_test_status": "NOT RUN",
+    "date_utc_client_version_surface": "UNKNOWN",
+    "authorized_account_workspace_scope_redacted": "UNKNOWN",
+    "catalog_name_source_root_ref_sha": "UNKNOWN",
+    "exact_refresh_update_restart_install_steps": "UNKNOWN",
+    "fresh_session_identifier_redacted": "UNKNOWN",
+    "observed_loaded_version_source_path_hash_or_unknown_reason": "UNKNOWN",
+    "activation_evidence_separate_from_output_quality": "UNKNOWN",
+    "actual_output_and_source_comparison": "UNKNOWN",
+    "failure_and_independent_retest": "UNKNOWN"
+  },
+  "reviewed_published_version": {
+    "actual_test_status": "NOT RUN",
+    "date_utc_plugin_identity_redacted": "UNKNOWN",
+    "selected_uploaded_zip_hash_version_checks": "UNKNOWN",
+    "observed_review_and_approval_status": "UNKNOWN",
+    "actual_publish_action_receipt_or_not_performed": "UNKNOWN",
+    "observed_directory_url_version_date_evidence": "UNKNOWN",
+    "retention_access_continuity_observation_or_unknown": "UNKNOWN"
+  },
+  "live_backend_deployment": {
+    "actual_test_status": "NOT RUN",
+    "date_utc_authorized_service_scope_redacted": "UNKNOWN",
+    "actual_deploy_identifier_endpoint_and_evidence": "UNKNOWN",
+    "observed_approved_live_definition_vs_held_update": "UNKNOWN",
+    "actual_scan_completion_tool_add_remove_availability": "UNKNOWN",
+    "current_schema_auth_permission_contract_compatibility_test": "UNKNOWN",
+    "actual_behavior_and_failure_retest": "UNKNOWN",
+    "endpoint_move_support_confirmation_or_unknown": "UNKNOWN"
+  }
+}

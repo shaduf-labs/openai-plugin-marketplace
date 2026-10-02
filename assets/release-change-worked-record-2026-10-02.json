@@ -1,0 +1,304 @@
+{
+  "context": {
+    "basis": "READER_DECLARATION_NOT_OBSERVATION",
+    "facts": {
+      "channel": "public_directory",
+      "declared_deployment_id": "UNKNOWN",
+      "declared_loaded_source": "UNKNOWN",
+      "declared_loaded_version": "UNKNOWN",
+      "declared_published_version": "UNKNOWN",
+      "declared_review_status": "UNKNOWN",
+      "existing_public_listing_components": "UNKNOWN",
+      "proposed_mcp_addition": "UNKNOWN",
+      "provenance_note": "SIMULATION ONLY: no account, listing, deployment or service exists for this fixture.",
+      "service": {
+        "endpoint_after": "UNKNOWN",
+        "endpoint_before": "UNKNOWN",
+        "endpoint_change": "UNKNOWN",
+        "implementation_change": "UNKNOWN",
+        "permission_boundary_change": "UNKNOWN",
+        "tool_addition": "UNKNOWN",
+        "tool_contract_change": "UNKNOWN",
+        "tool_removal": "UNKNOWN"
+      },
+      "simulation_only": true
+    },
+    "input_path": "/srv/shaduf/workspaces/job-4d80646ec20c8644ce685fd5ee3a92a5f69c48d559de6977eb4c704a5d2fc531/workspace/runner/runs/5ba03869-db28-413a-8937-1156d3ac008b/change-record/fixtures/contexts/public.json",
+    "sha256": "ad2091696b27383ac60464913fae91e29042cedd907285dec493e30374073820"
+  },
+  "evidence_kind": "OFFLINE_ENGINEERING_ONLY",
+  "exclusions": [
+    "whole-repository/runtime selection inference",
+    "archive extraction or creation",
+    "complete plugin/schema validation",
+    "effective overlay/extension metadata",
+    "component/service detection",
+    "semantic diff or automatic version choice",
+    "secret/safety scanning",
+    "host installation/update/invocation",
+    "portal/review/approval/publication",
+    "network/deployment/authorization"
+  ],
+  "next_evidence": [
+    {
+      "basis": "OUR_MAINTENANCE_RECOMMENDATION",
+      "rule_ids": [
+        "C01",
+        "C09"
+      ],
+      "text": "Record actual loaded source/version and fresh-session behavior separately; source hashes never establish a host result."
+    },
+    {
+      "basis": "SOURCE_LINKED_RECOMMENDATION_CONDITIONED_ON_DECLARED_CHANNEL",
+      "rule_ids": [
+        "C03",
+        "C10"
+      ],
+      "text": "For intended bundled public updates, use the documented complete versioned ZIP/checks/review/Publish path. Choose the version yourself; this record is not an eligibility or submission-readiness verdict."
+    }
+  ],
+  "recorder_policy_limits": {
+    "context_bytes": 65536,
+    "depth": 32,
+    "entries": 4096,
+    "file_bytes": 8388608,
+    "files": 1024,
+    "manifest_parse_bytes": 1048576,
+    "path_chars": 1024,
+    "tree_bytes": 67108864
+  },
+  "schema_version": "1",
+  "scope": "Explicit reader-selected runtime-source regular-file snapshot bytes, root portable identity/version, and reader declarations only.",
+  "source_rules": [
+    {
+      "checked_utc": "2026-10-02",
+      "id": "C01",
+      "scope": "source, cache, restart, portable/overlay boundaries",
+      "url": "https://developers.openai.com/plugins/build/plugins"
+    },
+    {
+      "checked_utc": "2026-10-02",
+      "id": "C02",
+      "scope": "optional version; root identity reading is not schema validation",
+      "url": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+    },
+    {
+      "checked_utc": "2026-10-02",
+      "id": "C03",
+      "scope": "public bundled update: complete versioned ZIP, checks, review, Publish",
+      "url": "https://developers.openai.com/plugins/deploy/submission"
+    },
+    {
+      "checked_utc": "2026-10-02",
+      "id": "C04",
+      "scope": "MCP scan/held/live tool definition boundary",
+      "url": "https://developers.openai.com/plugins/deploy/submission"
+    },
+    {
+      "checked_utc": "2026-10-02",
+      "id": "C05",
+      "scope": "live deployed implementation is not frozen by held metadata",
+      "url": "https://developers.openai.com/plugins/deploy/app-review"
+    },
+    {
+      "checked_utc": "2026-10-02",
+      "id": "C06",
+      "scope": "MCP addition to an existing skills-only listing currently unsupported",
+      "url": "https://developers.openai.com/plugins/deploy/submission"
+    },
+    {
+      "checked_utc": "2026-10-02",
+      "id": "C07",
+      "scope": "existing MCP URL update unsupported; contact support",
+      "url": "https://developers.openai.com/plugins/deploy/submission"
+    },
+    {
+      "checked_utc": "2026-10-02",
+      "id": "C08",
+      "scope": "path/new version versus origin/new plugin guidance conflicts with C07",
+      "url": "https://developers.openai.com/plugins/deploy/app-review"
+    },
+    {
+      "checked_utc": "2026-10-02",
+      "id": "C09",
+      "scope": "supported install/new-session procedure; no version inspection method established here",
+      "url": "https://learn.chatgpt.com/docs/plugins"
+    },
+    {
+      "checked_utc": "2026-10-02",
+      "id": "C10",
+      "scope": "portable version optional; explicit semantic version for public submission/updates",
+      "url": "https://developers.openai.com/plugins/deploy/submission"
+    }
+  ],
+  "states": {
+    "live_backend_deployment": {
+      "actual_test_status": "NOT RUN",
+      "authorized_behavior_evidence": "UNKNOWN",
+      "declarations": {
+        "declared_deployment_id": "UNKNOWN",
+        "service": {
+          "endpoint_after": "UNKNOWN",
+          "endpoint_before": "UNKNOWN",
+          "endpoint_change": "UNKNOWN",
+          "implementation_change": "UNKNOWN",
+          "permission_boundary_change": "UNKNOWN",
+          "tool_addition": "UNKNOWN",
+          "tool_contract_change": "UNKNOWN",
+          "tool_removal": "UNKNOWN"
+        }
+      },
+      "observed_contract": "UNKNOWN",
+      "observed_deployment_id": "UNKNOWN",
+      "observed_endpoint": "UNKNOWN"
+    },
+    "loaded_host_session": {
+      "actual_test_status": "NOT RUN",
+      "declarations": {
+        "declared_loaded_source": "UNKNOWN",
+        "declared_loaded_version": "UNKNOWN"
+      },
+      "observed_fingerprint": "UNKNOWN",
+      "observed_source": "UNKNOWN",
+      "observed_version": "UNKNOWN",
+      "session_evidence": "UNKNOWN"
+    },
+    "reviewed_published_version": {
+      "actual_test_status": "NOT RUN",
+      "declarations": {
+        "declared_published_version": "UNKNOWN",
+        "declared_review_status": "UNKNOWN"
+      },
+      "observed_directory_fingerprint": "UNKNOWN",
+      "observed_published_version": "UNKNOWN",
+      "observed_review_status": "UNKNOWN",
+      "publication_evidence": "UNKNOWN"
+    },
+    "source_bundle": {
+      "after": {
+        "files": [
+          {
+            "bytes": 275,
+            "group": "manifest",
+            "path": "plugin.json",
+            "sha256": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0"
+          },
+          {
+            "bytes": 2677,
+            "group": "skill",
+            "path": "skills/meeting-evidence/SKILL.md",
+            "sha256": "8d4d784770db337fd827c932a3974ceeb8a8255357027fe78fce34f0f1d1db65"
+          }
+        ],
+        "fingerprint": "1980998fd12312c3b735ff66ff1ce2c0de29f8c44ef0e1f7aaa695f166c0f3f9",
+        "fingerprint_method": "sha256(canonical ASCII JSON array of path/bytes/sha256; sorted paths; no mtimes or file modes)",
+        "input_path": "/srv/shaduf/workspaces/job-4d80646ec20c8644ce685fd5ee3a92a5f69c48d559de6977eb4c704a5d2fc531/workspace/runner/runs/5ba03869-db28-413a-8937-1156d3ac008b/change-record/fixtures/snapshots/instruction-same-version",
+        "manifest": {
+          "components": "UNKNOWN",
+          "effective_openai_metadata": "unsupported-for-manifest-interpretation",
+          "issues": [],
+          "name": "meeting-evidence",
+          "profile": "portable-root-plugin-json-identity-reading-v1",
+          "schema_validation": "NOT RUN",
+          "status": "portable-root-fields-read-not-validated",
+          "version": "0.1.0"
+        },
+        "status": "OBSERVED_OFFLINE",
+        "total_bytes": 2952
+      },
+      "basis": "OBSERVED_OFFLINE",
+      "before": {
+        "files": [
+          {
+            "bytes": 275,
+            "group": "manifest",
+            "path": "plugin.json",
+            "sha256": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0"
+          },
+          {
+            "bytes": 2603,
+            "group": "skill",
+            "path": "skills/meeting-evidence/SKILL.md",
+            "sha256": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+          }
+        ],
+        "fingerprint": "4ca3803a3d39acdb719745d4cadf56021c49ed5120daf21a4a5f63140d170a46",
+        "fingerprint_method": "sha256(canonical ASCII JSON array of path/bytes/sha256; sorted paths; no mtimes or file modes)",
+        "input_path": "/srv/shaduf/workspaces/job-4d80646ec20c8644ce685fd5ee3a92a5f69c48d559de6977eb4c704a5d2fc531/workspace/runner/runs/5ba03869-db28-413a-8937-1156d3ac008b/change-record/fixtures/snapshots/baseline",
+        "manifest": {
+          "components": "UNKNOWN",
+          "effective_openai_metadata": "unsupported-for-manifest-interpretation",
+          "issues": [],
+          "name": "meeting-evidence",
+          "profile": "portable-root-plugin-json-identity-reading-v1",
+          "schema_validation": "NOT RUN",
+          "status": "portable-root-fields-read-not-validated",
+          "version": "0.1.0"
+        },
+        "status": "OBSERVED_OFFLINE",
+        "total_bytes": 2878
+      },
+      "classification": {
+        "bytes_changed": true,
+        "label": "CHANGED_BYTES_SAME_VERSION",
+        "manifest_identity_relation": "same",
+        "manifest_version_relation": "same",
+        "propagation": "UNKNOWN",
+        "semantic_impact": "UNKNOWN",
+        "semantic_version_choice": "NOT PERFORMED",
+        "version_only_basis": "NOT ESTABLISHED"
+      },
+      "diff": {
+        "added": [],
+        "changed": [
+          {
+            "after": {
+              "bytes": 2677,
+              "group": "skill",
+              "path": "skills/meeting-evidence/SKILL.md",
+              "sha256": "8d4d784770db337fd827c932a3974ceeb8a8255357027fe78fce34f0f1d1db65"
+            },
+            "before": {
+              "bytes": 2603,
+              "group": "skill",
+              "path": "skills/meeting-evidence/SKILL.md",
+              "sha256": "abd57a1e767a3c42b6c49566286f553e92a7f6e129e342daaf037ca4982217aa"
+            },
+            "group": "skill",
+            "path": "skills/meeting-evidence/SKILL.md"
+          }
+        ],
+        "removed": [],
+        "unchanged": [
+          {
+            "after": {
+              "bytes": 275,
+              "group": "manifest",
+              "path": "plugin.json",
+              "sha256": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0"
+            },
+            "before": {
+              "bytes": 275,
+              "group": "manifest",
+              "path": "plugin.json",
+              "sha256": "25dc68a00061cb228dcf3ac5e2351715e2b7d70123a9de6ce04d3291dc29ace0"
+            },
+            "group": "manifest",
+            "path": "plugin.json"
+          }
+        ]
+      },
+      "loaded_or_published_fingerprint": "UNKNOWN"
+    }
+  },
+  "tool": "release-change-record-v1",
+  "unknowns": [
+    "selected snapshots' completeness as intended runtime",
+    "semantic correctness and impact",
+    "effective components/settings",
+    "actual installed/loaded version and current-session refresh",
+    "actual public version/review/approval",
+    "actual deployed code/tools/auth/permissions",
+    "adopter access, propagation, review timing and rollback capability"
+  ]
+}

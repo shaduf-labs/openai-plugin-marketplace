@@ -430,6 +430,166 @@
       "accessed_at": "2026-10-01T17:34:53.743303Z",
       "relation": "supports",
       "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "c01-2026-10-02",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/build/plugins",
+      "title": "Source/cache/portable boundaries",
+      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at records saved-ledger review, not exact fetch. Source resolution and cached installation are distinct; local source/restart and catalog inspect/refresh procedures do not prove our loaded bytes. Inline OpenAI metadata replaces, not merges, overlays.",
+      "accessed_at": "2026-10-02T13:23:55.478299Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "c02-2026-10-02",
+      "source_type": "primary-provider-source",
+      "source_url": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+      "title": "Portable schema 1.0.0",
+      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at records saved-ledger review, not exact fetch. Portable $schema/name required; version optional. Recorder root identity/version reading is not complete schema, component or effective-metadata validation.",
+      "accessed_at": "2026-10-02T13:23:55.478299Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "c03-2026-10-02",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission",
+      "title": "Bundled public updates and retention limit",
+      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at records saved-ledger review, not exact fetch. Complete updated-version ZIP/retained components/checks/applicable review and chosen Publish; replacement occurs at Publish. Inspected text does not explicitly guarantee all pending/rejected-review old-package availability or continuity.",
+      "accessed_at": "2026-10-02T13:23:55.478299Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "c04-2026-10-02",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission",
+      "title": "Hosted definition maintenance",
+      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at records saved-ledger review, not exact fetch. Daily/manual scans and independent live/held tool definitions are separate from public bundles. No scan/approval/availability was observed by our recorder.",
+      "accessed_at": "2026-10-02T13:23:55.478299Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "c05-2026-10-02",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/app-review",
+      "title": "Live implementation versus reviewed metadata",
+      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at records saved-ledger review, not exact fetch. Retained definitions are not retained server implementation; calls use live endpoint. Contract-preserving results can change after deploy before scan/approval; preserve current contract. Rollback advice is not a portal/adopter guarantee.",
+      "accessed_at": "2026-10-02T13:23:55.478299Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "c06-2026-10-02",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission",
+      "title": "Existing skills-only public component boundary",
+      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at records saved-ledger review, not exact fetch. Adding MCP to an existing skills-only public listing remains unsupported in inspected submission flow. Listing history is declared, never inferred from filenames.",
+      "accessed_at": "2026-10-02T13:23:55.478299Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "c07-2026-10-02",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission",
+      "title": "Endpoint conflict: submission",
+      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at records saved-ledger review, not exact fetch. Existing MCP URL changes unsupported in this flow; contact support. Conflicts with path/new-version and origin/new-plugin review guidance; no support/portal resolution.",
+      "accessed_at": "2026-10-02T13:23:55.478299Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "c08-2026-10-02",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/app-review",
+      "title": "Endpoint conflict: review",
+      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at records saved-ledger review, not exact fetch. Review guidance describes path/new-version versus origin/new-plugin moves, conflicting with submission URL-update flow. No precedence, accepted migration or continuity inferred.",
+      "accessed_at": "2026-10-02T13:23:55.478299Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "c09-2026-10-02",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/plugins",
+      "title": "Supported-client procedure, missing version method",
+      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at records saved-ledger review, not exact fetch. Documented install/new session/chat and separate provider connection. Fetched guide lacks explicit loaded-version inspection/update method; not proof about every host or document. No client operation performed.",
+      "accessed_at": "2026-10-02T13:23:55.478299Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "c10-2026-10-02",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission",
+      "title": "Public version requirement versus portable option",
+      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at records saved-ledger review, not exact fetch. Portable-optional version differs from public updated-version bundle requirements. Recorder chooses no semantic bump size and establishes no eligibility.",
+      "accessed_at": "2026-10-02T13:23:55.478299Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "change-recorder-2026-10-02",
+      "source_type": "original-offline-artifact",
+      "source_url": "https://shaduf.ai/p/openai-plugin-marketplace/assets/release-change-record-2026-10-02.zip",
+      "title": "Final reproducible change-recorder tooling",
+      "claim": "51 regular-file members/50 provenance payload hashes; 98,674 bytes; SHA-256 6adef503a09ecc8cfb472d58722658d2703eb803d15c259d84ded04c097c64ff. Independently reproduced documented record/self-test commands. Tooling with simulation fixtures, not runtime submission ZIP or new plugin release.",
+      "accessed_at": "2026-10-02T13:23:55.478299Z",
+      "relation": "supports",
+      "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "change-engineering-2026-10-02",
+      "source_type": "original-offline-artifact",
+      "source_url": "https://shaduf.ai/p/openai-plugin-marketplace/assets/release-change-validation-2026-10-02.json",
+      "title": "Actual final recorder engineering JSON",
+      "claim": "21 scenarios + 1 repeat + 26 exact negative commands = 48 subprocesses; one deterministic invariant = 49 passed recorder assertions, zero failed. Not plugin/model/safety/propagation evidence; actual host/public/backend tests NOT RUN.",
+      "accessed_at": "2026-10-02T13:23:55.478299Z",
+      "relation": "supports",
+      "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "change-log-2026-10-02",
+      "source_type": "original-offline-artifact",
+      "source_url": "https://shaduf.ai/p/openai-plugin-marketplace/assets/release-change-validation-2026-10-02.log",
+      "title": "Actual expected/observed recorder log",
+      "claim": "Exact command/exit/diagnostic/path/hash/classification/declaration expectations and actual records; negatives require expected errors, not merely nonzero exit.",
+      "accessed_at": "2026-10-02T13:23:55.478299Z",
+      "relation": "supports",
+      "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "change-worked-2026-10-02",
+      "source_type": "original-offline-artifact",
+      "source_url": "https://shaduf.ai/p/openai-plugin-marketplace/assets/release-change-worked-record-2026-10-02.json",
+      "title": "Worked same-version offline record",
+      "claim": "Observed selected skill 2603 to 2677 bytes, changed only SKILL.md with plugin.json/version unchanged at 0.1.0; CHANGED_BYTES_SAME_VERSION. Revision/public context simulation-only; actual loaded/public/backend fields UNKNOWN/NOT RUN.",
+      "accessed_at": "2026-10-02T13:23:55.478299Z",
+      "relation": "supports",
+      "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "change-worksheet-2026-10-02",
+      "source_type": "original-offline-artifact",
+      "source_url": "https://shaduf.ai/p/openai-plugin-marketplace/assets/release-change-next-evidence-2026-10-02.json",
+      "title": "Blank next-evidence worksheet",
+      "claim": "Original manual future loaded-host/published-version/live-deployment evidence prompts; entirely blank actuals. Not recorder context, official form or prior ten-host-case replacement.",
+      "accessed_at": "2026-10-02T13:23:55.478299Z",
+      "relation": "supports",
+      "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "change-context-2026-10-02",
+      "source_type": "original-offline-artifact",
+      "source_url": "https://shaduf.ai/p/openai-plugin-marketplace/assets/release-change-context-2026-10-02.json",
+      "title": "Blank recorder context",
+      "claim": "Strict optional own input shape; channel/history/endpoint/version/review/deploy/tool/permission facts are reader declarations, never observations. Omitted facts UNKNOWN.",
+      "accessed_at": "2026-10-02T13:23:55.478299Z",
+      "relation": "supports",
+      "publication_basis": "owner-authored"
     }
   ]
 }

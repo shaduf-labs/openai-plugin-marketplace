@@ -22,6 +22,17 @@
       "summary": "Focused primary-source recheck plus original exercised release-rehearsal kit and observed packaging repair; unchanged runtime, ten NOT RUN host specs and unperformed safety/public gates. No substantive policy change established.",
       "report_path": "/p/openai-plugin-marketplace/reports/2026-10-01.html",
       "entrypoint": "reports/2026-10-01.html"
+    },
+    {
+      "run_id": "run:5ba03869-db28-413a-8937-1156d3ac008b",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-02T12:46:52.739034Z",
+      "completed_at": "2026-10-02T13:30:14.794963Z",
+      "title": "I changed my plugin. What actually changed for adopters?",
+      "summary": "Bounded five-resource update/session/MCP comparison and independently reproduced offline recorder; concrete same-version source edit, four independent states and next-evidence worksheet. 49 recorder assertions, not plugin rates; actual host/public/backend tests NOT RUN. No substantive changed rule/date established. Completion describes the bounded study/editorial preparation, not Runtime publication.",
+      "report_path": "/p/openai-plugin-marketplace/reports/2026-10-02.html",
+      "entrypoint": "reports/2026-10-02.html"
     }
   ]
 }
