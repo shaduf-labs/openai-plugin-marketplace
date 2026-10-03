@@ -590,6 +590,156 @@
       "accessed_at": "2026-10-02T13:23:55.478299Z",
       "relation": "supports",
       "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "b01-2026-10-03",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
+      "title": "Plugin guidelines · scope",
+      "claim": "Guidelines apply to publicly listed plugins including skills-only and MCP; fundamentals apply to every plugin. Reconfirmed saved S11; not a ruling on every independently operated service. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "accessed_at": "2026-10-03T13:11:38Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "b02-2026-10-03",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
+      "title": "Commerce · existing paid included use",
+      "claim": "Existing paid-account users may access subscription-included features. Reconfirmed saved 29 September Business/S11; no observed host/customer behavior or design approval. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "accessed_at": "2026-10-03T13:11:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "b03-2026-10-03",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
+      "title": "Commerce · digital sales and upsells",
+      "claim": "Digital subscription/content/token/credit sales and indirect upsells prohibited; no in-plugin subscription-plan display, subscription initiation or upgrade promotion. Reconfirmed; external transaction routing does not itself change category. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "accessed_at": "2026-10-03T13:11:38Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "b04-2026-10-03",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
+      "title": "Commerce · unavailable entitlement / information links",
+      "claim": "Denials may explain entitlement and link to information, not checkout/transaction destinations or pages explicitly initiating upgrade/subscription/purchase. Reconfirmed. No live destination audited; linkless denial and unverified-link omission are our recommendations. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "accessed_at": "2026-10-03T13:11:38Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "b05-2026-10-03",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
+      "title": "Commerce · equivalent-feature parity and channel fees",
+      "claim": "No worse equivalent external-service feature in ChatGPT or ChatGPT-penalizing fees/surcharges; temporary external promotions permitted. Newly inspected clause detail, not a dated policy change. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "accessed_at": "2026-10-03T13:11:38Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "b06-2026-10-03",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
+      "title": "Advertising · standalone utility",
+      "claim": "No advertisements or primarily advertising plugin; legitimate standalone utility required. Reconfirmed saved S11. Discovery manipulation, enhanced placement and payout were not refreshed. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "accessed_at": "2026-10-03T13:11:38Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "b07-2026-10-03",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
+      "title": "Guidelines · Checkout scope tension",
+      "claim": "Own-domain external checkout required, select-partner beta Instant Checkout noted, other embedded/hosted third-party checkout disallowed. Reconfirmed wording; conflicting / unresolved scope with physical-goods saved-method API/UI descriptions. No source precedence inferred. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "accessed_at": "2026-10-03T13:11:38Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "b08-2026-10-03",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/build/monetization",
+      "title": "Checkout API · Overview / External Checkout",
+      "claim": "External checkout recommended/general availability for eligible physical goods; current approval physical-goods-limited. Newly inspected canonical detail; no digital subscription/credit eligibility established. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "accessed_at": "2026-10-03T13:11:38Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "b09-2026-10-03",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/build/monetization",
+      "title": "Checkout API · saved payment methods",
+      "claim": "Non-redirect optional-UI merchant-saved-method purchase described for eligible physical goods; no new payment credentials collected, server processes purchase. Newly inspected; guideline scope conflicting / unresolved, no universal enabling established. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "accessed_at": "2026-10-03T13:11:38Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "b10-2026-10-03",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/build/monetization",
+      "title": "Checkout API · ChatGPT payment sheet private beta",
+      "claim": "Payment sheet private beta for select marketplaces, not all users; new-method collection uses sheet. Newly inspected sheet/saved-method distinction; no pool or integration-specific access established. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "accessed_at": "2026-10-03T13:11:38Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "b11-2026-10-03",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/build/chatgpt-ui",
+      "title": "UI · Offer checkout in your UI",
+      "claim": "Default external checkout; other categories need explicit enabling. Saved methods eligible-physical-goods-only/no new credentials; payment sheet private beta and requestCheckout for enabled integrations. Newly inspected; general guideline scope unresolved, no SaaS exception inferred. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "accessed_at": "2026-10-03T13:11:38Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "b12-2026-10-03",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/build/auth",
+      "title": "Authentication · Components / token verification",
+      "claim": "MCP server verifies credentials, required scopes and server policy; authentication declaration is not enforcement. Newly inspected narrow claim. Exact identity → resource → entitlement sequence is our synthesis / NOT RUN, not an OAuth implementation or enforcement test. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "accessed_at": "2026-10-03T13:11:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "b13-2026-10-03",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/guides/security-privacy",
+      "title": "Security & Privacy · Data handling / authorization",
+      "claim": "Enforce scopes each call, reject expired/malformed tokens, validate inputs server-side and return necessary task data only. Narrow boundary reconfirmed; resource authorization is separate from feature entitlement, no security test. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "accessed_at": "2026-10-03T13:11:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "b14-2026-10-03",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
+      "title": "Guidelines · name, description and prompts",
+      "claim": "Listing subtitles/descriptions cannot advertise subscriptions, prices, trials, discounts or promotions. Newly inspected precise metadata restriction, not a release/change-date finding. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "accessed_at": "2026-10-03T13:11:38Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "b15-2026-10-03",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
+      "title": "Guidelines · Purpose and originality / Quality and reliability",
+      "claim": "Distinct useful functionality beyond native capabilities and reliable accurate results expected. Reconfirmed. Business falsification questions and six proposed cases are our hypothetical design review / NOT RUN, not measured demand or product-success evidence. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "accessed_at": "2026-10-03T13:11:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

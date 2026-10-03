@@ -1,18 +1,19 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "OpenAI plugins are installable packages of reusable skills, tool connections or both. The universal plugin directory is their shared public distribution source for supported ChatGPT and Codex surfaces; eligibility and execution remain plugin-, host-, account-, workspace- and provider-dependent.",
+  "current_answer": "OpenAI plugins are installable packages of reusable skills, tool connections or both. The universal plugin directory is their shared public distribution source for supported ChatGPT and Codex surfaces; eligibility and execution remain plugin-, host-, account-, workspace- and provider-dependent. Public plugins can serve already-entitled SaaS customers, but the inspected guidelines prohibit digital sales/upsells through the plugin; external checkout is not a digital exception.",
   "catalogue_card": {
     "question": "What is OpenAI’s new plugin marketplace, what can people use today, and how can developers build and publish useful plugins?",
-    "text": "A developer-first guide with inspectable source, finite packaging checks and an offline release-change recorder: separate changed bytes from loaded, published and live-backend evidence."
+    "text": "A developer-first guide: serve existing SaaS entitlements without an upgrade funnel; inspect source and keep offline checks separate from loaded, published and live-service evidence."
   },
   "summary": [
-    "Choose the smallest sufficient architecture and supported host; saved September examples remain untested and account-dependent.",
-    "New 2 October maintenance aid/recorder distinguishes four independent states: chosen source bytes, loaded host/session, reviewed/published package and live remote MCP deployment.",
-    "Same-version simulation changes only skill bytes; all actual host/public/backend tests are NOT RUN and observed fields UNKNOWN. Reader declarations never become observations.",
-    "The final recorder has 48 subprocess commands plus one invariant: 49 passed engineering assertions, not plugin/model/safety/update delivery rates. Exact tooling download independently reproduced.",
-    "Original Meeting Evidence 0.1.0 source/downloads and prior 1 October kit/33 checker assertions/ten NOT RUN host contracts are preserved; source is not established Codex-ready.",
-    "Public bundled updates use complete updated-version ZIP/checks/applicable review/chosen Publish; live implementations and tool definitions need independent evidence. Publication does not grant provider access."
+    "3 October commercial decision: serve an existing customer’s included task, redesign a digital sales-dependent flow, or obtain narrowly targeted clarification; no policy change/date established.",
+    "One fictional read-only project-status flow and six copy/boundary/next-decision cases are hypothetical design review / NOT RUN, not observed tests, compliance scores or approval.",
+    "Server credentials/scopes/permissions are documented obligations. Identity → resource → feature ordering, linkless denial and genuinely included fallback are our design synthesis; authentication is not entitlement.",
+    "General checkout wording versus eligible-physical-goods merchant-saved-method API/UI scope is conflicting / unresolved; no universal enabling, digital exception or SaaS payment route established.",
+    "Prior 2 October recorder distinguishes chosen source bytes, loaded host/session, reviewed/published bundle and live remote MCP deployment; 49 engineering assertions are not update delivery or plugin success rates.",
+    "Original Meeting Evidence 0.1.0 source/downloads, 1 October kit/33 checker assertions/ten NOT RUN host contracts and historical reports are preserved; sample is not established Codex-ready.",
+    "Choose the smallest sufficient architecture and supported host. Public publication does not grant provider access or establish discovery, demand, payout or revenue."
   ],
   "uncertainty": [
     "Universal-directory rollout/announcement date not established.",
@@ -20,9 +21,11 @@
     "Annotation justification and MCP endpoint-change guidance conflict; inspect live portal/support.",
     "No review SLA, discovery guarantee, adoption or revenue evidence.",
     "Sample host compatibility, installed-version evidence, explicit/implicit activation, model quality and injection/outside-action behavior remain unobserved.",
-    "Pending/rejected-review old-package retention and adopter access continuity not directly established; actual loaded/public/deployed state remains unobserved."
+    "Pending/rejected-review old-package retention and adopter access continuity not directly established; actual loaded/public/deployed state remains unobserved.",
+    "Physical-goods saved-method checkout scope versus general guideline wording remains conflicting / unresolved; no source precedence or integration-specific approval/enabling established.",
+    "No live entitlement-information destination or redirect audited; proposed links remain conditional. All six commercial cases are unperformed design reviews, not connected behavior."
   ],
-  "checked_at": "2026-10-02T13:23:55.478299Z",
-  "meaningfully_updated_at": "2026-10-02T13:30:14.794963Z",
-  "freshness_note": "Five primary resources retrieved at day precision on 2 October 2026 UTC; checked_at is observed saved-ledger review time, not exact web-fetch time. Consequential update/session/MCP claims reconfirmed; no substantive changed rule or release date established. Endpoint conflict persists; annotation paired check stays 1 October. Catalog, price, migration, workspace sync, chronology and broader surface/account observations retain saved September dates. Current recorder engineering evidence is offline/simulation-only; no source/version/old download, host record or historic report changed."
+  "checked_at": "2026-10-03T13:11:38Z",
+  "meaningfully_updated_at": "2026-10-03T13:18:56Z",
+  "freshness_note": "Five official pages’ consequential commerce/auth/security sections inspected 3 October 2026 within observed tool-call clock brackets 12:57:28–12:58:37 UTC, not individual HTTP timestamps. checked_at and new B evidence accessed_at are observed saved-ledger review time. Existing SaaS boundary reconfirmed; precise parity/listing/auth and saved-method API/UI detail newly inspected, not newly released. No changed rule/date established. Endpoint paired check remains 2 October; annotation paired check remains 1 October. Catalogue, prices, migration, workspace sync, chronology, payout and placement retain saved September dates. Prior engineering evidence/dates and original downloads/reports/tool retained; no host, account, API, payment, destination, support or demand work performed."
 }
