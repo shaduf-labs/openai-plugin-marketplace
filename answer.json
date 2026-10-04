@@ -1,19 +1,21 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "OpenAI plugins are installable packages of reusable skills, tool connections or both. The universal plugin directory is their shared public distribution source for supported ChatGPT and Codex surfaces; eligibility and execution remain plugin-, host-, account-, workspace- and provider-dependent. Public plugins can serve already-entitled SaaS customers, but the inspected guidelines prohibit digital sales/upsells through the plugin; external checkout is not a digital exception.",
+  "current_answer": "OpenAI plugins are installable packages of reusable skills, tool connections or both. The universal plugin directory is their shared public distribution source for supported ChatGPT and Codex surfaces; eligibility and execution remain plugin-, host-, account-, workspace- and provider-dependent. Builders should separate private retrieval and unsaved previews from external sends; accurate metadata is neither access permission nor operation consent.",
   "catalogue_card": {
     "question": "What is OpenAI’s new plugin marketplace, what can people use today, and how can developers build and publish useful plugins?",
-    "text": "A developer-first guide: serve existing SaaS entitlements without an upgrade funnel; inspect source and keep offline checks separate from loaded, published and live-service evidence."
+    "text": "A developer-first guide: separate private reads, unsaved previews and approved sends; inspect source and distinguish hypothetical design, offline checks and actual host/public/service evidence."
   },
   "summary": [
-    "3 October commercial decision: serve an existing customer’s included task, redesign a digital sales-dependent flow, or obtain narrowly targeted clarification; no policy change/date established.",
-    "One fictional read-only project-status flow and six copy/boundary/next-decision cases are hypothetical design review / NOT RUN, not observed tests, compliance scores or approval.",
-    "Server credentials/scopes/permissions are documented obligations. Identity → resource → feature ordering, linkless denial and genuinely included fallback are our design synthesis; authentication is not entitlement.",
-    "General checkout wording versus eligible-physical-goods merchant-saved-method API/UI scope is conflicting / unresolved; no universal enabling, digital exception or SaaS payment route established.",
-    "Prior 2 October recorder distinguishes chosen source bytes, loaded host/session, reviewed/published bundle and live remote MCP deployment; 49 engineering assertions are not update delivery or plugin success rates.",
-    "Original Meeting Evidence 0.1.0 source/downloads, 1 October kit/33 checker assertions/ten NOT RUN host contracts and historical reports are preserved; sample is not established Codex-ready.",
-    "Choose the smallest sufficient architecture and supported host. Public publication does not grant provider access or establish discovery, demand, payout or revenue."
+    "4 October decision: split and enforce authenticated-human approval for a fixed external send; otherwise ship read + unsaved preview only or obtain precise host/provider clarification.",
+    "Entire fictional workflow, three non-executable contracts, confirmation copy, source bundles/limits, provider-owned approval channel, step-up, 10-minute example and reservation/recovery are original design / NOT RUN—not OpenAI APIs, an implemented sender or safety/exactly-once guarantee.",
+    "Declared bounded read and in-process unsaved preview each conditionally use readOnlyHint=true, destructiveHint=false, openWorldHint=false; declared irreversible open-ended email uses false,true,true respectively. Independent hints describe complete capabilities, not authority or harmless defaults.",
+    "Saved drafts/approvals/jobs/dispatch records are stateful, not pure preview. Deliberate persistence must not be hidden; incidental infrastructure logging annotation scope remains unresolved.",
+    "Source text, account connection, write scope, model confirmed:true and chat text alone are not trustworthy consent proof. Proposed send binds authenticated human/account/project/resource versions/recipient/exact subject/body, current rights, expiry/reuse and known outcome.",
+    "Annotation-justification field conflict narrowly paired 4 October remains unresolved; no changed rule established. Endpoint conflict stays 2 October; checkout tension stays 3 October and other readiness stays 1 October.",
+    "3 October commercial decision retained: serve already-entitled SaaS tasks without digital sales/upsells. Six hypothetical commercial cases remain NOT RUN; checkout scope is not a digital exception.",
+    "Original Meeting Evidence source/downloads and prior reports/kits are preserved. 33 checker and 49 recorder assertions remain separate offline engineering evidence; ten host specifications remain NOT RUN and sample is not established Codex-ready.",
+    "Choose the smallest sufficient architecture and supported host. Publication grants neither provider access nor discovery, demand, payout or revenue; disconnected analytics is not zero readership."
   ],
   "uncertainty": [
     "Universal-directory rollout/announcement date not established.",
@@ -23,9 +25,11 @@
     "Sample host compatibility, installed-version evidence, explicit/implicit activation, model quality and injection/outside-action behavior remain unobserved.",
     "Pending/rejected-review old-package retention and adopter access continuity not directly established; actual loaded/public/deployed state remains unobserved.",
     "Physical-goods saved-method checkout scope versus general guideline wording remains conflicting / unresolved; no source precedence or integration-specific approval/enabling established.",
-    "No live entitlement-information destination or redirect audited; proposed links remain conditional. All six commercial cases are unperformed design reviews, not connected behavior."
+    "No live entitlement-information destination or redirect audited; proposed links remain conditional. All six commercial cases are unperformed design reviews, not connected behavior.",
+    "Actual authenticated-human approval channel, host/backend fixed-argument fidelity and provider idempotency/status/recovery semantics remain unobserved; the hypothetical design does not prove a deployment can enforce them.",
+    "Incidental infrastructure logging annotation scope is not delineated by inspected texts; application persistence is stateful and cannot be concealed as pure preview."
   ],
-  "checked_at": "2026-10-03T13:11:38Z",
-  "meaningfully_updated_at": "2026-10-03T13:18:56Z",
-  "freshness_note": "Five official pages’ consequential commerce/auth/security sections inspected 3 October 2026 within observed tool-call clock brackets 12:57:28–12:58:37 UTC, not individual HTTP timestamps. checked_at and new B evidence accessed_at are observed saved-ledger review time. Existing SaaS boundary reconfirmed; precise parity/listing/auth and saved-method API/UI detail newly inspected, not newly released. No changed rule/date established. Endpoint paired check remains 2 October; annotation paired check remains 1 October. Catalogue, prices, migration, workspace sync, chronology, payout and placement retain saved September dates. Prior engineering evidence/dates and original downloads/reports/tool retained; no host, account, API, payment, destination, support or demand work performed."
+  "checked_at": "2026-10-04T13:12:17Z",
+  "meaningfully_updated_at": "2026-10-04T13:19:42Z",
+  "freshness_note": "Four core official pages and only paired annotation-error entries independently inspected 4 October 2026, observed tool-call clock bracket 12:59:24–12:59:55 UTC—not individual HTTP timestamps. checked_at and new A evidence accessed_at are observed Publisher saved-ledger review time. Saved consent/minimization/server enforcement reconfirmed; finer operation split, pure/stateful effects, independent hints and retry precision newly inspected. Changed with evidence: none. Annotation conflict now narrowly paired 4 October; other submission/readiness remains 1 October. Endpoint stays 2 October, checkout tension stays 3 October. Catalogue, prices, migration, chronology, workspace sync and unrefreshed worksheets retain saved dates. All current operational design/protocol/copy hypothetical / NOT RUN; three traps are lessons, not tests. Prior 33/49 engineering and ten host/six commercial NOT RUN evidence retained. No live host/provider/send/approval/portal/support/demand/media work performed."
 }

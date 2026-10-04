@@ -740,6 +740,156 @@
       "accessed_at": "2026-10-03T13:11:38Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a01-2026-10-04",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/plan/tools",
+      "title": "Define tools · Map use cases to tools",
+      "claim": "Separate differing permission/risk/confirmation boundaries and reads from writes. Newly inspected canonical precision; our entire worked workflow is hypothetical / NOT RUN. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "accessed_at": "2026-10-04T13:12:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a02-2026-10-04",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/plan/tools",
+      "title": "Define tools · Define each contract",
+      "claim": "Explicit inputs/output, authorization, effects and failure belong in the contract; minimize secrets/data. Newly inspected detail; fictional fields/limits/source bundles are original design, not official schemas. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "accessed_at": "2026-10-04T13:12:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a03-2026-10-04",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/plan/tools",
+      "title": "Define tools · Plan safety annotations",
+      "claim": "Hints do not enforce access, input validity or consequential-action confirmation. Saved metadata-versus-authority principle reconfirmed. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "accessed_at": "2026-10-04T13:12:17Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a04-2026-10-04",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
+      "title": "Guidelines · Tools · behavior / independent exposure",
+      "claim": "Expose independent model-callable operations with descriptions/schemas matching behavior, not hidden executor modes. Newly inspected precision. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "accessed_at": "2026-10-04T13:12:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a05-2026-10-04",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
+      "title": "Guidelines · Tools · Correct annotation",
+      "claim": "All three booleans must be explicit; this page says explanations are no longer required. Reconfirmed but conflicts with A14 and review language. Annotation-only paired conflict checked 4 October, unresolved; other readiness not refreshed. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "accessed_at": "2026-10-04T13:12:17Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a06-2026-10-04",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
+      "title": "Guidelines · Correct annotation · pure/stateful effects",
+      "claim": "State-free retrieval/computation/preview differs from persisted artifacts, approvals/jobs/queues and sends. Newly inspected mode/persistence detail; our pure preview excludes deliberate application persistence. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "accessed_at": "2026-10-04T13:12:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a07-2026-10-04",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
+      "title": "Guidelines · Correct annotation · irreversible actions",
+      "claim": "Irreversible effects require destructiveHint; false only fits additive non-destructive/non-irreversible writes. Undo availability alone is insufficient. Newly inspected distinction, not a change finding. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "accessed_at": "2026-10-04T13:12:17Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a08-2026-10-04",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
+      "title": "Guidelines · Correct annotation · open-world scope",
+      "claim": "Open-ended/public scope is independent of mutability; bounded private hosting alone does not establish open-world behavior. Conditional read/preview true,false,false and external email false,true,true follow exact assumed capabilities—not permission. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "accessed_at": "2026-10-04T13:12:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a09-2026-10-04",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
+      "title": "Guidelines · minimal inputs / data handling / permissions",
+      "claim": "Minimize purposeful inputs/results; no full-chat reconstruction or unnecessary diagnostics; explicit minimal permissions. Reconfirmed broad minimization and newly inspected precise boundaries. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "accessed_at": "2026-10-04T13:12:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a10-2026-10-04",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
+      "title": "Guidelines · Predictable, auditable behavior",
+      "claim": "Disclose effects and repeated-effect retry risks. Newly inspected precision. Our reserved-attempt/status recovery is conditional design / NOT RUN, no universal exactly-once guarantee. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "accessed_at": "2026-10-04T13:12:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a11-2026-10-04",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/guides/security-privacy",
+      "title": "Security · Principles / Prompt injection and write actions",
+      "claim": "Least privilege/consent, malicious-input expectation, server validation and irreversible-action human confirmation reconfirmed. Human-only issuer/step-up/fixed record are our proposed mechanism / NOT RUN, not verified OpenAI protocol. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "accessed_at": "2026-10-04T13:12:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a12-2026-10-04",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/guides/security-privacy",
+      "title": "Security · Data handling / Authentication & authorization",
+      "claim": "Minimize results, disclose retention, redact logs and enforce scopes/credentials each call. Reconfirmed; approval cannot override current read/export/send rights. OAuth/network/UI sections not refreshed; no enforcement test. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "accessed_at": "2026-10-04T13:12:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a13-2026-10-04",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/app-review",
+      "title": "Review · tool-scanning metadata / annotation mismatch",
+      "claim": "Scans import advertised values; explanations cannot override them. Complete classification includes modes, defaults and indirect effects. Accurate-metadata principle reconfirmed; all-mode precision newly inspected. No actual scan/review. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "accessed_at": "2026-10-04T13:12:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a14-2026-10-04",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission-errors",
+      "title": "Errors · annotation entries only",
+      "claim": "Final submission and annotations_required/justification_required still require explanations; conflicts with A05 and review wording. Narrow paired 4 October scope, not readiness refresh or resolved precedence. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "accessed_at": "2026-10-04T13:12:17Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "a15-2026-10-04",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/app-review",
+      "title": "Review · annotation mismatch · logging",
+      "claim": "Review includes writing logs among state-change examples; paired Security retention/redaction basis is independently linked in A12. Incidental infrastructure scope not delineated. Neither every-log-write makes every read a write nor logs-never-matter established; deliberate application persistence is stateful. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "accessed_at": "2026-10-04T13:12:17Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
     }
   ]
 }

@@ -44,6 +44,17 @@
       "summary": "Five bounded primary pages and a pre-build SaaS decision: one fictional upgrade-flow replacement, six source-mapped copy/next-decision cases and linkless denial. All cases hypothetical design review / NOT RUN; no connected/destination/payment tests. Physical-goods checkout scope unresolved, no changed rule/date established. Started_at is observed manager preparation time, not exact host launch; completion describes bounded study/editorial preparation, not Runtime acceptance/publication.",
       "report_path": "/p/openai-plugin-marketplace/reports/2026-10-03.html",
       "entrypoint": "reports/2026-10-03.html"
+    },
+    {
+      "run_id": "run:2e8d9aac-795b-49ff-ad74-cd41ac20a38e",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-04T12:48:27.414971Z",
+      "completed_at": "2026-10-04T13:19:42Z",
+      "title": "Separate private-data summaries from external sends",
+      "summary": "Four official pages plus annotation-error pairing; decision-first before/redesign, three non-executable contracts, exact fictional copy and provider-owned human-only consent design. Entire workflow/protocol hypothetical / NOT RUN; no operation, approval or safety/exactly-once result. Annotation conflict unresolved with narrow 4 October date; no changed rule. Started_at is observed manager preparation, not exact host launch; completion describes bounded study/editorial preparation, not Runtime acceptance/publication.",
+      "report_path": "/p/openai-plugin-marketplace/reports/2026-10-04.html",
+      "entrypoint": "reports/2026-10-04.html"
     }
   ]
 }

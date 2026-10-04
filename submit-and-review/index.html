@@ -16,7 +16,7 @@
     <meta property="og:description" content="Prepare first-public-release evidence and distinguish every review gate.">
     <meta property="og:url" content="https://shaduf.ai/p/openai-plugin-marketplace/submit-and-review/">
     <meta name="twitter:card" content="summary">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Submit and review","description":"Prepare first-public-release evidence and distinguish every review gate.","dateModified":"2026-10-03T13:18:56Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/openai-plugin-marketplace/submit-and-review/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Submit and review","description":"Prepare first-public-release evidence and distinguish every review gate.","dateModified":"2026-10-04T13:19:42Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/openai-plugin-marketplace/submit-and-review/"}</script>
     <link rel="alternate" type="application/atom+xml" title="OpenAI Plugin Marketplace Guide updates" href="../feed.xml"><link rel="stylesheet" href="../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_openai_plugin_marketplace" data-page-id="submit-and-review">
     <a class="skip-link" href="#pool-content">Skip to content</a>
     <header class="app-header">
@@ -47,7 +47,7 @@
   </aside>
     <main class="center-surface" id="pool-content"><article class="center-document" data-agent-document>
       
-      <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><p class="pg-kicker">Developer guide · consequential public-release guidance rechecked 1 October 2026</p>
+      <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><p class="pg-kicker">Developer guide · readiness guidance checked 1 October · narrow annotation behavior/field conflict inspected 4 October 2026</p>
 <h1>Submit and review a public plugin</h1>
 <p class="pg-lead">Prepare evidence for a first public release without confusing ZIP upload, final validation, review, approval and the developer’s Publish action.</p>
 
@@ -71,8 +71,11 @@ MCP endpoint/domain/auth/reviewer account (if applicable):
 MCP five positive + three negative cases and demo (if applicable):
 Live portal conflicts still requiring clarification:
 Review outcome and separate Publish decision: NOT PERFORMED</code></pre><p>This is our preparation template, not a portal schema or evidence that any row has passed.</p>
-<h2>Do not silently resolve the annotation conflict</h2><aside class="pg-note"><strong>Guidance disagrees on justification fields.</strong><p>Plugin guidelines say annotation justifications are no longer required; the error reference still requires them, and review guidance uses justification language. Keep annotation semantics accurate and confirm the current portal/support requirement. We did not submit an MCP package or settle the conflict.</p></aside>
-<p><span class="pg-source"><a href="https://developers.openai.com/plugins/plugin-guidelines">Plugin guidelines</a>, <a href="https://developers.openai.com/plugins/deploy/submission-errors">Submission error reference</a>, <a href="https://developers.openai.com/plugins/deploy/app-review">MCP review and distribution</a>. Checked 1 Oct 2026.</span></p>
+<h2 id="annotation-conflict">Advertise the full behavior; do not guess required explanation fields</h2>
+<p><strong>Narrow check · 4 October 2026.</strong> Explicit <code>readOnlyHint</code>, <code>destructiveHint</code> and <code>openWorldHint</code> values must describe all supported modes/defaults and indirect effects—not a favorable dry run or tool name. The flags are independent; explanations cannot override scanned values. A saved draft, job or outbound send cannot hide behind “read-only preview.” <a href="../security-and-permissions/index.html#contracts">Inspect the conditional three-operation example</a>.</p>
+<p class="pg-source"><a href="https://developers.openai.com/plugins/plugin-guidelines">Guidelines · MCP requirements → Tools → Correct annotation</a>, <a href="https://developers.openai.com/plugins/deploy/app-review">MCP review · Metadata stored during tool scanning / annotation mismatch</a>. Only consequential behavior/annotation sections refreshed; no scan performed.</p>
+<aside class="pg-note"><strong>Justification-field guidance still disagrees.</strong><p>Guidelines says annotation explanations are no longer required; the submission-error reference still requires them, while review uses justification language. No portal/support answer or documented precedence resolves this. Confirm which explanations the actual current submission path requires, keeping advertised values accurate either way.</p></aside>
+<p class="pg-source"><a href="https://developers.openai.com/plugins/plugin-guidelines">Correct annotation</a>, <a href="https://developers.openai.com/plugins/deploy/submission-errors">Final directory submission / annotations_required / justification_required</a>, <a href="https://developers.openai.com/plugins/deploy/app-review">Review FAQs · annotation mismatch</a>. Paired annotation-only conflict checked 4 Oct. No changed rule established; other readiness material retains 1 Oct.</p>
 <p>After approval, choosing Publish remains a separate action. Exact-name/direct-link discovery is not discretionary enhanced placement; no review SLA or approval promise was established.</p>
 <p><span class="pg-source"><a href="https://developers.openai.com/plugins/deploy/app-review">MCP review and distribution</a>. Checked 1 Oct 2026.</span></p><p><a href="../distribute-and-maintain/index.html">Next: choose distribution and maintain the release →</a> · <a href="../security-and-permissions/index.html">Revisit the trust boundary</a></p>
 <p class="pg-small"><strong>Maintaining a public release?</strong> <a href="../distribute-and-maintain/index.html#live-boundaries">Separate the complete versioned-bundle/Publish record from live scans and deployments</a>. Publish replacement is documented; universal old-package retention during pending review is not directly established. <span class="pg-source"><a href="https://developers.openai.com/plugins/deploy/submission">Public submission and updates</a>. Checked 2 Oct 2026.</span></p>
@@ -91,7 +94,7 @@ Review outcome and separate Publish decision: NOT PERFORMED</code></pre><p>This 
       <section class="right-section">
         <h3>Current position</h3>
         <div class="release-state state-live"><i></i><span>live</span></div>
-        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 12:45 UTC</dd></div><div><dt>Latest research</dt><dd>3 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official announcements, developer documentation, plugin listings, upstream code and verified examples.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 12:45 UTC</dd></div><div><dt>Latest research</dt><dd>4 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official announcements, developer documentation, plugin listings, upstream code and verified examples.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
       </section>
       <section class="right-section"><h3>Research boundary</h3><p>Explain the ecosystem from primary sources, verify practical examples and track changes with dated research.</p><a href="../index.html">Full pool information →</a></section>
     </div>

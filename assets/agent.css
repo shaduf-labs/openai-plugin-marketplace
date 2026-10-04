@@ -136,3 +136,20 @@
 [data-agent-document] [data-agent-document] .pg-commerce-sequence>li{padding:.65rem 0 .65rem .2rem;border-bottom:1px solid var(--border,#dce1db);line-height:1.65}
 [data-agent-document] [data-agent-document] .pg-commerce-sequence p{margin:.3rem 0 0;font-size:.95em}
 @container(max-width:34em){[data-agent-document] [data-agent-document] .pg-commerce-flow>ol>li{flex-direction:column;gap:.6rem}[data-agent-document] [data-agent-document] .pg-commerce-stage{flex:auto;flex-direction:row;align-items:baseline;gap:.65rem}[data-agent-document] [data-agent-document] .pg-commerce-flow>ol>li>div:last-child{flex:auto}}
+
+
+/* Action-boundary explanation: native document, not an executable sender or product UI. */
+[data-agent-document] [data-agent-document] .pg-action-flow{margin:1.5rem 0;border-top:3px solid #608372;border-bottom:1px solid var(--border,#dce1db)}
+[data-agent-document] [data-agent-document] .pg-action-flow figcaption{text-align:left;padding:1rem 0;line-height:1.6}
+[data-agent-document] [data-agent-document] .pg-action-flow figcaption>span{display:block;font-size:.88em;color:var(--muted,#626962);margin-top:.3rem}
+[data-agent-document] [data-agent-document] .pg-action-before{padding:.9rem 1rem;border-left:3px solid #997366;border-top:1px solid var(--border,#dce1db)}
+[data-agent-document] [data-agent-document] .pg-action-before p{margin:.45rem 0 0;line-height:1.7}
+[data-agent-document] [data-agent-document] .pg-action-stages{list-style:none;margin:0;padding:0}
+[data-agent-document] [data-agent-document] .pg-action-stages>li{display:flex;gap:.85rem;padding:1rem 0;border-top:1px solid var(--border,#dce1db);line-height:1.65}
+[data-agent-document] [data-agent-document] .pg-action-stages>li>div{min-width:0;flex:1}
+[data-agent-document] [data-agent-document] .pg-action-number{flex:0 0 2rem;color:#52745f;font-size:1.2em;font-variant-numeric:tabular-nums}
+[data-agent-document] [data-agent-document] .pg-action-stages p{margin:.3rem 0 0}
+[data-agent-document] [data-agent-document] .pg-action-stateful{border-left:3px solid #608372;padding-left:.8rem!important;background:color-mix(in srgb,var(--surface,#fff) 96%,#6b9475)}
+[data-agent-document] [data-agent-document] .pg-action-stop{padding:.85rem 0;margin:0;border-top:2px solid #90a495;line-height:1.7}
+[data-agent-document] [data-agent-document] .pg-action-copy{overflow-wrap:anywhere}
+[data-agent-document] [data-agent-document] .pg-action-contract pre{margin:.8rem 0 0}
