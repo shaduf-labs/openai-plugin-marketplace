@@ -890,6 +890,96 @@
       "accessed_at": "2026-10-04T13:12:17Z",
       "relation": "unresolved",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-05-H01",
+      "source_type": "official documentation; independent Runner current retrieval, Publisher saved-ledger review",
+      "source_url": "https://developers.openai.com/plugins/build/plugins",
+      "title": "Package your plugin · Plugin creator output",
+      "claim": "Newly inspected: empty optional hooks scaffolding is not runnable configuration (949–963). Call bracket 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at records saved-ledger review. Changed with evidence: none.",
+      "accessed_at": "2026-10-05T13:11:37Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-05-H02",
+      "source_type": "official documentation; independent Runner current retrieval, Publisher saved-ledger review",
+      "source_url": "https://developers.openai.com/plugins/build/plugins",
+      "title": "Package your plugin · Add OpenAI-specific metadata / Path rules / Bundled MCP servers and lifecycle hooks",
+      "claim": "Settings selection reconfirmed; hook discovery newly inspected: selected inline settings replace overlay, explicit hook entries replace default discovery, root-relative ./ paths contained (1298 / 1302–1308 / 1336–1366). Call bracket 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at records saved-ledger review. Changed with evidence: none.",
+      "accessed_at": "2026-10-05T13:11:37Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-05-H03",
+      "source_type": "official documentation; independent Runner current retrieval, Publisher saved-ledger review",
+      "source_url": "https://developers.openai.com/plugins/build/plugins",
+      "title": "Package your plugin · Bundled MCP servers and lifecycle hooks",
+      "claim": "Newly inspected: web installation does not deploy scripts; plugin hooks require current-definition trust; root/data variables locate resources, not provision dependencies (1334–1335 / 1368–1369). Call bracket 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at records saved-ledger review. Changed with evidence: none.",
+      "accessed_at": "2026-10-05T13:11:37Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-05-H04",
+      "source_type": "official documentation; independent Runner current retrieval, Publisher saved-ledger review",
+      "source_url": "https://developers.openai.com/plugins/concepts/plugins",
+      "title": "Plugin architecture · introduction",
+      "claim": "Newly inspected broad Work/Codex lifecycle wording (924–929), qualified by H05/H07; not universal Work support. Call bracket 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at records saved-ledger review. Changed with evidence: none.",
+      "accessed_at": "2026-10-05T13:11:37Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-05-H05",
+      "source_type": "official documentation; independent Runner current retrieval, Publisher saved-ledger review",
+      "source_url": "https://learn.chatgpt.com/docs/plugins",
+      "title": "Plugins · Use plugins from a supported surface → Hooks",
+      "claim": "Cloud-orchestrated Work hook exclusion reconfirmed; synced Work only admin-defined MCP hooks in Agent Security newly inspected (951–956). Call bracket 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at records saved-ledger review. Changed with evidence: none.",
+      "accessed_at": "2026-10-05T13:11:37Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-05-H06",
+      "source_type": "official documentation; independent Runner current retrieval, Publisher saved-ledger review",
+      "source_url": "https://learn.chatgpt.com/docs/hooks",
+      "title": "Hooks · How hooks run / Review and trust hooks",
+      "claim": "Newly inspected: listed config precedes eligibility; non-managed trust binds exact current definition/hash, changes await review; matching commands start concurrently (923–926 / 954–959). No actual state observed. Call bracket 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at records saved-ledger review. Changed with evidence: none.",
+      "accessed_at": "2026-10-05T13:11:37Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-05-H07",
+      "source_type": "official documentation; independent Runner current retrieval, Publisher saved-ledger review",
+      "source_url": "https://learn.chatgpt.com/docs/hooks",
+      "title": "Hooks · Turn hooks off / Managed hooks from requirements.toml",
+      "claim": "Newly inspected: enabled and managed-only policies matter; existing local hooks require local orchestration and execution, local execution alone does not qualify cloud orchestration (1151–1165 / 1185–1190). Call bracket 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at records saved-ledger review. Changed with evidence: none.",
+      "accessed_at": "2026-10-05T13:11:37Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-05-H08",
+      "source_type": "official documentation; independent Runner current retrieval, Publisher saved-ledger review",
+      "source_url": "https://learn.chatgpt.com/docs/hooks",
+      "title": "Hooks · Plugin-bundled hooks / Tool coverage / Managed hooks",
+      "claim": "Newly inspected: plugin hooks non-managed; hosted/specialized paths escape local coverage. Managed MCP callback failures need not block a tool or provide complete audit; no sole authorization/compliance enforcement (1191–1206 / 1237–1250 / 1162). Call bracket 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at records saved-ledger review. Changed with evidence: none.",
+      "accessed_at": "2026-10-05T13:11:37Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-05-H09",
+      "source_type": "official documentation; independent Runner current retrieval, Publisher saved-ledger review",
+      "source_url": "https://developers.openai.com/plugins/guides/submit-claude-plugin",
+      "title": "Submit your Claude Code plugin · Replace Claude userConfig / Complete the submission requirements",
+      "claim": "Newly inspected, conversion-guide context only: validate local settings/actionable errors, not core ChatGPT dependencies; local-core cases directed to partner/product-specific review (991 / 994–999). No universal binary ban/approval or actual route established. Call bracket 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at records saved-ledger review. Changed with evidence: none.",
+      "accessed_at": "2026-10-05T13:11:37Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

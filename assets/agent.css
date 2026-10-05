@@ -153,3 +153,18 @@
 [data-agent-document] [data-agent-document] .pg-action-stop{padding:.85rem 0;margin:0;border-top:2px solid #90a495;line-height:1.7}
 [data-agent-document] [data-agent-document] .pg-action-copy{overflow-wrap:anywhere}
 [data-agent-document] [data-agent-document] .pg-action-contract pre{margin:.8rem 0 0}
+
+/* Hook dependency explanation: hypothetical native document, not a product screen. */
+[data-agent-document] [data-agent-document] .pg-hook-flow{margin:1.5rem 0;border-top:3px solid #608372;border-bottom:1px solid var(--border,#dce1db)}
+[data-agent-document] [data-agent-document] .pg-hook-flow figcaption{text-align:left;padding:1rem 0;line-height:1.6}
+[data-agent-document] [data-agent-document] .pg-hook-flow figcaption>span{display:block;font-size:.88em;color:var(--muted,#626962);margin-top:.3rem}
+[data-agent-document] [data-agent-document] .pg-hook-before{border-top:1px solid var(--border,#dce1db);border-left:3px solid #997366;padding:.9rem 1rem}
+[data-agent-document] [data-agent-document] .pg-hook-before p{margin:.45rem 0 0;line-height:1.7}
+[data-agent-document] [data-agent-document] .pg-hook-after{border-top:1px solid var(--border,#dce1db);padding:1rem 0}
+[data-agent-document] [data-agent-document] .pg-hook-after>ol{margin:.6rem 0 0;padding-left:1.5rem}
+[data-agent-document] [data-agent-document] .pg-hook-after>ol>li{padding:.6rem .2rem;line-height:1.65;border-bottom:1px solid var(--border,#dce1db)}
+[data-agent-document] [data-agent-document] .pg-hook-after>ol>li:last-child{border-bottom:0}
+[data-agent-document] [data-agent-document] .pg-hook-optional{display:flex;gap:.8rem;border-top:1px dashed #90a495;border-left:3px solid #608372;padding:1rem;background:color-mix(in srgb,var(--surface,#fff) 96%,#6b9475);line-height:1.65}
+[data-agent-document] [data-agent-document] .pg-hook-optional>svg{flex:0 0 2rem;color:#52745f}
+[data-agent-document] [data-agent-document] .pg-hook-optional>div{min-width:0;flex:1}
+[data-agent-document] [data-agent-document] .pg-hook-optional p{margin:.4rem 0 0}

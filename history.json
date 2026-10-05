@@ -55,6 +55,17 @@
       "summary": "Four official pages plus annotation-error pairing; decision-first before/redesign, three non-executable contracts, exact fictional copy and provider-owned human-only consent design. Entire workflow/protocol hypothetical / NOT RUN; no operation, approval or safety/exactly-once result. Annotation conflict unresolved with narrow 4 October date; no changed rule. Started_at is observed manager preparation, not exact host launch; completion describes bounded study/editorial preparation, not Runtime acceptance/publication.",
       "report_path": "/p/openai-plugin-marketplace/reports/2026-10-04.html",
       "entrypoint": "reports/2026-10-04.html"
+    },
+    {
+      "run_id": "run:afd2f9d9-066b-48f1-bbac-8bb104bcca7a",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-05T12:50:46.691286Z",
+      "completed_at": "2026-10-05T13:21:20.430410Z",
+      "title": "Can a public plugin rely on a local startup hook?",
+      "summary": "Five bounded current primary pages; one required-core/optional-local-helper decision, hypothetical before/after, dependency sketch and truthful release claim. Entire fictional design/stop NOT RUN, not enforced compliance, deployment or portability. No changed rule; old evidence/dates retained. Started_at is observed manager preparation; completed_at is observed bounded study/editorial candidate preparation, not Runtime acceptance/delivery/publication.",
+      "report_path": "/p/openai-plugin-marketplace/reports/2026-10-05.html",
+      "entrypoint": "reports/2026-10-05.html"
     }
   ]
 }
