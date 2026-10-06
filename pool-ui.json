@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "default_page": "home",
-  "meaningfully_updated_at": "2026-10-05T13:21:20.430410Z",
+  "meaningfully_updated_at": "2026-10-06T13:10:44.623284Z",
   "pages": [
     {
       "id": "home",
@@ -24,7 +24,7 @@
       "label": "Choose architecture",
       "icon": "layers",
       "group": "Start here",
-      "description": "Choose components and a compatible host; inspect four dated task patterns.",
+      "description": "Choose components and host; distinguish conditional local hook design from public-ZIP eligibility.",
       "parent": null,
       "entrypoint": "choose-architecture/index.html",
       "entrypoint_type": "html_fragment",
@@ -84,7 +84,7 @@
       "label": "Submit and review",
       "icon": "upload",
       "group": "Publish",
-      "description": "Prepare first-public-release evidence and distinguish every review gate.",
+      "description": "Choose an eligible release channel before review materials; distinguish remaining public gates and source tensions.",
       "parent": null,
       "entrypoint": "submit-and-review/index.html",
       "entrypoint_type": "html_fragment",

@@ -1,16 +1,18 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "OpenAI plugins are installable packages of reusable skills, tool connections or both. The universal plugin directory distributes them for supported hosts, not universal execution or access. Builders should keep essential required-policy/input handling in the proposed core and make local lifecycle helpers optional and environment-qualified; installation, trust, execution and actual policy use are separate evidence. Skill instructions and hook checks are not an enforced compliance boundary.",
+  "current_answer": "OpenAI plugins are installable packages of skills, tool connections or both; the universal directory distributes them for supported hosts, not universal execution or access. Current public-ZIP guidance excludes lifecycle hooks and registered MCP server mappings (apps / .app.json). Local support or optionality does not establish public eligibility: choose a bounded local scope, a separately useful public candidate without excluded components, or stop/redesign/clarify. The separate public option is unimplemented; conversion guidance has an unresolved submission-context hook tension.",
   "catalogue_card": {
     "question": "What is OpenAI’s new plugin marketplace, what can people use today, and how can developers build and publish useful plugins?",
-    "text": "A developer-first guide: keep essential policy in the proposed core, qualify optional local hooks, inspect unchanged source and separate hypothetical design, offline checks and actual host/public/service evidence."
+    "text": "A developer-first guide: choose local versus public release scope before review materials, inspect unchanged source, and keep documented restrictions, hypothetical designs, offline checks and unobserved host/public gates separate."
   },
   "summary": [
-    "5 October decision: core required-policy/input handling plus optional locally qualified SessionStart convenience; narrow with prerequisites/review clarification, redesign or stop for essential local/enforced behavior.",
-    "One fictional repository review, non-executable dependency sketch, intended missing-policy stop/request and truthful proposed release claim are entirely hypothetical / NOT RUN—not a helper implementation, observed output, enforced control or universal portability.",
+    "6 October decision: current public ZIP restriction excludes lifecycle hooks and registered MCP mappings, not optional MCP UI. Optional/disabled/local support does not earn eligibility; direct-MCP setup requires legitimate authority and remaining gates.",
+    "One channel-choice card: bounded local/repo/workspace variant; a separate public scope only if meaningful core survives (unimplemented); otherwise stop/redesign/clarify. Removing exclusions does not pass host/behavior/utility/security/metadata/setup/scan/review/approval/Publish.",
+    "Active 5 October core-plus-optional-helper advice and release copy corrected to conditional local/repo/workspace design intention; fictional workflow, required-policy stop and all real behavior remain NOT RUN. Historical report and host/trust dates unchanged.",
     "Empty scaffolding/configuration/installation, available script/interpreter, qualifying orchestration, enabled/trusted current definition, matched event/context and genuine policy use are distinct. Reference presence is not reading/obedience; definition identity is not transitive all-byte provenance.",
-    "Broad Work/Codex hook wording is paired with local/cloud/synced Learn qualifications. Conversion-guide local-core caution stays contextual, not binary approval or universal local ban. Changed with evidence: none.",
+    "Conversion support tables direct hook adaptation in both submission paths before submission steps, in tension with the explicit ZIP gate. No source precedence, established exception, changed rule or observed rejection. Local discovery and errors stripping/warnings are scoped, not a workaround.",
+    "Saved 5 October host evidence retained: broad Work/Codex wording has local/cloud/synced Learn qualifications. Installation/configuration, available resources, enabled/trusted current definition, actual event/context and genuine policy use remain distinct; instruction is not enforcement.",
     "4 October read/unsaved-preview/send design retained: metadata is not consent; omit send without an enforceable actual authenticated-human fixed-action approval boundary. Entire protocol remains NOT RUN.",
     "3 October commercial decision retained: serve already-entitled SaaS tasks without digital sales/upsells. Six hypothetical commercial cases remain NOT RUN; checkout scope is not a digital exception.",
     "Annotation conflict stays 4 October, endpoint conflict 2 October, checkout tension 3 October; other readiness 1 October and unrefreshed surface/catalog/prices/migration/chronology keep saved dates.",
@@ -18,6 +20,8 @@
     "Choose the smallest sufficient architecture and actual supported host. Publication grants no provider access, discovery, demand, payout or revenue; disconnected analytics is not zero readership."
   ],
   "uncertainty": [
+    "Public hook-adaptation conversion guidance versus the explicit ZIP exclusion remains unresolved; no authoritative precedence, exception, controlling real path or observed parser/normalization/enforcement outcome.",
+    "Optional/disabled/untrusted, unselected/undeclared and empty-scaffold exemptions are not established. A separate public scope without excluded components is unimplemented and its useful core/remaining gates unproven.",
     "Universal-directory rollout/announcement date not established.",
     "Exact account tiers, per-surface parity, provider scopes and authenticated workflow reliability remain unverified.",
     "Annotation justification and MCP endpoint-change guidance conflict; inspect live portal/support.",
@@ -31,7 +35,7 @@
     "Actual supported orchestration, selected loaded hook configuration/resources/interpreter, current definition trust/enable/managed-policy state, event/context and genuine policy use remain UNKNOWN / NOT RUN.",
     "Transitive script/dependency provenance, applicable local-core review route and native-binary provision/download/signing/public acceptance remain unestablished; intended policy stop is not a reliable enforced guarantee."
   ],
-  "checked_at": "2026-10-05T13:11:37Z",
-  "meaningfully_updated_at": "2026-10-05T13:21:20.430410Z",
-  "freshness_note": "Five assigned canonical official pages and consequential hook/dependency sections independently inspected 5 October 2026, actual-call clock bracket 13:02:45–13:03:15 UTC—not per-HTTP time or source release/change date. checked_at and new H accessed_at record observed Publisher saved-ledger review. Selected settings/cloud-Work exclusion reconfirmed; finer discovery/trust/orchestration/incomplete-enforcement/conversion-context precision newly inspected. Changed with evidence: none. Only H01–H09 advance; annotation conflict 4 October, endpoint 2 October, checkout 3 October, other readiness 1 October and unrelated surface/catalog/prices/migration/chronology/worksheet scopes retain saved dates. Entire new workflow/resources/stop/release copy hypothetical / NOT RUN. Prior 33/49 engineering, ten host and earlier connected hypothetical evidence retained. No actual host/install/trust/policy use, binary, review/security/media or demand result."
+  "checked_at": "2026-10-06T13:04:17Z",
+  "meaningfully_updated_at": "2026-10-06T13:10:44.623284Z",
+  "freshness_note": "Only public-ZIP/channel claims advance to 6 October 2026: three canonical official pages plus necessary bounded conversion sections independently inspected, actual-call clock bracket 12:56:27–12:57:24 UTC, not HTTP/release/change dates. checked_at and new Z accessed_at record observed Publisher saved-ledger review. Restriction/direct-MCP pairing newly inspected; local packaging/discovery/skills-only exclusions and distinct gates reconfirmed; scoped normalization and genuine conversion submission-context tension unresolved. Changed with evidence: none. Host/trust remains 5 October, annotation 4 October, endpoint 2 October, checkout 3 October, other readiness 1 October; unrelated catalogue/price/migration/chronology/worksheets retain saved dates. No useful variant/adapted ZIP/implementation/host/portal/scan/review/media/demand result. Original bytes, prior reports, separate 33/49 offline engineering evidence and ten host NOT RUN records retained. Active advice correction is meaningful, not a platform rule-change claim."
 }

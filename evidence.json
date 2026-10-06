@@ -980,6 +980,106 @@
       "accessed_at": "2026-10-05T13:11:37Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-06-Z01",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission",
+      "title": "Submission · Automatically provide submission and review information (1062–1066)",
+      "claim": "Newly inspected: current public ZIP guidance excludes lifecycle hooks and registered MCP references (apps / .app.json); adjacent direction is MCP URLs/dashboard setup. Documented input restriction, not an observed rejection or changed rule. New accessed_at is observed Publisher saved-ledger review, not exact HTTP fetch time; source is current undated documentation.",
+      "accessed_at": "2026-10-06T13:04:17Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-06-Z02",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission",
+      "title": "Submission · Complete metadata examples / Codex format / Connect and scan your MCP server",
+      "claim": "Newly inspected direct remote configurations and setup pairing; verification/authentication/scans and review/approval/chosen Publish remain distinct. No server/provider authority or completed gate is granted by a mapping/example. New accessed_at is observed Publisher saved-ledger review, not exact HTTP fetch time; source is current undated documentation.",
+      "accessed_at": "2026-10-06T13:04:17Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-06-Z03",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/build/plugins",
+      "title": "Packaging · Plugin structure / Path rules / Publish official public plugins",
+      "claim": "Reconfirmed local/repo component support and separate public submission channel. Optional/local hook support does not establish public input eligibility. New accessed_at is observed Publisher saved-ledger review, not exact HTTP fetch time; source is current undated documentation.",
+      "accessed_at": "2026-10-06T13:04:17Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-06-Z04",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission-errors",
+      "title": "Errors · MCP server reference errors (1280–1298), paired Packaging · Path rules",
+      "claim": "Newly inspected distinction: apps / .app.json identify registered MCP mappings, not optional MCP UI; shared local/workspace mapping checks differ from public direct-MCP setup. No blanket UI/script/local-plugin ban inferred. New accessed_at is observed Publisher saved-ledger review, not exact HTTP fetch time; source is current undated documentation.",
+      "accessed_at": "2026-10-06T13:04:17Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-06-Z05",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/build/plugins",
+      "title": "Packaging · Add OpenAI-specific metadata / Bundled MCP servers and lifecycle hooks",
+      "claim": "Reconfirmed whole-overlay selection and default hooks/hooks.json discovery absent explicit entries. Deleting a manifest key alone is no reliable general removal remedy; local discovery does not specify public parsing. New accessed_at is observed Publisher saved-ledger review, not exact HTTP fetch time; source is current undated documentation.",
+      "accessed_at": "2026-10-06T13:04:17Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-06-Z06",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/build/plugins",
+      "title": "Packaging · Plugin creator output (947–963)",
+      "claim": "Reconfirmed empty hook scaffolding is not configuration/script; no universal empty-artifact public exemption established. New accessed_at is observed Publisher saved-ledger review, not exact HTTP fetch time; source is current undated documentation.",
+      "accessed_at": "2026-10-06T13:04:17Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-06-Z07",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/build/plugins",
+      "title": "Packaging · Bundled MCP servers and lifecycle hooks (1302–1317)",
+      "claim": "Newly paired public remote-HTTPS guidance/local-MCP contact caution with ZIP restriction. No contact-obtained exception, actual deployment or universal local ban established. New accessed_at is observed Publisher saved-ledger review, not exact HTTP fetch time; source is current undated documentation.",
+      "accessed_at": "2026-10-06T13:04:17Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-06-Z08",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission-errors",
+      "title": "Errors · ZIP upload errors and warnings / MCP server reference errors / Package warnings",
+      "claim": "Reconfirmed skills-only component exclusions; newly inspected registered-reference removal and conditional undeclared-file import warnings remain scoped normalization/validation context, not a hook workaround or observed portal result. New accessed_at is observed Publisher saved-ledger review, not exact HTTP fetch time; source is current undated documentation.",
+      "accessed_at": "2026-10-06T13:04:17Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-06-Z09",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/guides/submit-claude-plugin",
+      "title": "Conversion · Both Review what OpenAI supports tables / archive and MCP preparation (943, 950–955, 968, 973–978)",
+      "claim": "Newly inspected genuine submission-context tension: both support tables direct hook adaptation, then submission preparation, conflicting in implication with explicit ZIP exclusion. Not local-only guidance; no exception, source precedence or controlling real path established. New accessed_at is observed Publisher saved-ledger review, not exact HTTP fetch time; source is current undated documentation.",
+      "accessed_at": "2026-10-06T13:04:17Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-06-Z10",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/guides/submit-claude-plugin",
+      "title": "Conversion · Registered-reference rows / Replace Claude userConfig / Complete the submission requirements",
+      "claim": "Local-core partner/product-review caution retains saved 5 October host/dependency basis; newly paired submission context establishes no hook exception. Script resources and registered references differ; native-binary provision/acceptance remains unresolved. New accessed_at is observed Publisher saved-ledger review, not exact HTTP fetch time; source is current undated documentation.",
+      "accessed_at": "2026-10-06T13:04:17Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }
