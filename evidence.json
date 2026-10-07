@@ -1080,6 +1080,116 @@
       "accessed_at": "2026-10-06T13:04:17Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-07-D01",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/developer-commands",
+      "title": "Developer commands · codex plugin marketplace (2935–2995)",
+      "claim": "Newly inspected: codex plugin marketplace list --json returns marketplaces with name/root and optional marketplaceSource for configured/implicit marketplaces. Source/state inspection is not loaded-byte provenance. New accessed_at is observed Publisher saved-ledger review, not exact HTTP fetch time; four undated pages inspected in Runner call bracket 12:56:43–12:57:06 UTC. Changed with evidence: none.",
+      "accessed_at": "2026-10-07T13:05:06.659037Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-07-D02",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/developer-commands",
+      "title": "Developer commands · codex plugin (2881–2934)",
+      "claim": "Newly inspected: codex plugin list --json has installed/available arrays; entries include pluginId, name, marketplaceName, version, installed, enabled, source, installPolicy, authPolicy and optional marketplaceSource. installedPath belongs to add output, not list. Available is not installed; labels/auth policy do not prove loaded bytes or authorization. Actual CLI-version support unestablished. New accessed_at is observed Publisher saved-ledger review, not exact HTTP fetch time; four undated pages inspected in Runner call bracket 12:56:43–12:57:06 UTC. Changed with evidence: none.",
+      "accessed_at": "2026-10-07T13:05:06.659037Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-07-D03",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/developer-commands",
+      "title": "Developer commands · Use skills with /skills (3534–3539), paired Build skills · invocation",
+      "claim": "Newly inspected: /skills selection inserts context for the next request; explicit $ mention is documented. Record observed selection/context, not ordinary naming or fluent prose. Selection-versus-quality separation reconfirmed; no loaded-byte proof. New accessed_at is observed Publisher saved-ledger review, not exact HTTP fetch time; four undated pages inspected in Runner call bracket 12:56:43–12:57:06 UTC. Changed with evidence: none.",
+      "accessed_at": "2026-10-07T13:05:06.659037Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-07-D04",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/developer-commands",
+      "title": "Developer commands · List MCP tools with /mcp (3773–3780)",
+      "claim": "Newly inspected: /mcp concerns tools callable in this session; /mcp verbose adds server diagnostics. Merely configured servers are insufficient. Exact output/status guarantees, root cause, provider identity or task success are not established. New accessed_at is observed Publisher saved-ledger review, not exact HTTP fetch time; four undated pages inspected in Runner call bracket 12:56:43–12:57:06 UTC. Changed with evidence: none.",
+      "accessed_at": "2026-10-07T13:05:06.659037Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-07-D05",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/plugins",
+      "title": "Plugins · Overview / permissions (939–942, 1037–1038), paired Developer commands · /clear",
+      "claim": "Reconfirmed: new CLI session after installation is documented. Newly inspected qualifier: /clear starts a fresh chat in the same CLI session, not a guaranteed new-session equivalent. No universal restart/reinstall/update/toggle cure. Preserve original failure first. New accessed_at is observed Publisher saved-ledger review, not exact HTTP fetch time; four undated pages inspected in Runner call bracket 12:56:43–12:57:06 UTC. Changed with evidence: none.",
+      "accessed_at": "2026-10-07T13:05:06.659037Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-07-D06",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/plugins",
+      "title": "Plugins · Plugin browser in Codex CLI (1021–1028), paired Developer commands · /plugins",
+      "claim": "Reconfirmed: CLI browser exposes marketplace/plugin actions and installed-plugin toggle. Display/action is not successful state change or capability; an enable-toggle failure differs from enabled-but-missing. No repeated-toggle remedy or actual state observation. New accessed_at is observed Publisher saved-ledger review, not exact HTTP fetch time; four undated pages inspected in Runner call bracket 12:56:43–12:57:06 UTC. Changed with evidence: none.",
+      "accessed_at": "2026-10-07T13:05:06.659037Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-07-D07",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/build-skills",
+      "title": "Build skills · progressive disclosure / initial-list note (942–944)",
+      "claim": "Newly inspected: budget omissions concern only the initial model-facing skill list; full instructions are read on selection. This does not establish uninstallation or a /skills picker limit, nor diagnose this reader failure. New accessed_at is observed Publisher saved-ledger review, not exact HTTP fetch time; four undated pages inspected in Runner call bracket 12:56:43–12:57:06 UTC. Changed with evidence: none.",
+      "accessed_at": "2026-10-07T13:05:06.659037Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-07-D08",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/build-skills",
+      "title": "Build skills · Optional metadata / local skill enable controls (1018–1048)",
+      "claim": "Newly inspected: allow_implicit_invocation false blocks implicit matching while explicit invocation remains possible. Standalone local-skill lifecycle/configuration differs from plugin state; no copy-to-local or restart workaround inferred. New accessed_at is observed Publisher saved-ledger review, not exact HTTP fetch time; four undated pages inspected in Runner call bracket 12:56:43–12:57:06 UTC. Changed with evidence: none.",
+      "accessed_at": "2026-10-07T13:05:06.659037Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-07-D09",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/build/plugins",
+      "title": "Packaging · Enable or disable a plugin for a repo (1099–1107)",
+      "claim": "Newly inspected owning-state precision: local-marketplace trusted-project settings/precedence/enforced requirements differ from workspace-import managed enabled state; refreshing files can differ from enablement. Resolve only observed mismatch through supported owner controls; no config replacement or trust bypass. New accessed_at is observed Publisher saved-ledger review, not exact HTTP fetch time; four undated pages inspected in Runner call bracket 12:56:43–12:57:06 UTC. Changed with evidence: none.",
+      "accessed_at": "2026-10-07T13:05:06.659037Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-07-D10",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/build/plugins",
+      "title": "Packaging · Marketplace metadata / How local marketplaces work (1163–1185, 1203–1213)",
+      "claim": "Newly inspected: source.path resolves relative to marketplace root and Git sources may record ref/sha. Source-versus-installed-copy distinction reconfirmed. Fixed cache/version paragraph is desktop/ChatGPT-scoped, not a universal CLI path recipe; root/source/version label never authenticates bytes loaded in an actual session. New accessed_at is observed Publisher saved-ledger review, not exact HTTP fetch time; four undated pages inspected in Runner call bracket 12:56:43–12:57:06 UTC. Changed with evidence: none.",
+      "accessed_at": "2026-10-07T13:05:06.659037Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-07-D11",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/plugins",
+      "title": "Plugins · How permissions and data sharing work (1034–1039)",
+      "claim": "Reconfirmed: host sandbox/approval and external-service authentication/access are separate; plugin MCP may need setup/auth. Callable tool/skill context does not prove intended provider identity or useful authorized output. No generic Cloud move, credentials or connected operation authorized. New accessed_at is observed Publisher saved-ledger review, not exact HTTP fetch time; four undated pages inspected in Runner call bracket 12:56:43–12:57:06 UTC. Changed with evidence: none.",
+      "accessed_at": "2026-10-07T13:05:06.659037Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }
