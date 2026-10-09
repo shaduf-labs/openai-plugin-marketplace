@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "default_page": "home",
-  "meaningfully_updated_at": "2026-10-07T13:09:04.884517Z",
+  "meaningfully_updated_at": "2026-10-08T13:18:58.551175Z",
   "pages": [
     {
       "id": "home",
@@ -99,7 +99,7 @@
       "label": "Distribute and maintain",
       "icon": "git-branch",
       "group": "Publish",
-      "description": "Record changed bytes, then establish independent loaded-host, published-package and live-backend evidence.",
+      "description": "Record changed bytes and independent release evidence; check Enterprise teammate continuity before replacing a controlled GPT onboarding link.",
       "parent": null,
       "entrypoint": "distribute-and-maintain/index.html",
       "entrypoint_type": "html_fragment",

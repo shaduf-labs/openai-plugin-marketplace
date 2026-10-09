@@ -1190,6 +1190,126 @@
       "accessed_at": "2026-10-07T13:05:06.659037Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-08-C01",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/migrate-custom-gpts",
+      "title": "Migration · Introduction / Choose priority migrations / Admin FAQ prerequisites (941–953, 1057–1077, 1203–1220)",
+      "claim": "Reconfirmed / scope-sensitive: published creator/admin migration is Enterprise/workspace-qualified; published need not mean public. No actual affected account supplied. New accessed_at is observed Publisher saved-ledger review, not HTTP fetch time; four undated primary pages independently inspected in Runner actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "accessed_at": "2026-10-08T13:12:18.347353Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-08-C02",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/migrate-custom-gpts",
+      "title": "Migration · Prepare your GPT / creator Step 1 / What happens to the original GPT? (1134–1163, 1188–1190)",
+      "claim": "Private-first replacement reconfirmed; original lifecycle newly inspected: conversion makes original read-only, documented usable until retirement; future edits belong in replacement. No observed milestone, retirement date or reversible-editing guarantee. New accessed_at is observed Publisher saved-ledger review, not HTTP fetch time; four undated primary pages independently inspected in Runner actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "accessed_at": "2026-10-08T13:12:18.347353Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-08-C03",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/migrate-custom-gpts",
+      "title": "Migration · Prepare your GPT / Steps 1–2 / behavior and custom-action FAQ (1134–1172, 1244–1255)",
+      "claim": "Preservation precision newly inspected: retain real audience/instructions/reference/template/prompts/good results, harder case and important edits before conversion. Transfer/behavior limits reconfirmed: selected model does not carry over; tools/context/reference use require actual checks, not parity assumption. New accessed_at is observed Publisher saved-ledger review, not HTTP fetch time; four undated primary pages independently inspected in Runner actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "accessed_at": "2026-10-08T13:12:18.347353Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-08-C04",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/build-plugins",
+      "title": "Build plugins · Share the plugin with your team (1120–1125)",
+      "claim": "Share/install separation reconfirmed; owning permissions newly inspected / scope-sensitive: direct sharing requires Share plugins; workspace publication requires Publish plugins to workspace. Neither establishes universal public listing or actual recipient access. New accessed_at is observed Publisher saved-ledger review, not HTTP fetch time; four undated primary pages independently inspected in Runner actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "accessed_at": "2026-10-08T13:12:18.347353Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-08-C05",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/migrate-custom-gpts",
+      "title": "Migration · Check installation and app access / employee-access and rollout FAQ (1082–1092, 1222–1241)",
+      "claim": "Newly inspected / scope-sensitive: Available/Installed policy does not change sharing; installation can be admin-provided. Use permission, sharing and installation remain separate; former GPT access is not replacement access. New accessed_at is observed Publisher saved-ledger review, not HTTP fetch time; four undated primary pages independently inspected in Runner actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "accessed_at": "2026-10-08T13:12:18.347353Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-08-C06",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/build-plugins",
+      "title": "Build plugins · Before you start / Permissions you need / Edit an existing plugin / If you cannot create or edit a plugin (958–965, 1090–1119, 1126–1130)",
+      "claim": "Newly inspected / scope-sensitive: Use/convert eligibility is not web creator/editor availability. Plugin Creator availability, Use plugins and edit access in intended workspace must be confirmed. Workspace creator/owner/admin editing eligibility needs the experience; naming maintainer does not grant editing. New accessed_at is observed Publisher saved-ledger review, not HTTP fetch time; four undated primary pages independently inspected in Runner actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "accessed_at": "2026-10-08T13:12:18.347353Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-08-C07",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/plugins",
+      "title": "Plugins · Universal plugin directory / Install and use a plugin / Choose a specific plugin (965–985, 998–1002)",
+      "claim": "General new-chat/@ route reconfirmed; recipient details newly inspected: Personal Shared with me, workspace tab and Installed row differ. Open replacement details/plus to install unless admin-installed, start new ChatGPT chat and explicitly @ select plugin/bundled skill. Proposed reader checks, not observed UI/access. New accessed_at is observed Publisher saved-ledger review, not HTTP fetch time; four undated primary pages independently inspected in Runner actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "accessed_at": "2026-10-08T13:12:18.347353Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-08-C08",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/migrate-custom-gpts",
+      "title": "Migration · Test how your plugin gets selected / creator Steps 2–3 / behavior FAQ (1022–1033, 1164–1181, 1244–1255)",
+      "claim": "Behavior non-equivalence reconfirmed; controlled comparison precision newly inspected: use same real text/prompt/reference and saved good result, harder case and normal request; assess facts/style/format/reference use/completeness/time. Installed is not always selected; explicit selection differs from automatic matching. New accessed_at is observed Publisher saved-ledger review, not HTTP fetch time; four undated primary pages independently inspected in Runner actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "accessed_at": "2026-10-08T13:12:18.347353Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-08-C09",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/build-plugins",
+      "title": "Build plugins · Refine and retest / Edit an existing plugin Steps 2–4 / Share the plugin with your team (1086–1125)",
+      "claim": "Newly inspected actionable maintenance/handoff: review changed and preserved instructions/files, reuse saved prompts in a new conversation, ask a teammate to try after edits. Link, sample prompt and named maintainer are team handoff elements. No change/retest or actual prompt supplied. New accessed_at is observed Publisher saved-ledger review, not HTTP fetch time; four undated primary pages independently inspected in Runner actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "accessed_at": "2026-10-08T13:12:18.347353Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-08-C10",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/enterprise/apps-and-connectors",
+      "title": "Plugin controls · Introduction / Understand the capability chain / Step 1: Enable plugin availability (947–974)",
+      "claim": "Service-access separation reconfirmed; owning capability chain newly inspected / scope-sensitive: bundle/skill availability, role/integration access, action permission, external identity/service access and runtime controls are independent. Reference-only work needs no app connection; actual integration dependency needs separate verified scope. New accessed_at is observed Publisher saved-ledger review, not HTTP fetch time; four undated primary pages independently inspected in Runner actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "accessed_at": "2026-10-08T13:12:18.347353Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-08-C11",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/migrate-custom-gpts",
+      "title": "Migration · Switch after the workflow is ready / creator Step 4 (1182–1187)",
+      "claim": "Newly inspected stop decision: hold switching a workflow with a missing required capability until adequate evidence or a tested alternative exists. Our ordinary prompt/reusable skill/project/existing authorized integration/purpose-built fork is genuine, not a certified or tested drop-in. New accessed_at is observed Publisher saved-ledger review, not HTTP fetch time; four undated primary pages independently inspected in Runner actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "accessed_at": "2026-10-08T13:12:18.347353Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-08-C12",
+      "source_type": "primary-documentation",
+      "source_url": "https://learn.chatgpt.com/docs/build-plugins",
+      "title": "Build plugins · Refine and retest / Share the plugin with your team (1086–1089, 1120–1125)",
+      "claim": "Our synthesis with Migration creator Step 4: only after adequate recipient and useful-output evidence replace one controlled onboarding destination plus install/select guidance, genuine prompt, maintainer and differences; retest after updates. Not an official automatic redirect or executed handoff. No stable replacement-URL, bookmark/article/QR repair or outside/public continuity guarantee established; lack of verification is UNKNOWN, not prohibition. New accessed_at is observed Publisher saved-ledger review, not HTTP fetch time; four undated primary pages independently inspected in Runner actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "accessed_at": "2026-10-08T13:12:18.347353Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }
