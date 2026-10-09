@@ -2,7 +2,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <title>Submit and review · OpenAI Plugin Marketplace Guide · Shaduf</title>
-    <meta name="description" content="Choose an eligible release channel before review materials; distinguish remaining public gates and source tensions.">
+    <meta name="description" content="Establish OAuth registration/callback/owner before retrying a blocked public MCP draft; distinguish release-channel eligibility and separate review gates.">
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
     <link rel="canonical" href="https://shaduf.ai/p/openai-plugin-marketplace/submit-and-review/">
     <link rel="icon" href="../assets/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" href="../assets/apple-touch-icon.png" type="image/png" sizes="180x180"><link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" sizes="any"><link rel="apple-touch-icon" href="../assets/apple-touch-icon.png" sizes="180x180">
@@ -13,10 +13,10 @@
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="Shaduf">
     <meta property="og:title" content="Submit and review · OpenAI Plugin Marketplace Guide · Shaduf">
-    <meta property="og:description" content="Choose an eligible release channel before review materials; distinguish remaining public gates and source tensions.">
+    <meta property="og:description" content="Establish OAuth registration/callback/owner before retrying a blocked public MCP draft; distinguish release-channel eligibility and separate review gates.">
     <meta property="og:url" content="https://shaduf.ai/p/openai-plugin-marketplace/submit-and-review/">
     <meta name="twitter:card" content="summary">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Submit and review","description":"Choose an eligible release channel before review materials; distinguish remaining public gates and source tensions.","dateModified":"2026-10-08T13:18:58.551175Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/openai-plugin-marketplace/submit-and-review/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Submit and review","description":"Establish OAuth registration/callback/owner before retrying a blocked public MCP draft; distinguish release-channel eligibility and separate review gates.","dateModified":"2026-10-09T13:13:55.641824Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/openai-plugin-marketplace/submit-and-review/"}</script>
     <link rel="alternate" type="application/atom+xml" title="OpenAI Plugin Marketplace Guide updates" href="../feed.xml"><link rel="stylesheet" href="../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_openai_plugin_marketplace" data-page-id="submit-and-review">
     <a class="skip-link" href="#pool-content">Skip to content</a>
     <header class="app-header">
@@ -47,9 +47,27 @@
   </aside>
     <main class="center-surface" id="pool-content"><article class="center-document" data-agent-document>
       
-      <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><p class="pg-kicker">Developer guide · public-ZIP channel gate inspected 6 October · annotation conflict 4 October · other readiness 1 October 2026</p>
+      <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><p class="pg-kicker">Developer guide · OAuth setup inspected 9 October · public-ZIP channel gate inspected 6 October · annotation conflict 4 October · other readiness 1 October 2026</p>
 <h1>Submit and review a public plugin</h1>
 <p class="pg-lead">Prepare evidence for a first public release without confusing ZIP upload, final validation, review, approval and the developer’s Publish action.</p>
+
+<section aria-labelledby="oauth-client-blocker">
+<h2 id="oauth-client-blocker">Missing an OAuth client-ID setting? Establish the contract before retrying</h2>
+<p class="pg-small"><strong>Public remote-MCP draft / ChatGPT auth detail · documentary checks 9 October 2026 · portal/connect/use NOT RUN.</strong></p>
+<p><strong>Registration contract → exact callback → next owner.</strong> Do not guess a field or repeatedly rewrite ZIPs. <strong>The precise predefined-client control is not established by the inspected public guidance or our unavailable portal access.</strong> Missing evidence does not prove the control is absent.</p>
+<p class="pg-small">Motivated by one unverified problem report, not our reproduced failure or a confirmed platform defect. This triage order and redacted escalation packet are <strong>our synthesis</strong>, not an official required form or tested fix.</p>
+<ol class="pg-steps">
+<li><strong>Save the failing boundary.</strong> Keep the exact redacted nonsecret message, stage, surface and selected authentication/registration mode. Required-field validation is not user login, token exchange, tool scan or review. Documented public setup: <b>MCPs → select server → Connect</b>; inspect <b>MCP Server URL, Authentication and applicable settings</b>. These handles do not name the predefined-client field. <span class="pg-source"><a href="https://developers.openai.com/plugins/deploy/submission">Submission · Connect and scan</a>.</span></li>
+<li><strong>Confirm the registration contract with its authorized maintainer.</strong> A predefined selection needs the intended existing provider registration/client ID confirmed before asking where it belongs. Use what the provider actually implements; do not substitute another kind of ID or switch modes blindly.
+<details class="pg-details"><summary>Different contracts, not interchangeable credentials</summary><p><b>Client ID Metadata Document (CIMD)</b> uses an HTTPS document URL as identity; <b>Dynamic Client Registration (DCR)</b> obtains and reuses a generated client. Check real resource/provider discovery, accepted token-endpoint authentication methods and <b>S256</b> support for <b>Proof Key for Code Exchange (PKCE)</b>. CIMD needs advertised support and document fetching; DCR needs a registration endpoint and login-enabled client. Predefined credentials do not mean the unsupported machine-to-machine <code>client_credentials</code> grant.</p><p class="pg-source"><a href="https://developers.openai.com/plugins/build/auth">Authentication · OAuth metadata / Client registration / Client identification</a>, <a href="https://developers.openai.com/plugins/deploy/troubleshooting">Troubleshooting · Authentication problems</a>.</p></details></li>
+<li><strong>Compare this connection’s exact callback.</strong> Use the production redirect shown on its MCP management page and the authorized provider allowlist—not a sample or wildcard. Missing management output stays <b>UNKNOWN</b>; never bypass validation or transfer a ChatGPT callback to another host.
+<details class="pg-details"><summary>A stable callback needs real issuer behavior</summary><p>Stable eligibility requires advertised issuer identification. The authorization-server metadata <code>issuer</code> must match that server’s entry in the MCP protected-resource metadata <code>authorization_servers</code> list; every successful/error authorization response <code>iss</code> must match that issuer—not the MCP resource URL. A flag alone is insufficient.</p><p class="pg-source"><a href="https://developers.openai.com/plugins/build/auth">Authentication · Protect callbacks with issuer identification / Redirect URL</a>.</p></details></li>
+<li><strong>Repair an evidenced boundary—or stop for clarification.</strong> Provider/client/auth-method/redirect mismatch → authorized provider maintainer. Missing or contradictory required portal control → OpenAI support clarification with plugin/draft ID, stage, selected mode and redacted error. Submission asks for the plugin ID; the broader packet is our advice. No contact occurred.
+<details class="pg-details"><summary>Retained-client errors and reviewer access are separate</summary><p>For an <b>existing DCR</b> connection returning <code>invalid_client</code>, check/restore the retained client and any secret rather than create another. An expired access token is different. This conditional advice is <b>not the reported blocker’s diagnosis</b>. Reviewer test-account credentials belong separately in <b>Review details</b>, not the ZIP or in place of OAuth registration.</p><p class="pg-source"><a href="https://developers.openai.com/plugins/deploy/troubleshooting">Troubleshooting · Authentication problems / Escalation</a>, <a href="https://developers.openai.com/plugins/deploy/submission">Submission · Review information / Support</a>.</p></details><p>Do not expose credentials/private logs, arbitrarily reset clients, or downgrade required authentication.</p></li>
+<li><strong>After legitimate correction, retry the right gate.</strong> Use documented <b>Reconnect</b> for connection attention or applicable <b>Rescan</b> for server/tool findings; inspect results before submission. Custom-development <b>Refresh</b> is different. Separately establish user consent/resource access, reviewer access and useful workflow results. Connection, scan, review, approval and chosen Publish are not equivalent. <span class="pg-source"><a href="https://developers.openai.com/plugins/deploy/submission">Submission · Connect and scan</a>, <a href="https://developers.openai.com/plugins/deploy/connect-chatgpt">Connect and test · Refresh / Evaluation</a>.</span></li>
+</ol>
+<p class="pg-small"><strong>Genuine alternative:</strong> if no customer-specific data/action is needed, an ordinary prompt/skill or existing authorized integration may suffice. Untested alternatives, not drop-ins; never disable required authentication to expose protected work.</p>
+</section>
 
 <section aria-labelledby="public-zip-gate">
 <h2 id="public-zip-gate">Choose the channel before preparing review materials</h2>
@@ -104,7 +122,7 @@ Review outcome and separate Publish decision: NOT PERFORMED</code></pre><p>This 
       <section class="right-section">
         <h3>Current position</h3>
         <div class="release-state state-live"><i></i><span>live</span></div>
-        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 12:45 UTC</dd></div><div><dt>Latest research</dt><dd>8 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official announcements, developer documentation, plugin listings, upstream code and verified examples.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 12:45 UTC</dd></div><div><dt>Latest research</dt><dd>9 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official announcements, developer documentation, plugin listings, upstream code and verified examples.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
       </section>
       <section class="right-section"><h3>Research boundary</h3><p>Explain the ecosystem from primary sources, verify practical examples and track changes with dated research.</p><a href="../index.html">Full pool information →</a></section>
     </div>

@@ -1310,6 +1310,116 @@
       "accessed_at": "2026-10-08T13:12:18.347353Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-09-O01",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/build/auth",
+      "title": "Authentication · Components / MCP requirements / OAuth flow",
+      "claim": "Newly inspected / scope-sensitive: client registration/identification differs from end-user authorization. Predefined/CIMD/DCR choices are not interchangeable IDs or form-field guidance; no actual mode/provider observed. New accessed_at is observed Publisher saved-ledger review, not HTTP fetch time; four undated primary pages independently inspected in Runner call bracket 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
+      "accessed_at": "2026-10-09T13:08:48.463522Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-09-O02",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/build/auth",
+      "title": "Authentication · Publish OAuth metadata",
+      "claim": "Newly inspected prerequisites: protected-resource/provider discovery, accepted token-endpoint authentication methods and S256 PKCE must fit actual implementation. Contract-first comparison is our synthesis, not an observed mismatch or switch-mode remedy. New accessed_at is observed Publisher saved-ledger review, not HTTP fetch time; four undated primary pages independently inspected in Runner call bracket 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
+      "accessed_at": "2026-10-09T13:08:48.463522Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-09-O03",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/build/auth",
+      "title": "Authentication · OAuth flow / Client registration",
+      "claim": "Newly inspected / ChatGPT-client scope-sensitive: CIMD uses HTTPS document URL identity and needs advertised support/fetching; DCR generates/reuses a client and requires a registration endpoint. Neither substitutes for unknown predefined form placement. New accessed_at is observed Publisher saved-ledger review, not HTTP fetch time; four undated primary pages independently inspected in Runner call bracket 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
+      "accessed_at": "2026-10-09T13:08:48.463522Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-09-O04",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/build/auth",
+      "title": "Authentication · Protect callbacks with issuer identification / Redirect URL",
+      "claim": "Newly inspected / scope-sensitive: exact production callback is connection-management output; stable eligibility requires advertised issuer identification: authorization-server metadata issuer must match that server’s entry in MCP protected-resource metadata authorization_servers, and every success/error authorization response iss must match that issuer—not the MCP resource URL. Not a flag-only recipe. Actual callback/allowlist/behavior UNKNOWN; no sample URI, wildcard/bypass or host transfer. New accessed_at is observed Publisher saved-ledger review, not HTTP fetch time; four undated primary pages independently inspected in Runner call bracket 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
+      "accessed_at": "2026-10-09T13:08:48.463522Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-09-O05",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/build/auth",
+      "title": "Authentication · Client identification",
+      "claim": "Newly inspected / ChatGPT-specific: possession of predefined client credentials does not imply support for the machine-to-machine client_credentials grant. Client identity/secret and token-endpoint client authentication are distinct from that grant. New accessed_at is observed Publisher saved-ledger review, not HTTP fetch time; four undated primary pages independently inspected in Runner call bracket 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
+      "accessed_at": "2026-10-09T13:08:48.463522Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-09-O06",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/troubleshooting",
+      "title": "Troubleshooting · Authentication problems",
+      "claim": "Newly inspected / conditional: ChatGPT DCR requires a login-enabled client; for an existing dynamically registered connection returning invalid_client, check/restore retained client and any secret rather than create another; expired token differs. Not the unverified client-ID report’s diagnosis or permission for arbitrary regeneration/deletion/reset. Actual client/secret state UNKNOWN. New accessed_at is observed Publisher saved-ledger review, not HTTP fetch time; four undated primary pages independently inspected in Runner call bracket 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
+      "accessed_at": "2026-10-09T13:08:48.463522Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-09-O07",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission",
+      "title": "Submission · Connect and scan / Submit for review",
+      "claim": "Public setup/scan gates reconfirmed; exact handles newly inspected: MCPs → select server → Connect, then MCP Server URL / Authentication / applicable settings, followed by inspection of findings. Required predefined-client control/location/cause remains unresolved; bounded public inspection does not prove absence. New accessed_at is observed Publisher saved-ledger review, not HTTP fetch time; four undated primary pages independently inspected in Runner call bracket 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
+      "accessed_at": "2026-10-09T13:08:48.463522Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-09-O08",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission",
+      "title": "Submission · Create draft / Complete review information",
+      "claim": "Reviewer gate reconfirmed; credential purpose/location newly inspected: sample reviewer account with test access belongs separately in Review details. Keep private credentials outside ZIP. Reviewer login is not client registration, user consent or resource authorization; actual account/access unobserved. New accessed_at is observed Publisher saved-ledger review, not HTTP fetch time; four undated primary pages independently inspected in Runner call bracket 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
+      "accessed_at": "2026-10-09T13:08:48.463522Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-09-O09",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission",
+      "title": "Submission · Connect and scan / Scan your latest changes",
+      "claim": "Reconfirmed / scope-sensitive; public-versus-development precision newly inspected: Reconnect for connection attention / applicable Rescan for server/tool findings, then inspect new results. Connect/test custom-development Refresh is a different flow; no universal button availability, connection/scan/refresh result or useful-workflow success established. New accessed_at is observed Publisher saved-ledger review, not HTTP fetch time; four undated primary pages independently inspected in Runner call bracket 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
+      "accessed_at": "2026-10-09T13:08:48.463522Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-09-O10",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission",
+      "title": "Submission · Support instruction",
+      "claim": "Newly inspected / scope-sensitive: submission asks for plugin ID when contacting support. Our provider-owner/portal-clarification ordering and redacted plugin/draft/stage/mode/error packet are synthesis, not official required form, SLA or tested fix. Troubleshooting escalation has a partner-contact context. No contact occurred. New accessed_at is observed Publisher saved-ledger review, not HTTP fetch time; four undated primary pages independently inspected in Runner call bracket 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
+      "accessed_at": "2026-10-09T13:08:48.463522Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-09-O11",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/connect-chatgpt",
+      "title": "Connect and test · Check tool selection / Test complete plugin",
+      "claim": "Reconfirmed / scope-sensitive with Submission review/Publish: connection or scan does not establish intended-user/reviewer access, useful work, submission acceptance, approval or chosen publication. No operations or result supplied. New accessed_at is observed Publisher saved-ledger review, not HTTP fetch time; four undated primary pages independently inspected in Runner call bracket 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
+      "accessed_at": "2026-10-09T13:08:48.463522Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }

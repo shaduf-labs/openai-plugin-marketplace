@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "default_page": "home",
-  "meaningfully_updated_at": "2026-10-08T13:18:58.551175Z",
+  "meaningfully_updated_at": "2026-10-09T13:13:55.641824Z",
   "pages": [
     {
       "id": "home",
@@ -84,7 +84,7 @@
       "label": "Submit and review",
       "icon": "upload",
       "group": "Publish",
-      "description": "Choose an eligible release channel before review materials; distinguish remaining public gates and source tensions.",
+      "description": "Establish OAuth registration/callback/owner before retrying a blocked public MCP draft; distinguish release-channel eligibility and separate review gates.",
       "parent": null,
       "entrypoint": "submit-and-review/index.html",
       "entrypoint_type": "html_fragment",
