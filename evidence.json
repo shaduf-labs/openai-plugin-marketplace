@@ -1420,6 +1420,106 @@
       "accessed_at": "2026-10-09T13:08:48.463522Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-10-L01",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/build/plugins",
+      "title": "Packaging · Path rules / Configure MCP authentication / Registered client / OAuth reference",
+      "claim": "Newly inspected / scope-sensitive: portable root mcp.json named-server mcpServers.<server>.extensions[\"com.openai\"].auth.client uses mode \"provided\" and case-sensitive clientId. Not plugin-level OpenAI metadata or guessed top-level key. Actual reported upload format unknown. New accessed_at records observed Publisher saved-ledger review, not new HTTP fetch. Three undated primary pages independently inspected in Runner 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
+      "accessed_at": "2026-10-10T13:10:05.818011Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-10-L02",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/build/plugins",
+      "title": "Packaging · OAuth configuration reference; paired Submission declaration instruction",
+      "claim": "Newly inspected / scope-sensitive: client optional; mode required when client present; clientId required for provided; tokenEndpointAuthMethod optional in reference. Paired Submission Configure authentication instructs declaring the selected method. Both levels preserved, no implemented schema validation or inferred omitted-method default/account behavior. New accessed_at records observed Publisher saved-ledger review, not new HTTP fetch. Three undated primary pages independently inspected in Runner 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
+      "accessed_at": "2026-10-10T13:10:05.818011Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-10-L03",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission",
+      "title": "Submission · Configure authentication / Authentication limitations; Packaging registered client",
+      "claim": "Match actual provider/client method; Packaging reference lists none/client_secret_basic/client_secret_post/private_key_jwt. Endpoint overrides needed only when discovery lacks endpoints. A JWT declaration supplies no signing keys/setup, not a working public portal recipe. Method precision newly inspected; provider prerequisite supporting 9 October reconfirmed. New accessed_at records observed Publisher saved-ledger review, not new HTTP fetch. Three undated primary pages independently inspected in Runner 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
+      "accessed_at": "2026-10-10T13:10:05.818011Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-10-L04",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission",
+      "title": "Submission · Configure authentication for submission",
+      "claim": "Newly inspected / scope-sensitive: advanced settings are read/displayed from mcp.json, not edited in the panel. Documented edit file → Upload new version → inspect saved MCPs settings before connecting. Existing registration can lock credential changes; upload does not prove replacement/unlock. Actual saved state/lock/unlock remains unknown. New accessed_at records observed Publisher saved-ledger review, not new HTTP fetch. Three undated primary pages independently inspected in Runner 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
+      "accessed_at": "2026-10-10T13:10:05.818011Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-10-L05",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission",
+      "title": "Submission · Configure authentication / OAuth Client Secret; Packaging registered client",
+      "claim": "Newly inspected / conditional: MCPs → server → Connect → OAuth Client Secret field for provided unless tokenEndpointAuthMethod is none. clientSecret rejected in mcp.json. Keep secret outside ZIP/chat/log/report; application credentials differ from user password/access token/reviewer login. No observed account form/control/secret or omitted-method behavior. New accessed_at records observed Publisher saved-ledger review, not new HTTP fetch. Three undated primary pages independently inspected in Runner 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
+      "accessed_at": "2026-10-10T13:10:05.818011Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-10-L06",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission",
+      "title": "Submission · Automatically provide submission and review information / Complete metadata examples; Packaging Path rules",
+      "claim": "Exact portable remote-MCP namespace newly inspected; direct MCP URLs/dashboard configuration differ from excluded registered apps/.app.json mappings. No new narrow incompatibility established in paired text; not blanket eligibility for formats/components. Broader channel restriction and hook-conversion conflict retain 6 October, neither refreshed nor resolved. New accessed_at records observed Publisher saved-ledger review, not new HTTP fetch. Three undated primary pages independently inspected in Runner 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
+      "accessed_at": "2026-10-10T13:10:05.818011Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-10-L07",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission",
+      "title": "Submission · Authentication limitations; Packaging API-key/header distinction",
+      "claim": "Newly inspected / scope-sensitive: schema API-key acceptance does not complete public portal setup, including Basic/custom-header declarations. No API-key/bearer-input flow; nonempty server headers rejected. Protected service cannot be mislabeled no-auth; not a working shortcut or tested declaration. New accessed_at records observed Publisher saved-ledger review, not new HTTP fetch. Three undated primary pages independently inspected in Runner 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
+      "accessed_at": "2026-10-10T13:10:05.818011Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-10-L08",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/build/auth",
+      "title": "Authentication · Redirect URL / OAuth flow / Client registration",
+      "claim": "Supporting9October provider/client/user distinction reconfirmed: exact connection management-page callback is comparison target; registration differs from end-user authorization. DCR retains generated client/secret while tokens may expire. Retained-DCR advice is conditional, not original report diagnosis; fuller issuer/callback triage retains9October, actual state unknown. New accessed_at records observed Publisher saved-ledger review, not new HTTP fetch. Three undated primary pages independently inspected in Runner 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
+      "accessed_at": "2026-10-10T13:10:05.818011Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-10-L09",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission",
+      "title": "Submission · Connect and scan / reviewer separation / public gates",
+      "claim": "Supporting9October gates reconfirmed: package/source, saved connection, scan, intended-user/reviewer access, useful workflow, review, approval and chosen Publish differ. No success/account/operation observed; method or package acceptance is not authorization/use/review outcome. New accessed_at records observed Publisher saved-ledger review, not new HTTP fetch. Three undated primary pages independently inspected in Runner 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
+      "accessed_at": "2026-10-10T13:10:05.818011Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-10-L10",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission",
+      "title": "Submission · Support plugin-ID instruction; author synthesis from L01–L09",
+      "claim": "Official support text asks for plugin ID. Our authorized-owner/stop order and broader redacted plugin/draft/stage/mode/error packet are synthesis from documentary source/saved-state limits, not official required universal form, support contact performed, tested remedy or resolution promise. New accessed_at records observed Publisher saved-ledger review, not new HTTP fetch. Three undated primary pages independently inspected in Runner 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
+      "accessed_at": "2026-10-10T13:10:05.818011Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
