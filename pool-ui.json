@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "default_page": "home",
-  "meaningfully_updated_at": "2026-10-10T13:13:34.052793Z",
+  "meaningfully_updated_at": "2026-10-12T18:33:46.925464Z",
   "pages": [
     {
       "id": "home",
@@ -84,7 +84,7 @@
       "label": "Submit and review",
       "icon": "upload",
       "group": "Publish",
-      "description": "Locate provided OAuth client-ID configuration, keep required secret in Connect and verify saved registration before retrying; distinguish channel eligibility and review gates.",
+      "description": "Choose local preparation or deliberate pending-package replacement; locate provided OAuth configuration and keep channel, review, approval and Publish gates separate.",
       "parent": null,
       "entrypoint": "submit-and-review/index.html",
       "entrypoint_type": "html_fragment",
@@ -99,7 +99,7 @@
       "label": "Distribute and maintain",
       "icon": "git-branch",
       "group": "Publish",
-      "description": "Record changed bytes and independent release evidence; check Enterprise teammate continuity before replacing a controlled GPT onboarding link.",
+      "description": "Record independent release evidence, retain the published remote-MCP version during replacement review and check Enterprise teammate continuity before switching a controlled GPT link.",
       "parent": null,
       "entrypoint": "distribute-and-maintain/index.html",
       "entrypoint_type": "html_fragment",
@@ -114,7 +114,7 @@
       "label": "Business constraints",
       "icon": "briefcase",
       "group": "Publish",
-      "description": "Serve existing SaaS entitlements, replace an upgrade-dependent denial and review six hypothetical commercial cases.",
+      "description": "Distinguish remote-MCP publication from main-page placement, serve existing SaaS entitlements and test useful-workflow hypotheses.",
       "parent": null,
       "entrypoint": "business-models/index.html",
       "entrypoint_type": "html_fragment",

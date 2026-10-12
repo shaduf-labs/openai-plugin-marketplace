@@ -1520,6 +1520,166 @@
       "accessed_at": "2026-10-10T13:10:05.818011Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-11-R01",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission",
+      "title": "Submission · Submit the draft",
+      "claim": "Public plugin has only one active review; wait for the decision or cancel before replacement upload. Metadata & Skills, Review status and review email are documented handles, not observed account status. Local preparation does not replace submitted materials. Newly inspected. accessed_at is observed Publisher saved-ledger review, not new web retrieval. Runner independently inspected two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
+      "accessed_at": "2026-10-11T21:08:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-11-R02",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/app-review",
+      "title": "Remote MCP review · Metadata stored during tool scanning / Submitting new versions",
+      "claim": "Remote-MCP one published and one in-review version; same-version-draft Cancel Review/resubmission wording differs in scope from Submission complete updated-version ZIP/new-version descriptions. Preserve scopes; universal cancellation/upload transaction and actual control UNKNOWN. Newly inspected/scope-sensitive. accessed_at is observed Publisher saved-ledger review, not new web retrieval. Runner independently inspected two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
+      "accessed_at": "2026-10-11T21:08:22Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-11-R03",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/app-review",
+      "title": "Remote MCP review · Submitting new versions / Review-time and update-time FAQs",
+      "claim": "Every resubmission starts a new review; no expedited review or established update-time estimate. No queue-position retention, priority, deadline or approval promise inferred. Newly inspected/reconfirmed; no queue or account measurement. accessed_at is observed Publisher saved-ledger review, not new web retrieval. Runner independently inspected two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
+      "accessed_at": "2026-10-11T21:08:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-11-R04",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/app-review",
+      "title": "Remote MCP review · Changing published metadata versions / Maintenance requirements",
+      "claim": "Current opened canonical remote-MCP guidance instructs keeping current published version during replacement review and directly publishing approved replacement, not remove-first merely to update. Removal without replacement causes unavailability. Narrow active documentary correction, not every rejected/enforcement state or actual/universal directory/recipient/loaded continuity. Deletion/unpublication not Cancel Review. Newly inspected. accessed_at is observed Publisher saved-ledger review, not new web retrieval. Runner independently inspected two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
+      "accessed_at": "2026-10-11T21:08:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-11-R05",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission",
+      "title": "Submission · Publish / Update your published plugin",
+      "claim": "Complete updated-version ZIP retains components and applicable checks/review; approved developer Publish remains separate. Package review/replacement is not live hosted-tool evaluation; older channel/component eligibility constraints retained. Reconfirmed. accessed_at is observed Publisher saved-ledger review, not new web retrieval. Runner independently inspected two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
+      "accessed_at": "2026-10-11T21:08:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-11-R06",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/app-review",
+      "title": "Remote MCP review · Published metadata / Continuous review / Compatible implementation",
+      "claim": "After initial publication hosted tools have live/held review boundaries; new tools await approval and approved definitions retained for held changes, while calls reach live implementation. Metadata does not preserve backend code: keep it compatible. Scan cannot publish pending initial package. Reconfirmed/scope-sensitive; no deployment/scan/use observed. accessed_at is observed Publisher saved-ledger review, not new web retrieval. Runner independently inspected two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
+      "accessed_at": "2026-10-11T21:08:22Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-11-R07",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission",
+      "title": "Submission · Submit the draft / Appeal an automated finding; MCP review help boundary",
+      "claim": "Rejected-package email appeal differs from held-tool Appeal/Withdraw appeal; automatic MCP updates pause during a tool appeal. Support plugin-ID clarification is not expedition. No contact or appeal ran. Newly inspected/reconfirmed boundary. accessed_at is observed Publisher saved-ledger review, not new web retrieval. Runner independently inspected two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
+      "accessed_at": "2026-10-11T21:08:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-11-R08",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/submission",
+      "title": "Documentary scope limits and author synthesis from R01–R07",
+      "claim": "Actual identity/account/control/selected-review-published state/cancellation transaction/queue treatment/result/listing/recipient/loaded continuity UNKNOWN; all operations NOT RUN. Our conditional leave-valid default/action order/broader redacted note/genuine useful existing-site/manual/ordinary-answer alternative are synthesis, untested—not official universal form, duplicate-listing or access/review bypass. No supplied authorized actual state. accessed_at is observed Publisher saved-ledger review, not new web retrieval. Runner independently inspected two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
+      "accessed_at": "2026-10-11T21:08:22Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-12-V01",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/app-review",
+      "title": "Publish the plugin / approval FAQ",
+      "claim": "Approval precedes a distinct chosen Publish action; actual Publish/version/name/state UNKNOWN. Reconfirmed. accessed_at is observed Publisher saved-ledger review, not web retrieval. Runner independently read two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
+      "accessed_at": "2026-10-12T18:07:56Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-12-V02",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/app-review",
+      "title": "Publication and Distribution FAQs · missing-directory question",
+      "claim": "Exact publication-name search or directory URL supplied by submission portal are documented confirmation handles, not our observed success or every-account guarantee. Newly inspected precision relative to generic active wording, not new feature. accessed_at is observed Publisher saved-ledger review, not web retrieval. Runner independently read two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
+      "accessed_at": "2026-10-12T18:07:56Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-12-V03",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/app-review",
+      "title": "Discovery / missing-directory FAQ",
+      "claim": "Enhanced main-page placement is selected distribution; developers cannot request it. Missing tile alone proves neither failed publication nor harmless unfeatured state absent actual exact-route/recipient evidence. Reconfirmed/newly inspected precision. accessed_at is observed Publisher saved-ledger review, not web retrieval. Runner independently read two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
+      "accessed_at": "2026-10-12T18:07:56Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-12-V04",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/app-review",
+      "title": "Remote-MCP review scope / component-scoped guidelines",
+      "claim": "Public remote-MCP publication flow does not transfer publication controls, exact UI or recipient reach/install/provider/selection/output guarantees to all local/workspace channels or hosts. Scope-sensitive. accessed_at is observed Publisher saved-ledger review, not web retrieval. Runner independently read two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
+      "accessed_at": "2026-10-12T18:07:56Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-12-V05",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
+      "title": "Overview / Purpose and originality",
+      "claim": "Meaningful usefulness is required; utility/satisfaction may qualify for distribution, not guarantee placement or establish demand/value. Reconfirmed. accessed_at is observed Publisher saved-ledger review, not web retrieval. Runner independently read two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
+      "accessed_at": "2026-10-12T18:07:56Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-12-V06",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
+      "title": "Fair play / Descriptions that match behavior",
+      "claim": "Do not game model selection; model-readable descriptions must truthfully match intent, behavior and limits. No ranked-placement recipe or metadata workaround established. Newly inspected/reconfirmed. accessed_at is observed Publisher saved-ledger review, not web retrieval. Runner independently read two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
+      "accessed_at": "2026-10-12T18:07:56Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-12-V07",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/app-review",
+      "title": "Unobserved account / exact route / recipient actuals",
+      "claim": "Actual control/Publish/version/name/URL/search/link/recipient/install/provider/selection/loaded output/value UNKNOWN. All account/search/link/contact/install/use/guide/media operations NOT RUN; no traffic/demand/source-change claim. Genuine failure remains actionable, not dismissed as placement. accessed_at is observed Publisher saved-ledger review, not web retrieval. Runner independently read two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
+      "accessed_at": "2026-10-12T18:07:56Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "2026-10-12-V08",
+      "source_type": "primary-documentation",
+      "source_url": "https://developers.openai.com/plugins/deploy/app-review",
+      "title": "Synthesis from V01–V07 / reused help11 and recipient 8 October",
+      "claim": "Proposed default/order/redacted note/stop and genuine ordinary-service alternative synthesis/untested, not official mandated procedure, tested repair, unsupported remove/resubmit/rename remedy or acquisition verdict. Correct evidenced defects; plugin-ID clarification retains 11 October, recipient distinction8 October without all-host UI transfer. accessed_at is observed Publisher saved-ledger review, not web retrieval. Runner independently read two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
+      "accessed_at": "2026-10-12T18:07:56Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }
