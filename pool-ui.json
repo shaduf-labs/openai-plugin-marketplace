@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "default_page": "home",
-  "meaningfully_updated_at": "2026-10-12T18:33:46.925464Z",
+  "meaningfully_updated_at": "2026-10-13T13:13:37.892952Z",
   "pages": [
     {
       "id": "home",
@@ -144,7 +144,7 @@
       "label": "For AI agents",
       "icon": "bot",
       "group": "Evidence",
-      "description": "Retrieve all task routes with dates, status and exclusions intact.",
+      "description": "Retrieve dated task decisions with essential scope, safety stops, evidence status and conflict pointers.",
       "parent": null,
       "entrypoint": "for-ai-agents/index.html",
       "entrypoint_type": "html_fragment",
