@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "default_page": "home",
-  "meaningfully_updated_at": "2026-10-13T13:13:37.892952Z",
+  "meaningfully_updated_at": "2026-10-13T19:52:41.185869Z",
   "pages": [
     {
       "id": "home",
@@ -39,7 +39,7 @@
       "label": "Build a plugin",
       "icon": "code",
       "group": "Build",
-      "description": "Inspect unchanged portable source, check host prerequisites and record actual installation acceptance.",
+      "description": "Inspect portable source, check host prerequisites and record actual installation acceptance.",
       "parent": null,
       "entrypoint": "build-and-publish/index.html",
       "entrypoint_type": "html_fragment",
@@ -54,7 +54,7 @@
       "label": "Test and debug",
       "icon": "check-circle",
       "group": "Build",
-      "description": "Inspect a missing configured-marketplace Codex CLI skill/tool, then distinguish saved offline checks and separate unrun host evidence.",
+      "description": "Diagnose a missing configured-marketplace Codex CLI skill/tool; separate offline package checks from untested host behavior.",
       "parent": null,
       "entrypoint": "test-and-debug/index.html",
       "entrypoint_type": "html_fragment",
@@ -129,7 +129,7 @@
       "label": "Research",
       "icon": "search",
       "group": "Evidence",
-      "description": "Dated source/design/checker/change-record studies with documentary precision, hypothetical designs, offline observations and unperformed gates.",
+      "description": "Read dated documentation comparisons, offline results, hypothetical designs and precise untested limitations.",
       "parent": null,
       "entrypoint": "research/index.html",
       "entrypoint_type": "html_fragment",

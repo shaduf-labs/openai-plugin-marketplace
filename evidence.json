@@ -381,13 +381,12 @@
       "relation": "context",
       "publication_basis": "linked-summary"
     },
-    
     {
       "evidence_id": "host-cases-2026-10-01",
       "source_type": "original-offline-artifact",
       "source_url": "https://shaduf.ai/p/openai-plugin-marketplace/assets/meeting-evidence-host-cases-2026-10-01.json",
       "title": "Ten manual host specifications",
-      "claim": "Synthetic exact-prompt case contracts; all actual host/selection/output/assertion/retest fields NOT RUN.",
+      "claim": "Synthetic exact-prompt case contracts; no host behavior, selection, output, behavioral assertions or retest was observed.",
       "accessed_at": "2026-10-01T17:34:53.743303Z",
       "relation": "supports",
       "publication_basis": "owner-authored"
@@ -397,7 +396,7 @@
       "source_type": "original-offline-artifact",
       "source_url": "https://shaduf.ai/p/openai-plugin-marketplace/assets/meeting-evidence-host-evidence-template-2026-10-01.json",
       "title": "Blank host evidence template",
-      "claim": "Original future evidence record; NOT RUN actuals and UNKNOWN activation when no reliable host trace exists.",
+      "claim": "Original future evidence record; no observed host results and unknown activation when no reliable host trace exists.",
       "accessed_at": "2026-10-01T17:34:53.743303Z",
       "relation": "supports",
       "publication_basis": "owner-authored"
@@ -417,7 +416,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/build/plugins",
       "title": "Source/cache/portable boundaries",
-      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at records saved-ledger review, not exact fetch. Source resolution and cached installation are distinct; local source/restart and catalog inspect/refresh procedures do not prove our loaded bytes. Inline OpenAI metadata replaces, not merges, overlays.",
+      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at is an evidence-review timestamp, not an exact source-fetch time. Source resolution and cached installation are distinct; local source/restart and catalog inspect/refresh procedures do not prove our loaded bytes. Inline OpenAI metadata replaces, not merges, overlays.",
       "accessed_at": "2026-10-02T13:23:55.478299Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -427,7 +426,7 @@
       "source_type": "primary-provider-source",
       "source_url": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
       "title": "Portable schema 1.0.0",
-      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at records saved-ledger review, not exact fetch. Portable $schema/name required; version optional. Recorder root identity/version reading is not complete schema, component or effective-metadata validation.",
+      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at is an evidence-review timestamp, not an exact source-fetch time. Portable $schema/name required; version optional. Recorder root identity/version reading is not complete schema, component or effective-metadata validation.",
       "accessed_at": "2026-10-02T13:23:55.478299Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -437,7 +436,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission",
       "title": "Bundled public updates and retention limit",
-      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at records saved-ledger review, not exact fetch. Complete updated-version ZIP/retained components/checks/applicable review and chosen Publish; replacement occurs at Publish. Inspected text does not explicitly guarantee all pending/rejected-review old-package availability or continuity.",
+      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at is an evidence-review timestamp, not an exact source-fetch time. Complete updated-version ZIP/retained components/checks/applicable review and chosen Publish; replacement occurs at Publish. Inspected text does not explicitly guarantee all pending/rejected-review old-package availability or continuity.",
       "accessed_at": "2026-10-02T13:23:55.478299Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -447,7 +446,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission",
       "title": "Hosted definition maintenance",
-      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at records saved-ledger review, not exact fetch. Daily/manual scans and independent live/held tool definitions are separate from public bundles. No scan/approval/availability was observed by our recorder.",
+      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at is an evidence-review timestamp, not an exact source-fetch time. Daily/manual scans and independent live/held tool definitions are separate from public bundles. No scan/approval/availability was observed by our recorder.",
       "accessed_at": "2026-10-02T13:23:55.478299Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -457,7 +456,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/app-review",
       "title": "Live implementation versus reviewed metadata",
-      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at records saved-ledger review, not exact fetch. Retained definitions are not retained server implementation; calls use live endpoint. Contract-preserving results can change after deploy before scan/approval; preserve current contract. Rollback advice is not a portal/adopter guarantee.",
+      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at is an evidence-review timestamp, not an exact source-fetch time. Retained definitions are not retained server implementation; calls use live endpoint. Contract-preserving results can change after deploy before scan/approval; preserve current contract. Rollback advice is not a portal/adopter guarantee.",
       "accessed_at": "2026-10-02T13:23:55.478299Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -467,7 +466,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission",
       "title": "Existing skills-only public component boundary",
-      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at records saved-ledger review, not exact fetch. Adding MCP to an existing skills-only public listing remains unsupported in inspected submission flow. Listing history is declared, never inferred from filenames.",
+      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at is an evidence-review timestamp, not an exact source-fetch time. Adding MCP to an existing skills-only public listing remains unsupported in inspected submission flow. Listing history is declared, never inferred from filenames.",
       "accessed_at": "2026-10-02T13:23:55.478299Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -477,7 +476,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission",
       "title": "Endpoint conflict: submission",
-      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at records saved-ledger review, not exact fetch. Existing MCP URL changes unsupported in this flow; contact support. Conflicts with path/new-version and origin/new-plugin review guidance; no support/portal resolution.",
+      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at is an evidence-review timestamp, not an exact source-fetch time. Existing MCP URL changes unsupported in this flow; contact support. Conflicts with path/new-version and origin/new-plugin review guidance; no support/portal resolution.",
       "accessed_at": "2026-10-02T13:23:55.478299Z",
       "relation": "unresolved",
       "publication_basis": "linked-summary"
@@ -487,7 +486,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/app-review",
       "title": "Endpoint conflict: review",
-      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at records saved-ledger review, not exact fetch. Review guidance describes path/new-version versus origin/new-plugin moves, conflicting with submission URL-update flow. No precedence, accepted migration or continuity inferred.",
+      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at is an evidence-review timestamp, not an exact source-fetch time. Review guidance describes path/new-version versus origin/new-plugin moves, conflicting with submission URL-update flow. No precedence, accepted migration or continuity inferred.",
       "accessed_at": "2026-10-02T13:23:55.478299Z",
       "relation": "unresolved",
       "publication_basis": "linked-summary"
@@ -497,7 +496,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/plugins",
       "title": "Supported-client procedure, missing version method",
-      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at records saved-ledger review, not exact fetch. Documented install/new session/chat and separate provider connection. Fetched guide lacks explicit loaded-version inspection/update method; not proof about every host or document. No client operation performed.",
+      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at is an evidence-review timestamp, not an exact source-fetch time. Documented install/new session/chat and separate provider connection. Fetched guide lacks explicit loaded-version inspection/update method; not proof about every host or document. No client operation performed.",
       "accessed_at": "2026-10-02T13:23:55.478299Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -507,7 +506,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission",
       "title": "Public version requirement versus portable option",
-      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at records saved-ledger review, not exact fetch. Portable-optional version differs from public updated-version bundle requirements. Recorder chooses no semantic bump size and establishes no eligibility.",
+      "claim": "Checked 2026-10-02 UTC at day precision; accessed_at is an evidence-review timestamp, not an exact source-fetch time. Portable-optional version differs from public updated-version bundle requirements. Recorder chooses no semantic bump size and establishes no eligibility.",
       "accessed_at": "2026-10-02T13:23:55.478299Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -517,12 +516,11 @@
       "source_type": "original-offline-artifact",
       "source_url": "https://shaduf.ai/p/openai-plugin-marketplace/assets/release-change-record-2026-10-02.zip",
       "title": "Final reproducible change-recorder tooling",
-      "claim": "51 regular-file members/50 provenance payload hashes; 98,674 bytes; SHA-256 aac7c5169f68a20a80e4183b4cb8ee3bcfe13f7aa1e09b29b7b5624c855095a6. Independently reproduced documented record/self-test commands. Tooling with simulation fixtures, not runtime submission ZIP or new plugin release.",
+      "claim": "51 regular-file members/50 provenance payload hashes; 98,674 bytes; SHA-256 6adef503a09ecc8cfb472d58722658d2703eb803d15c259d84ded04c097c64ff. Independently reproduced documented record/self-test commands. Tooling with simulation fixtures, not runtime submission ZIP or new plugin release.",
       "accessed_at": "2026-10-02T13:23:55.478299Z",
       "relation": "supports",
       "publication_basis": "owner-authored"
     },
-    
     {
       "evidence_id": "change-worksheet-2026-10-02",
       "source_type": "original-offline-artifact",
@@ -548,7 +546,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
       "title": "Plugin guidelines · scope",
-      "claim": "Guidelines apply to publicly listed plugins including skills-only and MCP; fundamentals apply to every plugin. Reconfirmed saved S11; not a ruling on every independently operated service. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "claim": "Guidelines apply to publicly listed plugins including skills-only and MCP; fundamentals apply to every plugin. Reconfirmed saved S11; not a ruling on every independently operated service. Checked 3 October 2026; accessed_at is an evidence-review timestamp, not HTTP fetch time.",
       "accessed_at": "2026-10-03T13:11:38Z",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -558,7 +556,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
       "title": "Commerce · existing paid included use",
-      "claim": "Existing paid-account users may access subscription-included features. Reconfirmed saved 29 September Business/S11; no observed host/customer behavior or design approval. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "claim": "Existing paid-account users may access subscription-included features. Reconfirmed saved 29 September Business/S11; no observed host/customer behavior or design approval. Checked 3 October 2026; accessed_at is an evidence-review timestamp, not HTTP fetch time.",
       "accessed_at": "2026-10-03T13:11:38Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -568,7 +566,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
       "title": "Commerce · digital sales and upsells",
-      "claim": "Digital subscription/content/token/credit sales and indirect upsells prohibited; no in-plugin subscription-plan display, subscription initiation or upgrade promotion. Reconfirmed; external transaction routing does not itself change category. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "claim": "Digital subscription/content/token/credit sales and indirect upsells prohibited; no in-plugin subscription-plan display, subscription initiation or upgrade promotion. Reconfirmed; external transaction routing does not itself change category. Checked 3 October 2026; accessed_at is an evidence-review timestamp, not HTTP fetch time.",
       "accessed_at": "2026-10-03T13:11:38Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -578,7 +576,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
       "title": "Commerce · unavailable entitlement / information links",
-      "claim": "Denials may explain entitlement and link to information, not checkout/transaction destinations or pages explicitly initiating upgrade/subscription/purchase. Reconfirmed. No live destination audited; linkless denial and unverified-link omission are our recommendations. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "claim": "Denials may explain entitlement and link to information, not checkout/transaction destinations or pages explicitly initiating upgrade/subscription/purchase. Reconfirmed. No live destination audited; linkless denial and unverified-link omission are our recommendations. Checked 3 October 2026; accessed_at is an evidence-review timestamp, not HTTP fetch time.",
       "accessed_at": "2026-10-03T13:11:38Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -588,7 +586,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
       "title": "Commerce · equivalent-feature parity and channel fees",
-      "claim": "No worse equivalent external-service feature in ChatGPT or ChatGPT-penalizing fees/surcharges; temporary external promotions permitted. Newly inspected clause detail, not a dated policy change. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "claim": "No worse equivalent external-service feature in ChatGPT or ChatGPT-penalizing fees/surcharges; temporary external promotions permitted. Newly inspected clause detail, not a dated policy change. Checked 3 October 2026; accessed_at is an evidence-review timestamp, not HTTP fetch time.",
       "accessed_at": "2026-10-03T13:11:38Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -598,7 +596,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
       "title": "Advertising · standalone utility",
-      "claim": "No advertisements or primarily advertising plugin; legitimate standalone utility required. Reconfirmed saved S11. Discovery manipulation, enhanced placement and payout were not refreshed. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "claim": "No advertisements or primarily advertising plugin; legitimate standalone utility required. Reconfirmed saved S11. Discovery manipulation, enhanced placement and payout were not refreshed. Checked 3 October 2026; accessed_at is an evidence-review timestamp, not HTTP fetch time.",
       "accessed_at": "2026-10-03T13:11:38Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -608,7 +606,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
       "title": "Guidelines · Checkout scope tension",
-      "claim": "Own-domain external checkout required, select-partner beta Instant Checkout noted, other embedded/hosted third-party checkout disallowed. Reconfirmed wording; conflicting / unresolved scope with physical-goods saved-method API/UI descriptions. No source precedence inferred. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "claim": "Own-domain external checkout required, select-partner beta Instant Checkout noted, other embedded/hosted third-party checkout disallowed. Reconfirmed wording; conflicting / unresolved scope with physical-goods saved-method API/UI descriptions. No source precedence inferred. Checked 3 October 2026; accessed_at is an evidence-review timestamp, not HTTP fetch time.",
       "accessed_at": "2026-10-03T13:11:38Z",
       "relation": "unresolved",
       "publication_basis": "linked-summary"
@@ -618,7 +616,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/build/monetization",
       "title": "Checkout API · Overview / External Checkout",
-      "claim": "External checkout recommended/general availability for eligible physical goods; current approval physical-goods-limited. Newly inspected canonical detail; no digital subscription/credit eligibility established. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "claim": "External checkout recommended/general availability for eligible physical goods; current approval physical-goods-limited. Newly inspected canonical detail; no digital subscription/credit eligibility established. Checked 3 October 2026; accessed_at is an evidence-review timestamp, not HTTP fetch time.",
       "accessed_at": "2026-10-03T13:11:38Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -628,7 +626,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/build/monetization",
       "title": "Checkout API · saved payment methods",
-      "claim": "Non-redirect optional-UI merchant-saved-method purchase described for eligible physical goods; no new payment credentials collected, server processes purchase. Newly inspected; guideline scope conflicting / unresolved, no universal enabling established. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "claim": "Non-redirect optional-UI merchant-saved-method purchase described for eligible physical goods; no new payment credentials collected, server processes purchase. Newly inspected; guideline scope conflicting / unresolved, no universal enabling established. Checked 3 October 2026; accessed_at is an evidence-review timestamp, not HTTP fetch time.",
       "accessed_at": "2026-10-03T13:11:38Z",
       "relation": "unresolved",
       "publication_basis": "linked-summary"
@@ -638,7 +636,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/build/monetization",
       "title": "Checkout API · ChatGPT payment sheet private beta",
-      "claim": "Payment sheet private beta for select marketplaces, not all users; new-method collection uses sheet. Newly inspected sheet/saved-method distinction; no pool or integration-specific access established. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "claim": "Payment sheet private beta for select marketplaces, not all users; new-method collection uses sheet. Newly inspected sheet/saved-method distinction; no integration-specific access established. Checked 3 October 2026; accessed_at is an evidence-review timestamp, not HTTP fetch time.",
       "accessed_at": "2026-10-03T13:11:38Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -648,7 +646,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/build/chatgpt-ui",
       "title": "UI · Offer checkout in your UI",
-      "claim": "Default external checkout; other categories need explicit enabling. Saved methods eligible-physical-goods-only/no new credentials; payment sheet private beta and requestCheckout for enabled integrations. Newly inspected; general guideline scope unresolved, no SaaS exception inferred. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "claim": "Default external checkout; other categories need explicit enabling. Saved methods eligible-physical-goods-only/no new credentials; payment sheet private beta and requestCheckout for enabled integrations. Newly inspected; general guideline scope unresolved, no SaaS exception inferred. Checked 3 October 2026; accessed_at is an evidence-review timestamp, not HTTP fetch time.",
       "accessed_at": "2026-10-03T13:11:38Z",
       "relation": "unresolved",
       "publication_basis": "linked-summary"
@@ -658,7 +656,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/build/auth",
       "title": "Authentication · Components / token verification",
-      "claim": "MCP server verifies credentials, required scopes and server policy; authentication declaration is not enforcement. Newly inspected narrow claim. Exact identity → resource → entitlement sequence is our synthesis / NOT RUN, not an OAuth implementation or enforcement test. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "claim": "MCP server verifies credentials, required scopes and server policy; authentication declaration is not enforcement. Newly inspected narrow claim. Exact identity → resource → entitlement sequence is our untested synthesis, not an OAuth implementation or enforcement test. Checked 3 October 2026; accessed_at is an evidence-review timestamp, not HTTP fetch time.",
       "accessed_at": "2026-10-03T13:11:38Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -668,7 +666,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/guides/security-privacy",
       "title": "Security & Privacy · Data handling / authorization",
-      "claim": "Enforce scopes each call, reject expired/malformed tokens, validate inputs server-side and return necessary task data only. Narrow boundary reconfirmed; resource authorization is separate from feature entitlement, no security test. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "claim": "Enforce scopes each call, reject expired/malformed tokens, validate inputs server-side and return necessary task data only. Narrow boundary reconfirmed; resource authorization is separate from feature entitlement, no security test. Checked 3 October 2026; accessed_at is an evidence-review timestamp, not HTTP fetch time.",
       "accessed_at": "2026-10-03T13:11:38Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -678,7 +676,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
       "title": "Guidelines · name, description and prompts",
-      "claim": "Listing subtitles/descriptions cannot advertise subscriptions, prices, trials, discounts or promotions. Newly inspected precise metadata restriction, not a release/change-date finding. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "claim": "Listing subtitles/descriptions cannot advertise subscriptions, prices, trials, discounts or promotions. Newly inspected precise metadata restriction, not a release/change-date finding. Checked 3 October 2026; accessed_at is an evidence-review timestamp, not HTTP fetch time.",
       "accessed_at": "2026-10-03T13:11:38Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -688,7 +686,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
       "title": "Guidelines · Purpose and originality / Quality and reliability",
-      "claim": "Distinct useful functionality beyond native capabilities and reliable accurate results expected. Reconfirmed. Business falsification questions and six proposed cases are our hypothetical design review / NOT RUN, not measured demand or product-success evidence. Checked 3 October 2026; accessed_at is observed saved-ledger review, not HTTP fetch time.",
+      "claim": "Distinct useful functionality beyond native capabilities and reliable accurate results expected. Reconfirmed. Business falsification questions and six proposed cases are our hypothetical, untested design review, not measured demand or product-success evidence. Checked 3 October 2026; accessed_at is an evidence-review timestamp, not HTTP fetch time.",
       "accessed_at": "2026-10-03T13:11:38Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -698,7 +696,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/plan/tools",
       "title": "Define tools · Map use cases to tools",
-      "claim": "Separate differing permission/risk/confirmation boundaries and reads from writes. Newly inspected canonical precision; our entire worked workflow is hypothetical / NOT RUN. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "claim": "Separate differing permission/risk/confirmation boundaries and reads from writes. Newly inspected canonical precision; our entire worked workflow is hypothetical and untested. Inspected 4 October 2026; accessed_at is an evidence-review timestamp, not HTTP time. No changed rule established.",
       "accessed_at": "2026-10-04T13:12:17Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -708,7 +706,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/plan/tools",
       "title": "Define tools · Define each contract",
-      "claim": "Explicit inputs/output, authorization, effects and failure belong in the contract; minimize secrets/data. Newly inspected detail; fictional fields/limits/source bundles are original design, not official schemas. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "claim": "Explicit inputs/output, authorization, effects and failure belong in the contract; minimize secrets/data. Newly inspected detail; fictional fields/limits/source bundles are original design, not official schemas. Inspected 4 October 2026; accessed_at is an evidence-review timestamp, not HTTP time. No changed rule established.",
       "accessed_at": "2026-10-04T13:12:17Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -718,7 +716,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/plan/tools",
       "title": "Define tools · Plan safety annotations",
-      "claim": "Hints do not enforce access, input validity or consequential-action confirmation. Saved metadata-versus-authority principle reconfirmed. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "claim": "Hints do not enforce access, input validity or consequential-action confirmation. Saved metadata-versus-authority principle reconfirmed. Inspected 4 October 2026; accessed_at is an evidence-review timestamp, not HTTP time. No changed rule established.",
       "accessed_at": "2026-10-04T13:12:17Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -728,7 +726,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
       "title": "Guidelines · Tools · behavior / independent exposure",
-      "claim": "Expose independent model-callable operations with descriptions/schemas matching behavior, not hidden executor modes. Newly inspected precision. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "claim": "Expose independent model-callable operations with descriptions/schemas matching behavior, not hidden executor modes. Newly inspected precision. Inspected 4 October 2026; accessed_at is an evidence-review timestamp, not HTTP time. No changed rule established.",
       "accessed_at": "2026-10-04T13:12:17Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -738,7 +736,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
       "title": "Guidelines · Tools · Correct annotation",
-      "claim": "All three booleans must be explicit; this page says explanations are no longer required. Reconfirmed but conflicts with A14 and review language. Annotation-only paired conflict checked 4 October, unresolved; other readiness not refreshed. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "claim": "All three booleans must be explicit; this page says explanations are no longer required. Reconfirmed but conflicts with A14 and review language. Annotation-only paired conflict checked 4 October, unresolved; other readiness not refreshed. Inspected 4 October 2026; accessed_at is an evidence-review timestamp, not HTTP time. No changed rule established.",
       "accessed_at": "2026-10-04T13:12:17Z",
       "relation": "unresolved",
       "publication_basis": "linked-summary"
@@ -748,7 +746,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
       "title": "Guidelines · Correct annotation · pure/stateful effects",
-      "claim": "State-free retrieval/computation/preview differs from persisted artifacts, approvals/jobs/queues and sends. Newly inspected mode/persistence detail; our pure preview excludes deliberate application persistence. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "claim": "State-free retrieval/computation/preview differs from persisted artifacts, approvals/jobs/queues and sends. Newly inspected mode/persistence detail; our pure preview excludes deliberate application persistence. Inspected 4 October 2026; accessed_at is an evidence-review timestamp, not HTTP time. No changed rule established.",
       "accessed_at": "2026-10-04T13:12:17Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -758,7 +756,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
       "title": "Guidelines · Correct annotation · irreversible actions",
-      "claim": "Irreversible effects require destructiveHint; false only fits additive non-destructive/non-irreversible writes. Undo availability alone is insufficient. Newly inspected distinction, not a change finding. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "claim": "Irreversible effects require destructiveHint; false only fits additive non-destructive/non-irreversible writes. Undo availability alone is insufficient. Newly inspected distinction, not a change finding. Inspected 4 October 2026; accessed_at is an evidence-review timestamp, not HTTP time. No changed rule established.",
       "accessed_at": "2026-10-04T13:12:17Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -768,7 +766,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
       "title": "Guidelines · Correct annotation · open-world scope",
-      "claim": "Open-ended/public scope is independent of mutability; bounded private hosting alone does not establish open-world behavior. Conditional read/preview true,false,false and external email false,true,true follow exact assumed capabilities—not permission. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "claim": "Open-ended/public scope is independent of mutability; bounded private hosting alone does not establish open-world behavior. Conditional read/preview true,false,false and external email false,true,true follow exact assumed capabilities—not permission. Inspected 4 October 2026; accessed_at is an evidence-review timestamp, not HTTP time. No changed rule established.",
       "accessed_at": "2026-10-04T13:12:17Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -778,7 +776,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
       "title": "Guidelines · minimal inputs / data handling / permissions",
-      "claim": "Minimize purposeful inputs/results; no full-chat reconstruction or unnecessary diagnostics; explicit minimal permissions. Reconfirmed broad minimization and newly inspected precise boundaries. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "claim": "Minimize purposeful inputs/results; no full-chat reconstruction or unnecessary diagnostics; explicit minimal permissions. Reconfirmed broad minimization and newly inspected precise boundaries. Inspected 4 October 2026; accessed_at is an evidence-review timestamp, not HTTP time. No changed rule established.",
       "accessed_at": "2026-10-04T13:12:17Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -788,7 +786,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
       "title": "Guidelines · Predictable, auditable behavior",
-      "claim": "Disclose effects and repeated-effect retry risks. Newly inspected precision. Our reserved-attempt/status recovery is conditional design / NOT RUN, no universal exactly-once guarantee. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "claim": "Disclose effects and repeated-effect retry risks. Newly inspected precision. Our reserved-attempt/status recovery is conditional, untested design, no universal exactly-once guarantee. Inspected 4 October 2026; accessed_at is an evidence-review timestamp, not HTTP time. No changed rule established.",
       "accessed_at": "2026-10-04T13:12:17Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -798,7 +796,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/guides/security-privacy",
       "title": "Security · Principles / Prompt injection and write actions",
-      "claim": "Least privilege/consent, malicious-input expectation, server validation and irreversible-action human confirmation reconfirmed. Human-only issuer/step-up/fixed record are our proposed mechanism / NOT RUN, not verified OpenAI protocol. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "claim": "Least privilege/consent, malicious-input expectation, server validation and irreversible-action human confirmation reconfirmed. Human-only issuer/step-up/fixed record are our proposed, untested mechanism, not verified OpenAI protocol. Inspected 4 October 2026; accessed_at is an evidence-review timestamp, not HTTP time. No changed rule established.",
       "accessed_at": "2026-10-04T13:12:17Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -808,7 +806,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/guides/security-privacy",
       "title": "Security · Data handling / Authentication & authorization",
-      "claim": "Minimize results, disclose retention, redact logs and enforce scopes/credentials each call. Reconfirmed; approval cannot override current read/export/send rights. OAuth/network/UI sections not refreshed; no enforcement test. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "claim": "Minimize results, disclose retention, redact logs and enforce scopes/credentials each call. Reconfirmed; approval cannot override current read/export/send rights. OAuth/network/UI sections not refreshed; no enforcement test. Inspected 4 October 2026; accessed_at is an evidence-review timestamp, not HTTP time. No changed rule established.",
       "accessed_at": "2026-10-04T13:12:17Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -818,7 +816,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/app-review",
       "title": "Review · tool-scanning metadata / annotation mismatch",
-      "claim": "Scans import advertised values; explanations cannot override them. Complete classification includes modes, defaults and indirect effects. Accurate-metadata principle reconfirmed; all-mode precision newly inspected. No actual scan/review. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "claim": "Scans import advertised values; explanations cannot override them. Complete classification includes modes, defaults and indirect effects. Accurate-metadata principle reconfirmed; all-mode precision newly inspected. No actual scan/review. Inspected 4 October 2026; accessed_at is an evidence-review timestamp, not HTTP time. No changed rule established.",
       "accessed_at": "2026-10-04T13:12:17Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -828,7 +826,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission-errors",
       "title": "Errors · annotation entries only",
-      "claim": "Final submission and annotations_required/justification_required still require explanations; conflicts with A05 and review wording. Narrow paired 4 October scope, not readiness refresh or resolved precedence. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "claim": "Final submission and annotations_required/justification_required still require explanations; conflicts with A05 and review wording. Narrow paired 4 October scope, not readiness refresh or resolved precedence. Inspected 4 October 2026; accessed_at is an evidence-review timestamp, not HTTP time. No changed rule established.",
       "accessed_at": "2026-10-04T13:12:17Z",
       "relation": "unresolved",
       "publication_basis": "linked-summary"
@@ -838,97 +836,97 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/app-review",
       "title": "Review · annotation mismatch · logging",
-      "claim": "Review includes writing logs among state-change examples; paired Security retention/redaction basis is independently linked in A12. Incidental infrastructure scope not delineated. Neither every-log-write makes every read a write nor logs-never-matter established; deliberate application persistence is stateful. Inspected 4 October 2026; accessed_at is observed saved-ledger review, not HTTP time. No changed rule established.",
+      "claim": "Review includes writing logs among state-change examples; paired Security retention/redaction basis is independently linked in A12. Incidental infrastructure scope not delineated. Neither every-log-write makes every read a write nor logs-never-matter established; deliberate application persistence is stateful. Inspected 4 October 2026; accessed_at is an evidence-review timestamp, not HTTP time. No changed rule established.",
       "accessed_at": "2026-10-04T13:12:17Z",
       "relation": "unresolved",
       "publication_basis": "linked-summary"
     },
     {
       "evidence_id": "2026-10-05-H01",
-      "source_type": "official documentation; independent current retrieval and dated record review",
+      "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/build/plugins",
       "title": "Package your plugin · Plugin creator output",
-      "claim": "Newly inspected: empty optional hooks scaffolding is not runnable configuration (949–963). Call bracket 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at records saved-ledger review. Changed with evidence: none.",
+      "claim": "Newly inspected: empty optional hooks scaffolding is not runnable configuration (949–963). Source-inspection window 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at is an evidence-review timestamp. Changed with evidence: none.",
       "accessed_at": "2026-10-05T13:11:37Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
     },
     {
       "evidence_id": "2026-10-05-H02",
-      "source_type": "official documentation; independent current retrieval and dated record review",
+      "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/build/plugins",
       "title": "Package your plugin · Add OpenAI-specific metadata / Path rules / Bundled MCP servers and lifecycle hooks",
-      "claim": "Settings selection reconfirmed; hook discovery newly inspected: selected inline settings replace overlay, explicit hook entries replace default discovery, root-relative ./ paths contained (1298 / 1302–1308 / 1336–1366). Call bracket 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at records saved-ledger review. Changed with evidence: none.",
+      "claim": "Settings selection reconfirmed; hook discovery newly inspected: selected inline settings replace overlay, explicit hook entries replace default discovery, root-relative ./ paths contained (1298 / 1302–1308 / 1336–1366). Source-inspection window 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at is an evidence-review timestamp. Changed with evidence: none.",
       "accessed_at": "2026-10-05T13:11:37Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
     },
     {
       "evidence_id": "2026-10-05-H03",
-      "source_type": "official documentation; independent current retrieval and dated record review",
+      "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/build/plugins",
       "title": "Package your plugin · Bundled MCP servers and lifecycle hooks",
-      "claim": "Newly inspected: web installation does not deploy scripts; plugin hooks require current-definition trust; root/data variables locate resources, not provision dependencies (1334–1335 / 1368–1369). Call bracket 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at records saved-ledger review. Changed with evidence: none.",
+      "claim": "Newly inspected: web installation does not deploy scripts; plugin hooks require current-definition trust; root/data variables locate resources, not provision dependencies (1334–1335 / 1368–1369). Source-inspection window 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at is an evidence-review timestamp. Changed with evidence: none.",
       "accessed_at": "2026-10-05T13:11:37Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
     },
     {
       "evidence_id": "2026-10-05-H04",
-      "source_type": "official documentation; independent current retrieval and dated record review",
+      "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/concepts/plugins",
       "title": "Plugin architecture · introduction",
-      "claim": "Newly inspected broad Work/Codex lifecycle wording (924–929), qualified by H05/H07; not universal Work support. Call bracket 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at records saved-ledger review. Changed with evidence: none.",
+      "claim": "Newly inspected broad Work/Codex lifecycle wording (924–929), qualified by H05/H07; not universal Work support. Source-inspection window 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at is an evidence-review timestamp. Changed with evidence: none.",
       "accessed_at": "2026-10-05T13:11:37Z",
       "relation": "context",
       "publication_basis": "linked-summary"
     },
     {
       "evidence_id": "2026-10-05-H05",
-      "source_type": "official documentation; independent current retrieval and dated record review",
+      "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/plugins",
       "title": "Plugins · Use plugins from a supported surface → Hooks",
-      "claim": "Cloud-orchestrated Work hook exclusion reconfirmed; synced Work only admin-defined MCP hooks in Agent Security newly inspected (951–956). Call bracket 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at records saved-ledger review. Changed with evidence: none.",
+      "claim": "Cloud-orchestrated Work hook exclusion reconfirmed; synced Work only admin-defined MCP hooks in Agent Security newly inspected (951–956). Source-inspection window 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at is an evidence-review timestamp. Changed with evidence: none.",
       "accessed_at": "2026-10-05T13:11:37Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
     },
     {
       "evidence_id": "2026-10-05-H06",
-      "source_type": "official documentation; independent current retrieval and dated record review",
+      "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/hooks",
       "title": "Hooks · How hooks run / Review and trust hooks",
-      "claim": "Newly inspected: listed config precedes eligibility; non-managed trust binds exact current definition/hash, changes await review; matching commands start concurrently (923–926 / 954–959). No actual state observed. Call bracket 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at records saved-ledger review. Changed with evidence: none.",
+      "claim": "Newly inspected: listed config precedes eligibility; non-managed trust binds exact current definition/hash, changes await review; matching commands start concurrently (923–926 / 954–959). No actual state observed. Source-inspection window 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at is an evidence-review timestamp. Changed with evidence: none.",
       "accessed_at": "2026-10-05T13:11:37Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
     },
     {
       "evidence_id": "2026-10-05-H07",
-      "source_type": "official documentation; independent current retrieval and dated record review",
+      "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/hooks",
       "title": "Hooks · Turn hooks off / Managed hooks from requirements.toml",
-      "claim": "Newly inspected: enabled and managed-only policies matter; existing local hooks require local orchestration and execution, local execution alone does not qualify cloud orchestration (1151–1165 / 1185–1190). Call bracket 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at records saved-ledger review. Changed with evidence: none.",
+      "claim": "Newly inspected: enabled and managed-only policies matter; existing local hooks require local orchestration and execution, local execution alone does not qualify cloud orchestration (1151–1165 / 1185–1190). Source-inspection window 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at is an evidence-review timestamp. Changed with evidence: none.",
       "accessed_at": "2026-10-05T13:11:37Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
     },
     {
       "evidence_id": "2026-10-05-H08",
-      "source_type": "official documentation; independent current retrieval and dated record review",
+      "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/hooks",
       "title": "Hooks · Plugin-bundled hooks / Tool coverage / Managed hooks",
-      "claim": "Newly inspected: plugin hooks non-managed; hosted/specialized paths escape local coverage. Managed MCP callback failures need not block a tool or provide complete audit; no sole authorization/compliance enforcement (1191–1206 / 1237–1250 / 1162). Call bracket 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at records saved-ledger review. Changed with evidence: none.",
+      "claim": "Newly inspected: plugin hooks non-managed; hosted/specialized paths escape local coverage. Managed MCP callback failures need not block a tool or provide complete audit; no sole authorization/compliance enforcement (1191–1206 / 1237–1250 / 1162). Source-inspection window 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at is an evidence-review timestamp. Changed with evidence: none.",
       "accessed_at": "2026-10-05T13:11:37Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
     },
     {
       "evidence_id": "2026-10-05-H09",
-      "source_type": "official documentation; independent current retrieval and dated record review",
+      "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/guides/submit-claude-plugin",
       "title": "Submit your Claude Code plugin · Replace Claude userConfig / Complete the submission requirements",
-      "claim": "Newly inspected, conversion-guide context only: validate local settings/actionable errors, not core ChatGPT dependencies; local-core cases directed to partner/product-specific review (991 / 994–999). No universal binary ban/approval or actual route established. Call bracket 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at records saved-ledger review. Changed with evidence: none.",
+      "claim": "Newly inspected, conversion-guide context only: validate local settings/actionable errors, not core ChatGPT dependencies; local-core cases directed to partner/product-specific review (991 / 994–999). No universal binary ban/approval or actual route established. Source-inspection window 2026-10-05 13:02:45–13:03:15 UTC, not HTTP/source release time; accessed_at is an evidence-review timestamp. Changed with evidence: none.",
       "accessed_at": "2026-10-05T13:11:37Z",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -938,7 +936,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission",
       "title": "Submission · Automatically provide submission and review information (1062–1066)",
-      "claim": "Newly inspected: current public ZIP guidance excludes lifecycle hooks and registered MCP references (apps / .app.json); adjacent direction is MCP URLs/dashboard setup. Documented input restriction, not an observed rejection or changed rule. New accessed_at is observed saved-record review, not exact HTTP fetch time; source is current undated documentation.",
+      "claim": "Newly inspected: current public ZIP guidance excludes lifecycle hooks and registered MCP references (apps / .app.json); adjacent direction is MCP URLs/dashboard setup. Documented input restriction, not an observed rejection or changed rule. accessed_at is an evidence-review timestamp, not exact HTTP fetch time; source is current undated documentation.",
       "accessed_at": "2026-10-06T13:04:17Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -948,7 +946,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission",
       "title": "Submission · Complete metadata examples / Codex format / Connect and scan your MCP server",
-      "claim": "Newly inspected direct remote configurations and setup pairing; verification/authentication/scans and review/approval/chosen Publish remain distinct. No server/provider authority or completed gate is granted by a mapping/example. New accessed_at is observed saved-record review, not exact HTTP fetch time; source is current undated documentation.",
+      "claim": "Newly inspected direct remote configurations and setup pairing; verification/authentication/scans and review/approval/chosen Publish remain distinct. No server/provider authority or completed gate is granted by a mapping/example. accessed_at is an evidence-review timestamp, not exact HTTP fetch time; source is current undated documentation.",
       "accessed_at": "2026-10-06T13:04:17Z",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -958,7 +956,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/build/plugins",
       "title": "Packaging · Plugin structure / Path rules / Publish official public plugins",
-      "claim": "Reconfirmed local/repo component support and separate public submission channel. Optional/local hook support does not establish public input eligibility. New accessed_at is observed saved-record review, not exact HTTP fetch time; source is current undated documentation.",
+      "claim": "Reconfirmed local/repo component support and separate public submission channel. Optional/local hook support does not establish public input eligibility. accessed_at is an evidence-review timestamp, not exact HTTP fetch time; source is current undated documentation.",
       "accessed_at": "2026-10-06T13:04:17Z",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -968,7 +966,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission-errors",
       "title": "Errors · MCP server reference errors (1280–1298), paired Packaging · Path rules",
-      "claim": "Newly inspected distinction: apps / .app.json identify registered MCP mappings, not optional MCP UI; shared local/workspace mapping checks differ from public direct-MCP setup. No blanket UI/script/local-plugin ban inferred. New accessed_at is observed saved-record review, not exact HTTP fetch time; source is current undated documentation.",
+      "claim": "Newly inspected distinction: apps / .app.json identify registered MCP mappings, not optional MCP UI; shared local/workspace mapping checks differ from public direct-MCP setup. No blanket UI/script/local-plugin ban inferred. accessed_at is an evidence-review timestamp, not exact HTTP fetch time; source is current undated documentation.",
       "accessed_at": "2026-10-06T13:04:17Z",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -978,7 +976,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/build/plugins",
       "title": "Packaging · Add OpenAI-specific metadata / Bundled MCP servers and lifecycle hooks",
-      "claim": "Reconfirmed whole-overlay selection and default hooks/hooks.json discovery absent explicit entries. Deleting a manifest key alone is no reliable general removal remedy; local discovery does not specify public parsing. New accessed_at is observed saved-record review, not exact HTTP fetch time; source is current undated documentation.",
+      "claim": "Reconfirmed whole-overlay selection and default hooks/hooks.json discovery absent explicit entries. Deleting a manifest key alone is no reliable general removal remedy; local discovery does not specify public parsing. accessed_at is an evidence-review timestamp, not exact HTTP fetch time; source is current undated documentation.",
       "accessed_at": "2026-10-06T13:04:17Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -988,7 +986,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/build/plugins",
       "title": "Packaging · Plugin creator output (947–963)",
-      "claim": "Reconfirmed empty hook scaffolding is not configuration/script; no universal empty-artifact public exemption established. New accessed_at is observed saved-record review, not exact HTTP fetch time; source is current undated documentation.",
+      "claim": "Reconfirmed empty hook scaffolding is not configuration/script; no universal empty-artifact public exemption established. accessed_at is an evidence-review timestamp, not exact HTTP fetch time; source is current undated documentation.",
       "accessed_at": "2026-10-06T13:04:17Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -998,7 +996,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/build/plugins",
       "title": "Packaging · Bundled MCP servers and lifecycle hooks (1302–1317)",
-      "claim": "Newly paired public remote-HTTPS guidance/local-MCP contact caution with ZIP restriction. No contact-obtained exception, actual deployment or universal local ban established. New accessed_at is observed saved-record review, not exact HTTP fetch time; source is current undated documentation.",
+      "claim": "Newly paired public remote-HTTPS guidance/local-MCP contact caution with ZIP restriction. No contact-obtained exception, actual deployment or universal local ban established. accessed_at is an evidence-review timestamp, not exact HTTP fetch time; source is current undated documentation.",
       "accessed_at": "2026-10-06T13:04:17Z",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -1008,7 +1006,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission-errors",
       "title": "Errors · ZIP upload errors and warnings / MCP server reference errors / Package warnings",
-      "claim": "Reconfirmed skills-only component exclusions; newly inspected registered-reference removal and conditional undeclared-file import warnings remain scoped normalization/validation context, not a hook workaround or observed portal result. New accessed_at is observed saved-record review, not exact HTTP fetch time; source is current undated documentation.",
+      "claim": "Reconfirmed skills-only component exclusions; newly inspected registered-reference removal and conditional undeclared-file import warnings remain scoped normalization/validation context, not a hook workaround or observed portal result. accessed_at is an evidence-review timestamp, not exact HTTP fetch time; source is current undated documentation.",
       "accessed_at": "2026-10-06T13:04:17Z",
       "relation": "unresolved",
       "publication_basis": "linked-summary"
@@ -1018,7 +1016,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/guides/submit-claude-plugin",
       "title": "Conversion · Both Review what OpenAI supports tables / archive and MCP preparation (943, 950–955, 968, 973–978)",
-      "claim": "Newly inspected genuine submission-context tension: both support tables direct hook adaptation, then submission preparation, conflicting in implication with explicit ZIP exclusion. Not local-only guidance; no exception, source precedence or controlling real path established. New accessed_at is observed saved-record review, not exact HTTP fetch time; source is current undated documentation.",
+      "claim": "Newly inspected genuine submission-context tension: both support tables direct hook adaptation, then submission preparation, conflicting in implication with explicit ZIP exclusion. Not local-only guidance; no exception, source precedence or controlling real path established. accessed_at is an evidence-review timestamp, not exact HTTP fetch time; source is current undated documentation.",
       "accessed_at": "2026-10-06T13:04:17Z",
       "relation": "unresolved",
       "publication_basis": "linked-summary"
@@ -1028,7 +1026,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/guides/submit-claude-plugin",
       "title": "Conversion · Registered-reference rows / Replace Claude userConfig / Complete the submission requirements",
-      "claim": "Local-core partner/product-review caution retains saved 5 October host/dependency basis; newly paired submission context establishes no hook exception. Script resources and registered references differ; native-binary provision/acceptance remains unresolved. New accessed_at is observed saved-record review, not exact HTTP fetch time; source is current undated documentation.",
+      "claim": "Local-core partner/product-review caution retains saved 5 October host/dependency basis; newly paired submission context establishes no hook exception. Script resources and registered references differ; native-binary provision/acceptance remains unresolved. accessed_at is an evidence-review timestamp, not exact HTTP fetch time; source is current undated documentation.",
       "accessed_at": "2026-10-06T13:04:17Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1038,7 +1036,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/developer-commands",
       "title": "Developer commands · codex plugin marketplace (2935–2995)",
-      "claim": "Newly inspected: codex plugin marketplace list --json returns marketplaces with name/root and optional marketplaceSource for configured/implicit marketplaces. Source/state inspection is not loaded-byte provenance. New accessed_at is observed saved-record review, not exact HTTP fetch time; four undated pages inspected in source-read call bracket 12:56:43–12:57:06 UTC. Changed with evidence: none.",
+      "claim": "Newly inspected: codex plugin marketplace list --json returns marketplaces with name/root and optional marketplaceSource for configured/implicit marketplaces. Source/state inspection is not loaded-byte provenance. accessed_at is an evidence-review timestamp, not exact HTTP fetch time; four undated pages inspected in the source-inspection window 12:56:43–12:57:06 UTC. Changed with evidence: none.",
       "accessed_at": "2026-10-07T13:05:06.659037Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1048,7 +1046,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/developer-commands",
       "title": "Developer commands · codex plugin (2881–2934)",
-      "claim": "Newly inspected: codex plugin list --json has installed/available arrays; entries include pluginId, name, marketplaceName, version, installed, enabled, source, installPolicy, authPolicy and optional marketplaceSource. installedPath belongs to add output, not list. Available is not installed; labels/auth policy do not prove loaded bytes or authorization. Actual CLI-version support unestablished. New accessed_at is observed saved-record review, not exact HTTP fetch time; four undated pages inspected in source-read call bracket 12:56:43–12:57:06 UTC. Changed with evidence: none.",
+      "claim": "Newly inspected: codex plugin list --json has installed/available arrays; entries include pluginId, name, marketplaceName, version, installed, enabled, source, installPolicy, authPolicy and optional marketplaceSource. installedPath belongs to add output, not list. Available is not installed; labels/auth policy do not prove loaded bytes or authorization. Actual CLI-version support unestablished. accessed_at is an evidence-review timestamp, not exact HTTP fetch time; four undated pages inspected in the source-inspection window 12:56:43–12:57:06 UTC. Changed with evidence: none.",
       "accessed_at": "2026-10-07T13:05:06.659037Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1058,7 +1056,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/developer-commands",
       "title": "Developer commands · Use skills with /skills (3534–3539), paired Build skills · invocation",
-      "claim": "Newly inspected: /skills selection inserts context for the next request; explicit $ mention is documented. Record observed selection/context, not ordinary naming or fluent prose. Selection-versus-quality separation reconfirmed; no loaded-byte proof. New accessed_at is observed saved-record review, not exact HTTP fetch time; four undated pages inspected in source-read call bracket 12:56:43–12:57:06 UTC. Changed with evidence: none.",
+      "claim": "Newly inspected: /skills selection inserts context for the next request; explicit $ mention is documented. Record observed selection/context, not ordinary naming or fluent prose. Selection-versus-quality separation reconfirmed; no loaded-byte proof. accessed_at is an evidence-review timestamp, not exact HTTP fetch time; four undated pages inspected in the source-inspection window 12:56:43–12:57:06 UTC. Changed with evidence: none.",
       "accessed_at": "2026-10-07T13:05:06.659037Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1068,7 +1066,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/developer-commands",
       "title": "Developer commands · List MCP tools with /mcp (3773–3780)",
-      "claim": "Newly inspected: /mcp concerns tools callable in this session; /mcp verbose adds server diagnostics. Merely configured servers are insufficient. Exact output/status guarantees, root cause, provider identity or task success are not established. New accessed_at is observed saved-record review, not exact HTTP fetch time; four undated pages inspected in source-read call bracket 12:56:43–12:57:06 UTC. Changed with evidence: none.",
+      "claim": "Newly inspected: /mcp concerns tools callable in this session; /mcp verbose adds server diagnostics. Merely configured servers are insufficient. Exact output/status guarantees, root cause, provider identity or task success are not established. accessed_at is an evidence-review timestamp, not exact HTTP fetch time; four undated pages inspected in the source-inspection window 12:56:43–12:57:06 UTC. Changed with evidence: none.",
       "accessed_at": "2026-10-07T13:05:06.659037Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1078,7 +1076,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/plugins",
       "title": "Plugins · Overview / permissions (939–942, 1037–1038), paired Developer commands · /clear",
-      "claim": "Reconfirmed: new CLI session after installation is documented. Newly inspected qualifier: /clear starts a fresh chat in the same CLI session, not a guaranteed new-session equivalent. No universal restart/reinstall/update/toggle cure. Preserve original failure first. New accessed_at is observed saved-record review, not exact HTTP fetch time; four undated pages inspected in source-read call bracket 12:56:43–12:57:06 UTC. Changed with evidence: none.",
+      "claim": "Reconfirmed: new CLI session after installation is documented. Newly inspected qualifier: /clear starts a fresh chat in the same CLI session, not a guaranteed new-session equivalent. No universal restart/reinstall/update/toggle cure. Preserve original failure first. accessed_at is an evidence-review timestamp, not exact HTTP fetch time; four undated pages inspected in the source-inspection window 12:56:43–12:57:06 UTC. Changed with evidence: none.",
       "accessed_at": "2026-10-07T13:05:06.659037Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1088,7 +1086,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/plugins",
       "title": "Plugins · Plugin browser in Codex CLI (1021–1028), paired Developer commands · /plugins",
-      "claim": "Reconfirmed: CLI browser exposes marketplace/plugin actions and installed-plugin toggle. Display/action is not successful state change or capability; an enable-toggle failure differs from enabled-but-missing. No repeated-toggle remedy or actual state observation. New accessed_at is observed saved-record review, not exact HTTP fetch time; four undated pages inspected in source-read call bracket 12:56:43–12:57:06 UTC. Changed with evidence: none.",
+      "claim": "Reconfirmed: CLI browser exposes marketplace/plugin actions and installed-plugin toggle. Display/action is not successful state change or capability; an enable-toggle failure differs from enabled-but-missing. No repeated-toggle remedy or actual state observation. accessed_at is an evidence-review timestamp, not exact HTTP fetch time; four undated pages inspected in the source-inspection window 12:56:43–12:57:06 UTC. Changed with evidence: none.",
       "accessed_at": "2026-10-07T13:05:06.659037Z",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -1098,7 +1096,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/build-skills",
       "title": "Build skills · progressive disclosure / initial-list note (942–944)",
-      "claim": "Newly inspected: budget omissions concern only the initial model-facing skill list; full instructions are read on selection. This does not establish uninstallation or a /skills picker limit, nor diagnose this reader failure. New accessed_at is observed saved-record review, not exact HTTP fetch time; four undated pages inspected in source-read call bracket 12:56:43–12:57:06 UTC. Changed with evidence: none.",
+      "claim": "Newly inspected: budget omissions concern only the initial model-facing skill list; full instructions are read on selection. This does not establish uninstallation or a /skills picker limit, nor diagnose this reader failure. accessed_at is an evidence-review timestamp, not exact HTTP fetch time; four undated pages inspected in the source-inspection window 12:56:43–12:57:06 UTC. Changed with evidence: none.",
       "accessed_at": "2026-10-07T13:05:06.659037Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1108,7 +1106,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/build-skills",
       "title": "Build skills · Optional metadata / local skill enable controls (1018–1048)",
-      "claim": "Newly inspected: allow_implicit_invocation false blocks implicit matching while explicit invocation remains possible. Standalone local-skill lifecycle/configuration differs from plugin state; no copy-to-local or restart workaround inferred. New accessed_at is observed saved-record review, not exact HTTP fetch time; four undated pages inspected in source-read call bracket 12:56:43–12:57:06 UTC. Changed with evidence: none.",
+      "claim": "Newly inspected: allow_implicit_invocation false blocks implicit matching while explicit invocation remains possible. Standalone local-skill lifecycle/configuration differs from plugin state; no copy-to-local or restart workaround inferred. accessed_at is an evidence-review timestamp, not exact HTTP fetch time; four undated pages inspected in the source-inspection window 12:56:43–12:57:06 UTC. Changed with evidence: none.",
       "accessed_at": "2026-10-07T13:05:06.659037Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1118,7 +1116,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/build/plugins",
       "title": "Packaging · Enable or disable a plugin for a repo (1099–1107)",
-      "claim": "Newly inspected owning-state precision: local-marketplace trusted-project settings/precedence/enforced requirements differ from workspace-import managed enabled state; refreshing files can differ from enablement. Resolve only observed mismatch through supported owner controls; no config replacement or trust bypass. New accessed_at is observed saved-record review, not exact HTTP fetch time; four undated pages inspected in source-read call bracket 12:56:43–12:57:06 UTC. Changed with evidence: none.",
+      "claim": "Newly inspected owning-state precision: local-marketplace trusted-project settings/precedence/enforced requirements differ from workspace-import managed enabled state; refreshing files can differ from enablement. Resolve only observed mismatch through supported owner controls; no config replacement or trust bypass. accessed_at is an evidence-review timestamp, not exact HTTP fetch time; four undated pages inspected in the source-inspection window 12:56:43–12:57:06 UTC. Changed with evidence: none.",
       "accessed_at": "2026-10-07T13:05:06.659037Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1128,7 +1126,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/build/plugins",
       "title": "Packaging · Marketplace metadata / How local marketplaces work (1163–1185, 1203–1213)",
-      "claim": "Newly inspected: source.path resolves relative to marketplace root and Git sources may record ref/sha. Source-versus-installed-copy distinction reconfirmed. Fixed cache/version paragraph is desktop/ChatGPT-scoped, not a universal CLI path recipe; root/source/version label never authenticates bytes loaded in an actual session. New accessed_at is observed saved-record review, not exact HTTP fetch time; four undated pages inspected in source-read call bracket 12:56:43–12:57:06 UTC. Changed with evidence: none.",
+      "claim": "Newly inspected: source.path resolves relative to marketplace root and Git sources may record ref/sha. Source-versus-installed-copy distinction reconfirmed. Fixed cache/version paragraph is desktop/ChatGPT-scoped, not a universal CLI path recipe; root/source/version label never authenticates bytes loaded in an actual session. accessed_at is an evidence-review timestamp, not exact HTTP fetch time; four undated pages inspected in the source-inspection window 12:56:43–12:57:06 UTC. Changed with evidence: none.",
       "accessed_at": "2026-10-07T13:05:06.659037Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1138,7 +1136,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/plugins",
       "title": "Plugins · How permissions and data sharing work (1034–1039)",
-      "claim": "Reconfirmed: host sandbox/approval and external-service authentication/access are separate; plugin MCP may need setup/auth. Callable tool/skill context does not prove intended provider identity or useful authorized output. No generic Cloud move, credentials or connected operation authorized. New accessed_at is observed saved-record review, not exact HTTP fetch time; four undated pages inspected in source-read call bracket 12:56:43–12:57:06 UTC. Changed with evidence: none.",
+      "claim": "Reconfirmed: host sandbox/approval and external-service authentication/access are separate; plugin MCP may need setup/auth. Callable tool/skill context does not prove intended provider identity or useful authorized output. No generic Cloud move, credentials or connected operation authorized. accessed_at is an evidence-review timestamp, not exact HTTP fetch time; four undated pages inspected in the source-inspection window 12:56:43–12:57:06 UTC. Changed with evidence: none.",
       "accessed_at": "2026-10-07T13:05:06.659037Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1148,7 +1146,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/migrate-custom-gpts",
       "title": "Migration · Introduction / Choose priority migrations / Admin FAQ prerequisites (941–953, 1057–1077, 1203–1220)",
-      "claim": "Reconfirmed / scope-sensitive: published creator/admin migration is Enterprise/workspace-qualified; published need not mean public. No actual affected account supplied. New accessed_at is observed saved-record review, not HTTP fetch time; four undated primary pages independently inspected in source-read actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "claim": "Reconfirmed / scope-sensitive: published creator/admin migration is Enterprise/workspace-qualified; published need not mean public. No actual affected account supplied. accessed_at is an evidence-review timestamp, not HTTP fetch time; four undated primary pages independently inspected in the source-inspection window 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
       "accessed_at": "2026-10-08T13:12:18.347353Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1158,7 +1156,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/migrate-custom-gpts",
       "title": "Migration · Prepare your GPT / creator Step 1 / What happens to the original GPT? (1134–1163, 1188–1190)",
-      "claim": "Private-first replacement reconfirmed; original lifecycle newly inspected: conversion makes original read-only, documented usable until retirement; future edits belong in replacement. No observed milestone, retirement date or reversible-editing guarantee. New accessed_at is observed saved-record review, not HTTP fetch time; four undated primary pages independently inspected in source-read actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "claim": "Private-first replacement reconfirmed; original lifecycle newly inspected: conversion makes original read-only, documented usable until retirement; future edits belong in replacement. No observed milestone, retirement date or reversible-editing guarantee. accessed_at is an evidence-review timestamp, not HTTP fetch time; four undated primary pages independently inspected in the source-inspection window 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
       "accessed_at": "2026-10-08T13:12:18.347353Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1168,7 +1166,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/migrate-custom-gpts",
       "title": "Migration · Prepare your GPT / Steps 1–2 / behavior and custom-action FAQ (1134–1172, 1244–1255)",
-      "claim": "Preservation precision newly inspected: retain real audience/instructions/reference/template/prompts/good results, harder case and important edits before conversion. Transfer/behavior limits reconfirmed: selected model does not carry over; tools/context/reference use require actual checks, not parity assumption. New accessed_at is observed saved-record review, not HTTP fetch time; four undated primary pages independently inspected in source-read actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "claim": "Preservation precision newly inspected: retain real audience/instructions/reference/template/prompts/good results, harder case and important edits before conversion. Transfer/behavior limits reconfirmed: selected model does not carry over; tools/context/reference use require actual checks, not parity assumption. accessed_at is an evidence-review timestamp, not HTTP fetch time; four undated primary pages independently inspected in the source-inspection window 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
       "accessed_at": "2026-10-08T13:12:18.347353Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1178,7 +1176,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/build-plugins",
       "title": "Build plugins · Share the plugin with your team (1120–1125)",
-      "claim": "Share/install separation reconfirmed; owning permissions newly inspected / scope-sensitive: direct sharing requires Share plugins; workspace publication requires Publish plugins to workspace. Neither establishes universal public listing or actual recipient access. New accessed_at is observed saved-record review, not HTTP fetch time; four undated primary pages independently inspected in source-read actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "claim": "Share/install separation reconfirmed; owning permissions newly inspected / scope-sensitive: direct sharing requires Share plugins; workspace publication requires Publish plugins to workspace. Neither establishes universal public listing or actual recipient access. accessed_at is an evidence-review timestamp, not HTTP fetch time; four undated primary pages independently inspected in the source-inspection window 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
       "accessed_at": "2026-10-08T13:12:18.347353Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1188,7 +1186,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/migrate-custom-gpts",
       "title": "Migration · Check installation and app access / employee-access and rollout FAQ (1082–1092, 1222–1241)",
-      "claim": "Newly inspected / scope-sensitive: Available/Installed policy does not change sharing; installation can be admin-provided. Use permission, sharing and installation remain separate; former GPT access is not replacement access. New accessed_at is observed saved-record review, not HTTP fetch time; four undated primary pages independently inspected in source-read actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "claim": "Newly inspected / scope-sensitive: Available/Installed policy does not change sharing; installation can be admin-provided. Use permission, sharing and installation remain separate; former GPT access is not replacement access. accessed_at is an evidence-review timestamp, not HTTP fetch time; four undated primary pages independently inspected in the source-inspection window 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
       "accessed_at": "2026-10-08T13:12:18.347353Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1198,7 +1196,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/build-plugins",
       "title": "Build plugins · Before you start / Permissions you need / Edit an existing plugin / If you cannot create or edit a plugin (958–965, 1090–1119, 1126–1130)",
-      "claim": "Newly inspected / scope-sensitive: Use/convert eligibility is not web creator/editor availability. Plugin Creator availability, Use plugins and edit access in intended workspace must be confirmed. Workspace creator/owner/admin editing eligibility needs the experience; naming maintainer does not grant editing. New accessed_at is observed saved-record review, not HTTP fetch time; four undated primary pages independently inspected in source-read actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "claim": "Newly inspected / scope-sensitive: Use/convert eligibility is not web creator/editor availability. Plugin Creator availability, Use plugins and edit access in intended workspace must be confirmed. Workspace creator/owner/admin editing eligibility needs the experience; naming maintainer does not grant editing. accessed_at is an evidence-review timestamp, not HTTP fetch time; four undated primary pages independently inspected in the source-inspection window 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
       "accessed_at": "2026-10-08T13:12:18.347353Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1208,7 +1206,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/plugins",
       "title": "Plugins · Universal plugin directory / Install and use a plugin / Choose a specific plugin (965–985, 998–1002)",
-      "claim": "General new-chat/@ route reconfirmed; recipient details newly inspected: Personal Shared with me, workspace tab and Installed row differ. Open replacement details/plus to install unless admin-installed, start new ChatGPT chat and explicitly @ select plugin/bundled skill. Proposed reader checks, not observed UI/access. New accessed_at is observed saved-record review, not HTTP fetch time; four undated primary pages independently inspected in source-read actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "claim": "General new-chat/@ route reconfirmed; recipient details newly inspected: Personal Shared with me, workspace tab and Installed row differ. Open replacement details/plus to install unless admin-installed, start new ChatGPT chat and explicitly @ select plugin/bundled skill. Proposed reader checks, not observed UI/access. accessed_at is an evidence-review timestamp, not HTTP fetch time; four undated primary pages independently inspected in the source-inspection window 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
       "accessed_at": "2026-10-08T13:12:18.347353Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1218,7 +1216,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/migrate-custom-gpts",
       "title": "Migration · Test how your plugin gets selected / creator Steps 2–3 / behavior FAQ (1022–1033, 1164–1181, 1244–1255)",
-      "claim": "Behavior non-equivalence reconfirmed; controlled comparison precision newly inspected: use same real text/prompt/reference and saved good result, harder case and normal request; assess facts/style/format/reference use/completeness/time. Installed is not always selected; explicit selection differs from automatic matching. New accessed_at is observed saved-record review, not HTTP fetch time; four undated primary pages independently inspected in source-read actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "claim": "Behavior non-equivalence reconfirmed; controlled comparison precision newly inspected: use same real text/prompt/reference and saved good result, harder case and normal request; assess facts/style/format/reference use/completeness/time. Installed is not always selected; explicit selection differs from automatic matching. accessed_at is an evidence-review timestamp, not HTTP fetch time; four undated primary pages independently inspected in the source-inspection window 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
       "accessed_at": "2026-10-08T13:12:18.347353Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1228,7 +1226,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/build-plugins",
       "title": "Build plugins · Refine and retest / Edit an existing plugin Steps 2–4 / Share the plugin with your team (1086–1125)",
-      "claim": "Newly inspected actionable maintenance/handoff: review changed and preserved instructions/files, reuse saved prompts in a new conversation, ask a teammate to try after edits. Link, sample prompt and named maintainer are team handoff elements. No change/retest or actual prompt supplied. New accessed_at is observed saved-record review, not HTTP fetch time; four undated primary pages independently inspected in source-read actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "claim": "Newly inspected actionable maintenance/handoff: review changed and preserved instructions/files, reuse saved prompts in a new conversation, ask a teammate to try after edits. Link, sample prompt and named maintainer are team handoff elements. No change/retest or actual prompt supplied. accessed_at is an evidence-review timestamp, not HTTP fetch time; four undated primary pages independently inspected in the source-inspection window 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
       "accessed_at": "2026-10-08T13:12:18.347353Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1238,7 +1236,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/enterprise/apps-and-connectors",
       "title": "Plugin controls · Introduction / Understand the capability chain / Step 1: Enable plugin availability (947–974)",
-      "claim": "Service-access separation reconfirmed; owning capability chain newly inspected / scope-sensitive: bundle/skill availability, role/integration access, action permission, external identity/service access and runtime controls are independent. Reference-only work needs no app connection; actual integration dependency needs separate verified scope. New accessed_at is observed saved-record review, not HTTP fetch time; four undated primary pages independently inspected in source-read actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "claim": "Service-access separation reconfirmed; owning capability chain newly inspected / scope-sensitive: bundle/skill availability, role/integration access, action permission, external identity/service access and runtime controls are independent. Reference-only work needs no app connection; actual integration dependency needs separate verified scope. accessed_at is an evidence-review timestamp, not HTTP fetch time; four undated primary pages independently inspected in the source-inspection window 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
       "accessed_at": "2026-10-08T13:12:18.347353Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1248,7 +1246,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/migrate-custom-gpts",
       "title": "Migration · Switch after the workflow is ready / creator Step 4 (1182–1187)",
-      "claim": "Newly inspected stop decision: hold switching a workflow with a missing required capability until adequate evidence or a tested alternative exists. Our ordinary prompt/reusable skill/project/existing authorized integration/purpose-built fork is genuine, not a certified or tested drop-in. New accessed_at is observed saved-record review, not HTTP fetch time; four undated primary pages independently inspected in source-read actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "claim": "Newly inspected stop decision: hold switching a workflow with a missing required capability until adequate evidence or a tested alternative exists. Our ordinary prompt/reusable skill/project/existing authorized integration/purpose-built fork is genuine, not a certified or tested drop-in. accessed_at is an evidence-review timestamp, not HTTP fetch time; four undated primary pages independently inspected in the source-inspection window 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
       "accessed_at": "2026-10-08T13:12:18.347353Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1258,7 +1256,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://learn.chatgpt.com/docs/build-plugins",
       "title": "Build plugins · Refine and retest / Share the plugin with your team (1086–1089, 1120–1125)",
-      "claim": "Our synthesis with Migration creator Step 4: only after adequate recipient and useful-output evidence replace one controlled onboarding destination plus install/select guidance, genuine prompt, maintainer and differences; retest after updates. Not an official automatic redirect or executed handoff. No stable replacement-URL, bookmark/article/QR repair or outside/public continuity guarantee established; lack of verification is UNKNOWN, not prohibition. New accessed_at is observed saved-record review, not HTTP fetch time; four undated primary pages independently inspected in source-read actual-call bracket 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
+      "claim": "Our synthesis with Migration creator Step 4: only after adequate recipient and useful-output evidence replace one controlled onboarding destination plus install/select guidance, genuine prompt, maintainer and differences; retest after updates. Not an official automatic redirect or executed handoff. No stable replacement-URL, bookmark/article/QR repair or outside/public continuity guarantee established; lack of verification is UNKNOWN, not prohibition. accessed_at is an evidence-review timestamp, not HTTP fetch time; four undated primary pages independently inspected in the source-inspection window 13:01:50–13:03:01 UTC on 8 October. Changed with evidence: none.",
       "accessed_at": "2026-10-08T13:12:18.347353Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1268,7 +1266,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/build/auth",
       "title": "Authentication · Components / MCP requirements / OAuth flow",
-      "claim": "Newly inspected / scope-sensitive: client registration/identification differs from end-user authorization. Predefined/CIMD/DCR choices are not interchangeable IDs or form-field guidance; no actual mode/provider observed. New accessed_at is observed saved-record review, not HTTP fetch time; four undated primary pages independently inspected in source-read call bracket 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
+      "claim": "Newly inspected / scope-sensitive: client registration/identification differs from end-user authorization. Predefined/CIMD/DCR choices are not interchangeable IDs or form-field guidance; no actual mode/provider observed. accessed_at is an evidence-review timestamp, not HTTP fetch time; four undated primary pages independently inspected in the source-inspection window 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
       "accessed_at": "2026-10-09T13:08:48.463522Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1278,7 +1276,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/build/auth",
       "title": "Authentication · Publish OAuth metadata",
-      "claim": "Newly inspected prerequisites: protected-resource/provider discovery, accepted token-endpoint authentication methods and S256 PKCE must fit actual implementation. Contract-first comparison is our synthesis, not an observed mismatch or switch-mode remedy. New accessed_at is observed saved-record review, not HTTP fetch time; four undated primary pages independently inspected in source-read call bracket 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
+      "claim": "Newly inspected prerequisites: protected-resource/provider discovery, accepted token-endpoint authentication methods and S256 PKCE must fit actual implementation. Contract-first comparison is our synthesis, not an observed mismatch or switch-mode remedy. accessed_at is an evidence-review timestamp, not HTTP fetch time; four undated primary pages independently inspected in the source-inspection window 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
       "accessed_at": "2026-10-09T13:08:48.463522Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1288,7 +1286,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/build/auth",
       "title": "Authentication · OAuth flow / Client registration",
-      "claim": "Newly inspected / ChatGPT-client scope-sensitive: CIMD uses HTTPS document URL identity and needs advertised support/fetching; DCR generates/reuses a client and requires a registration endpoint. Neither substitutes for unknown predefined form placement. New accessed_at is observed saved-record review, not HTTP fetch time; four undated primary pages independently inspected in source-read call bracket 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
+      "claim": "Newly inspected / ChatGPT-client scope-sensitive: CIMD uses HTTPS document URL identity and needs advertised support/fetching; DCR generates/reuses a client and requires a registration endpoint. Neither substitutes for unknown predefined form placement. accessed_at is an evidence-review timestamp, not HTTP fetch time; four undated primary pages independently inspected in the source-inspection window 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
       "accessed_at": "2026-10-09T13:08:48.463522Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1298,7 +1296,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/build/auth",
       "title": "Authentication · Protect callbacks with issuer identification / Redirect URL",
-      "claim": "Newly inspected / scope-sensitive: exact production callback is connection-management output; stable eligibility requires advertised issuer identification: authorization-server metadata issuer must match that server’s entry in MCP protected-resource metadata authorization_servers, and every success/error authorization response iss must match that issuer—not the MCP resource URL. Not a flag-only recipe. Actual callback/allowlist/behavior UNKNOWN; no sample URI, wildcard/bypass or host transfer. New accessed_at is observed saved-record review, not HTTP fetch time; four undated primary pages independently inspected in source-read call bracket 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
+      "claim": "Newly inspected / scope-sensitive: exact production callback is connection-management output; stable eligibility requires advertised issuer identification: authorization-server metadata issuer must match that server’s entry in MCP protected-resource metadata authorization_servers, and every success/error authorization response iss must match that issuer—not the MCP resource URL. Not a flag-only recipe. Actual callback/allowlist/behavior UNKNOWN; no sample URI, wildcard/bypass or host transfer. accessed_at is an evidence-review timestamp, not HTTP fetch time; four undated primary pages independently inspected in the source-inspection window 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
       "accessed_at": "2026-10-09T13:08:48.463522Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1308,7 +1306,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/build/auth",
       "title": "Authentication · Client identification",
-      "claim": "Newly inspected / ChatGPT-specific: possession of predefined client credentials does not imply support for the machine-to-machine client_credentials grant. Client identity/secret and token-endpoint client authentication are distinct from that grant. New accessed_at is observed saved-record review, not HTTP fetch time; four undated primary pages independently inspected in source-read call bracket 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
+      "claim": "Newly inspected / ChatGPT-specific: possession of predefined client credentials does not imply support for the machine-to-machine client_credentials grant. Client identity/secret and token-endpoint client authentication are distinct from that grant. accessed_at is an evidence-review timestamp, not HTTP fetch time; four undated primary pages independently inspected in the source-inspection window 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
       "accessed_at": "2026-10-09T13:08:48.463522Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1318,7 +1316,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/troubleshooting",
       "title": "Troubleshooting · Authentication problems",
-      "claim": "Newly inspected / conditional: ChatGPT DCR requires a login-enabled client; for an existing dynamically registered connection returning invalid_client, check/restore retained client and any secret rather than create another; expired token differs. Not the unverified client-ID report’s diagnosis or permission for arbitrary regeneration/deletion/reset. Actual client/secret state UNKNOWN. New accessed_at is observed saved-record review, not HTTP fetch time; four undated primary pages independently inspected in source-read call bracket 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
+      "claim": "Newly inspected / conditional: ChatGPT DCR requires a login-enabled client; for an existing dynamically registered connection returning invalid_client, check/restore retained client and any secret rather than create another; expired token differs. Not the unverified client-ID report’s diagnosis or permission for arbitrary regeneration/deletion/reset. Actual client/secret state UNKNOWN. accessed_at is an evidence-review timestamp, not HTTP fetch time; four undated primary pages independently inspected in the source-inspection window 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
       "accessed_at": "2026-10-09T13:08:48.463522Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1328,7 +1326,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission",
       "title": "Submission · Connect and scan / Submit for review",
-      "claim": "Public setup/scan gates reconfirmed; exact handles newly inspected: MCPs → select server → Connect, then MCP Server URL / Authentication / applicable settings, followed by inspection of findings. Required predefined-client control/location/cause remains unresolved; bounded public inspection does not prove absence. New accessed_at is observed saved-record review, not HTTP fetch time; four undated primary pages independently inspected in source-read call bracket 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
+      "claim": "Public setup/scan gates reconfirmed; exact handles newly inspected: MCPs → select server → Connect, then MCP Server URL / Authentication / applicable settings, followed by inspection of findings. Required predefined-client control/location/cause remains unresolved; bounded public inspection does not prove absence. accessed_at is an evidence-review timestamp, not HTTP fetch time; four undated primary pages independently inspected in the source-inspection window 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
       "accessed_at": "2026-10-09T13:08:48.463522Z",
       "relation": "unresolved",
       "publication_basis": "linked-summary"
@@ -1338,7 +1336,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission",
       "title": "Submission · Create draft / Complete review information",
-      "claim": "Reviewer gate reconfirmed; credential purpose/location newly inspected: sample reviewer account with test access belongs separately in Review details. Keep private credentials outside ZIP. Reviewer login is not client registration, user consent or resource authorization; actual account/access unobserved. New accessed_at is observed saved-record review, not HTTP fetch time; four undated primary pages independently inspected in source-read call bracket 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
+      "claim": "Reviewer gate reconfirmed; credential purpose/location newly inspected: sample reviewer account with test access belongs separately in Review details. Keep private credentials outside ZIP. Reviewer login is not client registration, user consent or resource authorization; actual account/access unobserved. accessed_at is an evidence-review timestamp, not HTTP fetch time; four undated primary pages independently inspected in the source-inspection window 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
       "accessed_at": "2026-10-09T13:08:48.463522Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1348,7 +1346,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission",
       "title": "Submission · Connect and scan / Scan your latest changes",
-      "claim": "Reconfirmed / scope-sensitive; public-versus-development precision newly inspected: Reconnect for connection attention / applicable Rescan for server/tool findings, then inspect new results. Connect/test custom-development Refresh is a different flow; no universal button availability, connection/scan/refresh result or useful-workflow success established. New accessed_at is observed saved-record review, not HTTP fetch time; four undated primary pages independently inspected in source-read call bracket 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
+      "claim": "Reconfirmed / scope-sensitive; public-versus-development precision newly inspected: Reconnect for connection attention / applicable Rescan for server/tool findings, then inspect new results. Connect/test custom-development Refresh is a different flow; no universal button availability, connection/scan/refresh result or useful-workflow success established. accessed_at is an evidence-review timestamp, not HTTP fetch time; four undated primary pages independently inspected in the source-inspection window 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
       "accessed_at": "2026-10-09T13:08:48.463522Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1358,7 +1356,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission",
       "title": "Submission · Support instruction",
-      "claim": "Newly inspected / scope-sensitive: submission asks for plugin ID when contacting support. Our provider-owner/portal-clarification ordering and redacted plugin/draft/stage/mode/error packet are synthesis, not official required form, SLA or tested fix. Troubleshooting escalation has a partner-contact context. No contact occurred. New accessed_at is observed saved-record review, not HTTP fetch time; four undated primary pages independently inspected in source-read call bracket 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
+      "claim": "Newly inspected / scope-sensitive: submission asks for plugin ID when contacting support. Our provider-owner/portal-clarification ordering and redacted plugin/draft/stage/mode/error packet are synthesis, not official required form, SLA or tested fix. Troubleshooting escalation has a partner-contact context. No contact occurred. accessed_at is an evidence-review timestamp, not HTTP fetch time; four undated primary pages independently inspected in the source-inspection window 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
       "accessed_at": "2026-10-09T13:08:48.463522Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1368,7 +1366,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/connect-chatgpt",
       "title": "Connect and test · Check tool selection / Test complete plugin",
-      "claim": "Reconfirmed / scope-sensitive with Submission review/Publish: connection or scan does not establish intended-user/reviewer access, useful work, submission acceptance, approval or chosen publication. No operations or result supplied. New accessed_at is observed saved-record review, not HTTP fetch time; four undated primary pages independently inspected in source-read call bracket 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
+      "claim": "Reconfirmed / scope-sensitive with Submission review/Publish: connection or scan does not establish intended-user/reviewer access, useful work, submission acceptance, approval or chosen publication. No operations or result supplied. accessed_at is an evidence-review timestamp, not HTTP fetch time; four undated primary pages independently inspected in the source-inspection window 12:58:17–12:59:54 UTC on 9 October. Changed with evidence:none; only bounded OAuth claims advance.",
       "accessed_at": "2026-10-09T13:08:48.463522Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1378,7 +1376,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/build/plugins",
       "title": "Packaging · Path rules / Configure MCP authentication / Registered client / OAuth reference",
-      "claim": "Newly inspected / scope-sensitive: portable root mcp.json named-server mcpServers.<server>.extensions[\"com.openai\"].auth.client uses mode \"provided\" and case-sensitive clientId. Not plugin-level OpenAI metadata or guessed top-level key. Actual reported upload format unknown. New accessed_at records observed saved-record review, not new HTTP fetch. Three undated primary pages independently inspected in the source-read 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
+      "claim": "Newly inspected / scope-sensitive: portable root mcp.json named-server mcpServers.<server>.extensions[\"com.openai\"].auth.client uses mode \"provided\" and case-sensitive clientId. Not plugin-level OpenAI metadata or guessed top-level key. Actual reported upload format unknown. accessed_at is an evidence-review timestamp, not a new HTTP fetch. Three undated primary pages independently inspected in the 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
       "accessed_at": "2026-10-10T13:10:05.818011Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1388,7 +1386,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/build/plugins",
       "title": "Packaging · OAuth configuration reference; paired Submission declaration instruction",
-      "claim": "Newly inspected / scope-sensitive: client optional; mode required when client present; clientId required for provided; tokenEndpointAuthMethod optional in reference. Paired Submission Configure authentication instructs declaring the selected method. Both levels preserved, no implemented schema validation or inferred omitted-method default/account behavior. New accessed_at records observed saved-record review, not new HTTP fetch. Three undated primary pages independently inspected in the source-read 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
+      "claim": "Newly inspected / scope-sensitive: client optional; mode required when client present; clientId required for provided; tokenEndpointAuthMethod optional in reference. Paired Submission Configure authentication instructs declaring the selected method. Both levels preserved, no implemented schema validation or inferred omitted-method default/account behavior. accessed_at is an evidence-review timestamp, not a new HTTP fetch. Three undated primary pages independently inspected in the 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
       "accessed_at": "2026-10-10T13:10:05.818011Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1398,7 +1396,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission",
       "title": "Submission · Configure authentication / Authentication limitations; Packaging registered client",
-      "claim": "Match actual provider/client method; Packaging reference lists none/client_secret_basic/client_secret_post/private_key_jwt. Endpoint overrides needed only when discovery lacks endpoints. A JWT declaration supplies no signing keys/setup, not a working public portal recipe. Method precision newly inspected; provider prerequisite supporting 9 October reconfirmed. New accessed_at records observed saved-record review, not new HTTP fetch. Three undated primary pages independently inspected in the source-read 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
+      "claim": "Match actual provider/client method; Packaging reference lists none/client_secret_basic/client_secret_post/private_key_jwt. Endpoint overrides needed only when discovery lacks endpoints. A JWT declaration supplies no signing keys/setup, not a working public portal recipe. Method precision newly inspected; provider prerequisite supporting 9 October reconfirmed. accessed_at is an evidence-review timestamp, not a new HTTP fetch. Three undated primary pages independently inspected in the 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
       "accessed_at": "2026-10-10T13:10:05.818011Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1408,7 +1406,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission",
       "title": "Submission · Configure authentication for submission",
-      "claim": "Newly inspected / scope-sensitive: advanced settings are read/displayed from mcp.json, not edited in the panel. Documented edit file → Upload new version → inspect saved MCPs settings before connecting. Existing registration can lock credential changes; upload does not prove replacement/unlock. Actual saved state/lock/unlock remains unknown. New accessed_at records observed saved-record review, not new HTTP fetch. Three undated primary pages independently inspected in the source-read 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
+      "claim": "Newly inspected / scope-sensitive: advanced settings are read/displayed from mcp.json, not edited in the panel. Documented edit file → Upload new version → inspect saved MCPs settings before connecting. Existing registration can lock credential changes; upload does not prove replacement/unlock. Actual saved state/lock/unlock remains unknown. accessed_at is an evidence-review timestamp, not a new HTTP fetch. Three undated primary pages independently inspected in the 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
       "accessed_at": "2026-10-10T13:10:05.818011Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1418,7 +1416,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission",
       "title": "Submission · Configure authentication / OAuth Client Secret; Packaging registered client",
-      "claim": "Newly inspected / conditional: MCPs → server → Connect → OAuth Client Secret field for provided unless tokenEndpointAuthMethod is none. clientSecret rejected in mcp.json. Keep secret outside ZIP/chat/log/report; application credentials differ from user password/access token/reviewer login. No observed account form/control/secret or omitted-method behavior. New accessed_at records observed saved-record review, not new HTTP fetch. Three undated primary pages independently inspected in the source-read 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
+      "claim": "Newly inspected / conditional: MCPs → server → Connect → OAuth Client Secret field for provided unless tokenEndpointAuthMethod is none. clientSecret rejected in mcp.json. Keep secret outside ZIP/chat/log/report; application credentials differ from user password/access token/reviewer login. No observed account form/control/secret or omitted-method behavior. accessed_at is an evidence-review timestamp, not a new HTTP fetch. Three undated primary pages independently inspected in the 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
       "accessed_at": "2026-10-10T13:10:05.818011Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1428,7 +1426,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission",
       "title": "Submission · Automatically provide submission and review information / Complete metadata examples; Packaging Path rules",
-      "claim": "Exact portable remote-MCP namespace newly inspected; direct MCP URLs/dashboard configuration differ from excluded registered apps/.app.json mappings. No new narrow incompatibility established in paired text; not blanket eligibility for formats/components. Broader channel restriction and hook-conversion conflict retain 6 October, neither refreshed nor resolved. New accessed_at records observed saved-record review, not new HTTP fetch. Three undated primary pages independently inspected in the source-read 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
+      "claim": "Exact portable remote-MCP namespace newly inspected; direct MCP URLs/dashboard configuration differ from excluded registered apps/.app.json mappings. No new narrow incompatibility established in paired text; not blanket eligibility for formats/components. Broader channel restriction and hook-conversion conflict retain 6 October, neither refreshed nor resolved. accessed_at is an evidence-review timestamp, not a new HTTP fetch. Three undated primary pages independently inspected in the 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
       "accessed_at": "2026-10-10T13:10:05.818011Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1438,7 +1436,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission",
       "title": "Submission · Authentication limitations; Packaging API-key/header distinction",
-      "claim": "Newly inspected / scope-sensitive: schema API-key acceptance does not complete public portal setup, including Basic/custom-header declarations. No API-key/bearer-input flow; nonempty server headers rejected. Protected service cannot be mislabeled no-auth; not a working shortcut or tested declaration. New accessed_at records observed saved-record review, not new HTTP fetch. Three undated primary pages independently inspected in the source-read 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
+      "claim": "Newly inspected / scope-sensitive: schema API-key acceptance does not complete public portal setup, including Basic/custom-header declarations. No API-key/bearer-input flow; nonempty server headers rejected. Protected service cannot be mislabeled no-auth; not a working shortcut or tested declaration. accessed_at is an evidence-review timestamp, not a new HTTP fetch. Three undated primary pages independently inspected in the 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
       "accessed_at": "2026-10-10T13:10:05.818011Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1448,7 +1446,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/build/auth",
       "title": "Authentication · Redirect URL / OAuth flow / Client registration",
-      "claim": "Supporting9October provider/client/user distinction reconfirmed: exact connection management-page callback is comparison target; registration differs from end-user authorization. DCR retains generated client/secret while tokens may expire. Retained-DCR advice is conditional, not original report diagnosis; fuller issuer/callback triage retains9October, actual state unknown. New accessed_at records observed saved-record review, not new HTTP fetch. Three undated primary pages independently inspected in the source-read 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
+      "claim": "Supporting9October provider/client/user distinction reconfirmed: exact connection management-page callback is comparison target; registration differs from end-user authorization. DCR retains generated client/secret while tokens may expire. Retained-DCR advice is conditional, not original report diagnosis; fuller issuer/callback triage retains9October, actual state unknown. accessed_at is an evidence-review timestamp, not a new HTTP fetch. Three undated primary pages independently inspected in the 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
       "accessed_at": "2026-10-10T13:10:05.818011Z",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -1458,7 +1456,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission",
       "title": "Submission · Connect and scan / reviewer separation / public gates",
-      "claim": "Supporting9October gates reconfirmed: package/source, saved connection, scan, intended-user/reviewer access, useful workflow, review, approval and chosen Publish differ. No success/account/operation observed; method or package acceptance is not authorization/use/review outcome. New accessed_at records observed saved-record review, not new HTTP fetch. Three undated primary pages independently inspected in the source-read 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
+      "claim": "Supporting9October gates reconfirmed: package/source, saved connection, scan, intended-user/reviewer access, useful workflow, review, approval and chosen Publish differ. No success/account/operation observed; method or package acceptance is not authorization/use/review outcome. accessed_at is an evidence-review timestamp, not a new HTTP fetch. Three undated primary pages independently inspected in the 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
       "accessed_at": "2026-10-10T13:10:05.818011Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1468,7 +1466,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission",
       "title": "Submission · Support plugin-ID instruction; author synthesis from L01–L09",
-      "claim": "Official support text asks for plugin ID. Our authorized-owner/stop order and broader redacted plugin/draft/stage/mode/error packet are synthesis from documentary source/saved-state limits, not official required universal form, support contact performed, tested remedy or resolution promise. New accessed_at records observed saved-record review, not new HTTP fetch. Three undated primary pages independently inspected in the source-read 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
+      "claim": "Official support text asks for plugin ID. Our authorized-owner/stop order and broader redacted plugin/draft/stage/mode/error packet are synthesis from documentary source/saved-state limits, not official required universal form, support contact performed, tested remedy or resolution promise. accessed_at is an evidence-review timestamp, not a new HTTP fetch. Three undated primary pages independently inspected in the 13:01:35–13:02:04 UTC window 10 October, not source/publication/change dates. Changed with evidence:none; only exact client-location/connection-state guidance advances.",
       "accessed_at": "2026-10-10T13:10:05.818011Z",
       "relation": "context",
       "publication_basis": "linked-summary"
@@ -1478,7 +1476,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission",
       "title": "Submission · Submit the draft",
-      "claim": "Public plugin has only one active review; wait for the decision or cancel before replacement upload. Metadata & Skills, Review status and review email are documented handles, not observed account status. Local preparation does not replace submitted materials. Newly inspected. accessed_at is observed saved-record review, not new web retrieval. The source review inspected two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
+      "claim": "Public plugin has only one active review; wait for the decision or cancel before replacement upload. Metadata & Skills, Review status and review email are documented handles, not observed account status. Local preparation does not replace submitted materials. Newly inspected. accessed_at is an evidence-review timestamp, not a new web retrieval. Independent inspection covered two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
       "accessed_at": "2026-10-11T21:08:22Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1488,7 +1486,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/app-review",
       "title": "Remote MCP review · Metadata stored during tool scanning / Submitting new versions",
-      "claim": "Remote-MCP one published and one in-review version; same-version-draft Cancel Review/resubmission wording differs in scope from Submission complete updated-version ZIP/new-version descriptions. Preserve scopes; universal cancellation/upload transaction and actual control UNKNOWN. Newly inspected/scope-sensitive. accessed_at is observed saved-record review, not new web retrieval. The source review inspected two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
+      "claim": "Remote-MCP one published and one in-review version; same-version-draft Cancel Review/resubmission wording differs in scope from Submission complete updated-version ZIP/new-version descriptions. Preserve scopes; universal cancellation/upload transaction and actual control UNKNOWN. Newly inspected/scope-sensitive. accessed_at is an evidence-review timestamp, not a new web retrieval. Independent inspection covered two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
       "accessed_at": "2026-10-11T21:08:22Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1498,7 +1496,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/app-review",
       "title": "Remote MCP review · Submitting new versions / Review-time and update-time FAQs",
-      "claim": "Every resubmission starts a new review; no expedited review or established update-time estimate. No queue-position retention, priority, deadline or approval promise inferred. Newly inspected/reconfirmed; no queue or account measurement. accessed_at is observed saved-record review, not new web retrieval. The source review inspected two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
+      "claim": "Every resubmission starts a new review; no expedited review or established update-time estimate. No queue-position retention, priority, deadline or approval promise inferred. Newly inspected/reconfirmed; no queue or account measurement. accessed_at is an evidence-review timestamp, not a new web retrieval. Independent inspection covered two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
       "accessed_at": "2026-10-11T21:08:22Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1508,7 +1506,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/app-review",
       "title": "Remote MCP review · Changing published metadata versions / Maintenance requirements",
-      "claim": "Current opened canonical remote-MCP guidance instructs keeping current published version during replacement review and directly publishing approved replacement, not remove-first merely to update. Removal without replacement causes unavailability. Narrow active documentary correction, not every rejected/enforcement state or actual/universal directory/recipient/loaded continuity. Deletion/unpublication not Cancel Review. Newly inspected. accessed_at is observed saved-record review, not new web retrieval. The source review inspected two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
+      "claim": "Current opened canonical remote-MCP guidance instructs keeping current published version during replacement review and directly publishing approved replacement, not remove-first merely to update. Removal without replacement causes unavailability. Narrow active documentary correction, not every rejected/enforcement state or actual/universal directory/recipient/loaded continuity. Deletion/unpublication not Cancel Review. Newly inspected. accessed_at is an evidence-review timestamp, not a new web retrieval. Independent inspection covered two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
       "accessed_at": "2026-10-11T21:08:22Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1518,7 +1516,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission",
       "title": "Submission · Publish / Update your published plugin",
-      "claim": "Complete updated-version ZIP retains components and applicable checks/review; approved developer Publish remains separate. Package review/replacement is not live hosted-tool evaluation; older channel/component eligibility constraints retained. Reconfirmed. accessed_at is observed saved-record review, not new web retrieval. The source review inspected two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
+      "claim": "Complete updated-version ZIP retains components and applicable checks/review; approved developer Publish remains separate. Package review/replacement is not live hosted-tool evaluation; older channel/component eligibility constraints retained. Reconfirmed. accessed_at is an evidence-review timestamp, not a new web retrieval. Independent inspection covered two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
       "accessed_at": "2026-10-11T21:08:22Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1528,7 +1526,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/app-review",
       "title": "Remote MCP review · Published metadata / Continuous review / Compatible implementation",
-      "claim": "After initial publication hosted tools have live/held review boundaries; new tools await approval and approved definitions retained for held changes, while calls reach live implementation. Metadata does not preserve backend code: keep it compatible. Scan cannot publish pending initial package. Reconfirmed/scope-sensitive; no deployment/scan/use observed. accessed_at is observed saved-record review, not new web retrieval. The source review inspected two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
+      "claim": "After initial publication hosted tools have live/held review boundaries; new tools await approval and approved definitions retained for held changes, while calls reach live implementation. Metadata does not preserve backend code: keep it compatible. Scan cannot publish pending initial package. Reconfirmed/scope-sensitive; no deployment/scan/use observed. accessed_at is an evidence-review timestamp, not a new web retrieval. Independent inspection covered two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
       "accessed_at": "2026-10-11T21:08:22Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1538,7 +1536,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission",
       "title": "Submission · Submit the draft / Appeal an automated finding; MCP review help boundary",
-      "claim": "Rejected-package email appeal differs from held-tool Appeal/Withdraw appeal; automatic MCP updates pause during a tool appeal. Support plugin-ID clarification is not expedition. No contact or appeal ran. Newly inspected/reconfirmed boundary. accessed_at is observed saved-record review, not new web retrieval. The source review inspected two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
+      "claim": "Rejected-package email appeal differs from held-tool Appeal/Withdraw appeal; automatic MCP updates pause during a tool appeal. Support plugin-ID clarification is not expedition. No contact or appeal ran. Newly inspected/reconfirmed boundary. accessed_at is an evidence-review timestamp, not a new web retrieval. Independent inspection covered two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
       "accessed_at": "2026-10-11T21:08:22Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1548,7 +1546,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/submission",
       "title": "Documentary scope limits and author synthesis from R01–R07",
-      "claim": "Actual identity/account/control/selected-review-published state/cancellation transaction/queue treatment/result/listing/recipient/loaded continuity UNKNOWN; all operations NOT RUN. Our conditional leave-valid default/action order/broader redacted note/genuine useful existing-site/manual/ordinary-answer alternative are synthesis, untested—not official universal form, duplicate-listing or access/review bypass. No supplied authorized actual state. accessed_at is observed saved-record review, not new web retrieval. The source review inspected two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
+      "claim": "Actual identity/account/control/selected-review-published state/cancellation transaction/queue treatment/result/listing/recipient/loaded continuity UNKNOWN; no operations performed. Our conditional leave-valid default/action order/broader redacted note/genuine useful existing-site/manual/ordinary-answer alternative are synthesis, untested—not official universal form, duplicate-listing or access/review bypass. No supplied authorized actual state. accessed_at is an evidence-review timestamp, not a new web retrieval. Independent inspection covered two undated canonical pages in 21:02:27–21:03:02 UTC 11 October bracket, not exact HTTP/publication/source-change times. Changed with evidence:none; only pending-review/replacement claims advance.",
       "accessed_at": "2026-10-11T21:08:22Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1558,7 +1556,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/app-review",
       "title": "Publish the plugin / approval FAQ",
-      "claim": "Approval precedes a distinct chosen Publish action; actual Publish/version/name/state UNKNOWN. Reconfirmed. accessed_at is observed saved-record review, not web retrieval. The source review read two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
+      "claim": "Approval precedes a distinct chosen Publish action; actual Publish/version/name/state UNKNOWN. Reconfirmed. accessed_at is an evidence-review timestamp, not web retrieval. Independent inspection covered two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
       "accessed_at": "2026-10-12T18:07:56Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1568,7 +1566,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/app-review",
       "title": "Publication and Distribution FAQs · missing-directory question",
-      "claim": "Exact publication-name search or directory URL supplied by submission portal are documented confirmation handles, not our observed success or every-account guarantee. Newly inspected precision relative to generic active wording, not new feature. accessed_at is observed saved-record review, not web retrieval. The source review read two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
+      "claim": "Exact publication-name search or directory URL supplied by submission portal are documented confirmation handles, not our observed success or every-account guarantee. Newly inspected precision relative to generic active wording, not new feature. accessed_at is an evidence-review timestamp, not web retrieval. Independent inspection covered two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
       "accessed_at": "2026-10-12T18:07:56Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1578,7 +1576,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/app-review",
       "title": "Discovery / missing-directory FAQ",
-      "claim": "Enhanced main-page placement is selected distribution; developers cannot request it. Missing tile alone proves neither failed publication nor harmless unfeatured state absent actual exact-route/recipient evidence. Reconfirmed/newly inspected precision. accessed_at is observed saved-record review, not web retrieval. The source review read two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
+      "claim": "Enhanced main-page placement is selected distribution; developers cannot request it. Missing tile alone proves neither failed publication nor harmless unfeatured state absent actual exact-route/recipient evidence. Reconfirmed/newly inspected precision. accessed_at is an evidence-review timestamp, not web retrieval. Independent inspection covered two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
       "accessed_at": "2026-10-12T18:07:56Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1588,7 +1586,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/app-review",
       "title": "Remote-MCP review scope / component-scoped guidelines",
-      "claim": "Public remote-MCP publication flow does not transfer publication controls, exact UI or recipient reach/install/provider/selection/output guarantees to all local/workspace channels or hosts. Scope-sensitive. accessed_at is observed saved-record review, not web retrieval. The source review read two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
+      "claim": "Public remote-MCP publication flow does not transfer publication controls, exact UI or recipient reach/install/provider/selection/output guarantees to all local/workspace channels or hosts. Scope-sensitive. accessed_at is an evidence-review timestamp, not web retrieval. Independent inspection covered two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
       "accessed_at": "2026-10-12T18:07:56Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1598,7 +1596,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
       "title": "Overview / Purpose and originality",
-      "claim": "Meaningful usefulness is required; utility/satisfaction may qualify for distribution, not guarantee placement or establish demand/value. Reconfirmed. accessed_at is observed saved-record review, not web retrieval. The source review read two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
+      "claim": "Meaningful usefulness is required; utility/satisfaction may qualify for distribution, not guarantee placement or establish demand/value. Reconfirmed. accessed_at is an evidence-review timestamp, not web retrieval. Independent inspection covered two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
       "accessed_at": "2026-10-12T18:07:56Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -1608,7 +1606,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/plugin-guidelines",
       "title": "Fair play / Descriptions that match behavior",
-      "claim": "Do not game model selection; model-readable descriptions must truthfully match intent, behavior and limits. No ranked-placement recipe or metadata workaround established. Newly inspected/reconfirmed. accessed_at is observed saved-record review, not web retrieval. The source review read two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
+      "claim": "Do not game model selection; model-readable descriptions must truthfully match intent, behavior and limits. No ranked-placement recipe or metadata workaround established. Newly inspected/reconfirmed. accessed_at is an evidence-review timestamp, not web retrieval. Independent inspection covered two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
       "accessed_at": "2026-10-12T18:07:56Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -1618,7 +1616,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/app-review",
       "title": "Unobserved account / exact route / recipient actuals",
-      "claim": "Actual control/Publish/version/name/URL/search/link/recipient/install/provider/selection/loaded output/value UNKNOWN. All account/search/link/contact/install/use/guide/media operations NOT RUN; no traffic/demand/source-change claim. Genuine failure remains actionable, not dismissed as placement. accessed_at is observed saved-record review, not web retrieval. The source review read two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
+      "claim": "Actual control/Publish/version/name/URL/search/link/recipient/install/provider/selection/loaded output/value UNKNOWN. No account, search/link, contact, installation, use, guide or media operation was performed; no traffic/demand/source-change claim. Genuine failure remains actionable, not dismissed as placement. accessed_at is an evidence-review timestamp, not web retrieval. Independent inspection covered two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
       "accessed_at": "2026-10-12T18:07:56Z",
       "relation": "unresolved",
       "publication_basis": "linked-summary"
@@ -1628,7 +1626,7 @@
       "source_type": "primary-documentation",
       "source_url": "https://developers.openai.com/plugins/deploy/app-review",
       "title": "Synthesis from V01–V07 / reused help11 and recipient 8 October",
-      "claim": "Proposed default/order/redacted note/stop and genuine ordinary-service alternative synthesis/untested, not official mandated procedure, tested repair, unsupported remove/resubmit/rename remedy or acquisition verdict. Correct evidenced defects; plugin-ID clarification retains 11 October, recipient distinction8 October without all-host UI transfer. accessed_at is observed saved-record review, not web retrieval. The source review read two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
+      "claim": "Proposed default/order/redacted note/stop and genuine ordinary-service alternative synthesis/untested, not official mandated procedure, tested repair, unsupported remove/resubmit/rename remedy or acquisition verdict. Correct evidenced defects; plugin-ID clarification retains 11 October, recipient distinction8 October without all-host UI transfer. accessed_at is an evidence-review timestamp, not web retrieval. Independent inspection covered two undated canonical pages in 17:59:58–18:00:46 UTC 12 October bracket, not per-request HTTP/source-change/launch time. Changed with evidence:none; only visibility advances.",
       "accessed_at": "2026-10-12T18:07:56Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
