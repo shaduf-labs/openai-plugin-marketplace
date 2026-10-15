@@ -165,6 +165,17 @@
       "summary": "A no-change summary of existing dated evidence separates publication, recipient access and useful output, and offline checks from host results. No fresh source check, new policy finding or real-host test was performed; original source dates and unobserved outcomes remain unchanged.",
       "report_path": "/p/openai-plugin-marketplace/reports/2026-10-14.html",
       "entrypoint": "reports/2026-10-14.html"
+    },
+    {
+      "run_id": "report-6092e3feea863397f16d4eac",
+      "status": "completed",
+      "answer_change": "no_meaningful_change",
+      "started_at": "2026-10-15T12:49:18.247845Z",
+      "completed_at": "2026-10-15T12:57:34.498399Z",
+      "title": "Before calling a plugin ready: four separate evidence questions",
+      "summary": "A short guide to the 7, 8, 10 and 11 October studies separates installed state from session capability, uploaded OAuth configuration from saved registration, replacement review from publication, and creator access from recipient output. No new source check or product test; original dates, scopes and unobserved outcomes apply.",
+      "report_path": "/p/openai-plugin-marketplace/reports/2026-10-15.html",
+      "entrypoint": "reports/2026-10-15.html"
     }
   ]
 }
