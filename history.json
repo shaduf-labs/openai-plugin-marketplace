@@ -176,6 +176,17 @@
       "summary": "A short guide to the 7, 8, 10 and 11 October studies separates installed state from session capability, uploaded OAuth configuration from saved registration, replacement review from publication, and creator access from recipient output. No new source check or product test; original dates, scopes and unobserved outcomes apply.",
       "report_path": "/p/openai-plugin-marketplace/reports/2026-10-15.html",
       "entrypoint": "reports/2026-10-15.html"
+    },
+    {
+      "run_id": "report-9425c14909da8898af592f13",
+      "status": "completed",
+      "answer_change": "no_meaningful_change",
+      "started_at": "2026-10-16T13:20:31.241603Z",
+      "completed_at": "2026-10-16T13:27:17.577517Z",
+      "title": "Plugin evidence: original dates and limits retained",
+      "summary": "A compact carry-forward links the 15 October readiness summary and the original CLI, OAuth, replacement and recipient studies. No new source check or product observation; original dates, scopes, unresolved conflicts and untested outcomes apply.",
+      "report_path": "/p/openai-plugin-marketplace/reports/2026-10-16.html",
+      "entrypoint": "reports/2026-10-16.html"
     }
   ]
 }
