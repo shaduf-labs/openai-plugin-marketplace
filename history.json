@@ -187,6 +187,17 @@
       "summary": "A compact carry-forward links the 15 October readiness summary and the original CLI, OAuth, replacement and recipient studies. No new source check or product observation; original dates, scopes, unresolved conflicts and untested outcomes apply.",
       "report_path": "/p/openai-plugin-marketplace/reports/2026-10-16.html",
       "entrypoint": "reports/2026-10-16.html"
+    },
+    {
+      "run_id": "report-435e9d883e5b6e4e1967a519",
+      "status": "completed",
+      "answer_change": "no_meaningful_change",
+      "started_at": "2026-10-17T23:13:40.108236Z",
+      "completed_at": "2026-10-17T23:18:15.337685Z",
+      "title": "Plugin evidence: original dates and limits retained",
+      "summary": "A compact carry-forward links the 16 October note and the original CLI, OAuth, replacement and recipient studies. No new source check or product observation; original dates, scopes, unresolved conflicts and untested outcomes apply.",
+      "report_path": "/p/openai-plugin-marketplace/reports/2026-10-17.html",
+      "entrypoint": "reports/2026-10-17.html"
     }
   ]
 }
