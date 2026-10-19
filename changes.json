@@ -126,6 +126,12 @@
       "changed_at": "2026-10-13T13:13:37.892952Z",
       "summary": "Find OAuth setup, pending-review updates, directory visibility checks and other developer decisions through a dated evidence map, with clearer untested limits and links to four unresolved documentation conflicts.",
       "path": "/p/openai-plugin-marketplace/for-ai-agents/"
+    },
+    {
+      "change_id": "http-status-reference-procedure-contract-choice-2026-10-19",
+      "changed_at": "2026-10-19T13:01:52.098935Z",
+      "summary": "Compare HTTP 429/503 reference reading, a proposed reusable skill and a remote tool’s static callable contract. MCP can add a controlled interface without live knowledge; public operation is a separate commitment. Outputs, reliability and usefulness were not tested.",
+      "path": "/p/openai-plugin-marketplace/choose-architecture/#http-status-choice"
     }
   ]
 }

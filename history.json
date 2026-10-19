@@ -209,6 +209,17 @@
       "summary": "A compact carry-forward links the 17 October note and the original CLI, OAuth, replacement and recipient studies. No new source check or product observation; original dates, scopes, unresolved conflicts and untested outcomes apply.",
       "report_path": "/p/openai-plugin-marketplace/reports/2026-10-18.html",
       "entrypoint": "reports/2026-10-18.html"
+    },
+    {
+      "run_id": "report-bc41fde265e4fcfd5767ae98",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-19T12:47:52.067526Z",
+      "completed_at": "2026-10-19T13:01:52.098935Z",
+      "title": "HTTP status lookup: reference, procedure or callable contract?",
+      "summary": "A two-code source comparison distinguishes direct reference information, a proposed reusable skill and an operator-owned static MCP contract. Public operation remains separate; no prompt/tool output, customer state, reliability or usefulness was observed.",
+      "report_path": "/p/openai-plugin-marketplace/reports/2026-10-19.html",
+      "entrypoint": "reports/2026-10-19.html"
     }
   ]
 }
