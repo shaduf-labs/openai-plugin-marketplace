@@ -220,6 +220,17 @@
       "summary": "A two-code source comparison distinguishes direct reference information, a proposed reusable skill and an operator-owned static MCP contract. Public operation remains separate; no prompt/tool output, customer state, reliability or usefulness was observed.",
       "report_path": "/p/openai-plugin-marketplace/reports/2026-10-19.html",
       "entrypoint": "reports/2026-10-19.html"
+    },
+    {
+      "run_id": "report-41542f4f6949b2f5e25850fa",
+      "status": "completed",
+      "answer_change": "no_meaningful_change",
+      "started_at": "2026-10-20T12:49:27.966598Z",
+      "completed_at": "2026-10-20T12:59:16.599766Z",
+      "title": "HTTP status lookup: keep the requirement distinct",
+      "summary": "For HTTP 429/503 meanings, distinguish reference information, a proposed reusable procedure and an operator-controlled static callable contract. Public operation is a separate choice; outputs and customer-state evidence remain unobserved. The original 19 October inspection dates and limits apply.",
+      "report_path": "/p/openai-plugin-marketplace/reports/2026-10-20.html",
+      "entrypoint": "reports/2026-10-20.html"
     }
   ]
 }
