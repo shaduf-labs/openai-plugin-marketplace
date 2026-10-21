@@ -231,6 +231,17 @@
       "summary": "For HTTP 429/503 meanings, distinguish reference information, a proposed reusable procedure and an operator-controlled static callable contract. Public operation is a separate choice; outputs and customer-state evidence remain unobserved. The original 19 October inspection dates and limits apply.",
       "report_path": "/p/openai-plugin-marketplace/reports/2026-10-20.html",
       "entrypoint": "reports/2026-10-20.html"
+    },
+    {
+      "run_id": "report-466ea8900a7cbc6c418fd02f",
+      "status": "completed",
+      "answer_change": "no_meaningful_change",
+      "started_at": "2026-10-21T12:47:38.951077Z",
+      "completed_at": "2026-10-21T13:03:26.238159Z",
+      "title": "Meeting-note skill: retain the existing description",
+      "summary": "The existing supplied-notes description already names the input and recap categories for two prompt specifications. Retain the source unchanged: textual coverage is not observed selection, and all ten host cases remain unperformed. Only the cited description-guidance passages receive the 21 October inspection.",
+      "report_path": "/p/openai-plugin-marketplace/reports/2026-10-21.html",
+      "entrypoint": "reports/2026-10-21.html"
     }
   ]
 }
