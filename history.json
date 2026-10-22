@@ -242,6 +242,17 @@
       "summary": "The existing supplied-notes description already names the input and recap categories for two prompt specifications. Retain the source unchanged: textual coverage is not observed selection, and all ten host cases remain unperformed. Only the cited description-guidance passages receive the 21 October inspection.",
       "report_path": "/p/openai-plugin-marketplace/reports/2026-10-21.html",
       "entrypoint": "reports/2026-10-21.html"
+    },
+    {
+      "run_id": "report-f3226155ef7b9d2e722558b4",
+      "status": "completed",
+      "answer_change": "no_meaningful_change",
+      "started_at": "2026-10-22T12:48:43.358417Z",
+      "completed_at": "2026-10-22T13:00:38.397834Z",
+      "title": "Meeting-note skill: retain the description and its limits",
+      "summary": "Retain the supplied-notes description and its existing recap categories. Textual coverage is not observed model selection, body/reference loading or output; all ten host cases remain unperformed. No new source check or product test; the original 21 October assessment dates and limits apply.",
+      "report_path": "/p/openai-plugin-marketplace/reports/2026-10-22.html",
+      "entrypoint": "reports/2026-10-22.html"
     }
   ]
 }
