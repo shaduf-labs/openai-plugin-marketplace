@@ -264,6 +264,17 @@
       "summary": "Retain the supplied-notes description, package summary and workflow. Textual coverage is not observed selection, body/reference loading or output; all ten host cases remain unperformed and the portable example is not established Codex-ready. The original 21 October evidence dates and limits apply.",
       "report_path": "/p/openai-plugin-marketplace/reports/2026-10-23.html",
       "entrypoint": "reports/2026-10-23.html"
+    },
+    {
+      "run_id": "report-f994f1c00f141c68b9cd5d23",
+      "status": "completed",
+      "answer_change": "no_meaningful_change",
+      "started_at": "2026-10-24T12:51:25.492306Z",
+      "completed_at": "2026-10-24T12:58:28.130061Z",
+      "title": "Meeting-note skill: keep the supplied-notes description",
+      "summary": "Retain the supplied-notes description, package summary and workflow. Metadata availability, model selection, body/reference loading and output are distinct; selection, loading and output remain unobserved. All ten host cases remain unperformed and the portable example is not established Codex-ready. The original 21 October evidence dates and limits apply.",
+      "report_path": "/p/openai-plugin-marketplace/reports/2026-10-24.html",
+      "entrypoint": "reports/2026-10-24.html"
     }
   ]
 }
