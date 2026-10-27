@@ -275,6 +275,17 @@
       "summary": "Retain the supplied-notes description, package summary and workflow. Metadata availability, model selection, body/reference loading and output are distinct; selection, loading and output remain unobserved. All ten host cases remain unperformed and the portable example is not established Codex-ready. The original 21 October evidence dates and limits apply.",
       "report_path": "/p/openai-plugin-marketplace/reports/2026-10-24.html",
       "entrypoint": "reports/2026-10-24.html"
+    },
+    {
+      "run_id": "report-01c43cc374c64aafa0fbd97e",
+      "status": "completed",
+      "answer_change": "no_meaningful_change",
+      "started_at": "2026-10-27T12:50:06.175745Z",
+      "completed_at": "2026-10-27T13:00:55.609199Z",
+      "title": "Local scripts: retain explicit runtime prerequisites",
+      "summary": "Retain explicit interpreter, resource and permission prerequisites. The hypothetical 5 October design supplies no dependency deployment or refresh guarantee; no new tested packaging remedy or host result is established. Original channel, description and unobserved-stage limits remain.",
+      "report_path": "/p/openai-plugin-marketplace/reports/2026-10-27.html",
+      "entrypoint": "reports/2026-10-27.html"
     }
   ]
 }
