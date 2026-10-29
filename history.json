@@ -297,6 +297,17 @@
       "summary": "Retain interpreter, resource and permission prerequisites, with no dependency deployment or refresh guarantee from the hypothetical design. Original 5, 6 and 21 October evidence dates and limits apply; selection, loading and output remain unobserved. No new technical finding, tested remedy or host result is established.",
       "report_path": "/p/openai-plugin-marketplace/reports/2026-10-28.html",
       "entrypoint": "reports/2026-10-28.html"
+    },
+    {
+      "run_id": "report-89e6b6deef6a0e9216dc4080",
+      "status": "completed",
+      "answer_change": "no_meaningful_change",
+      "started_at": "2026-10-29T12:49:02.521694Z",
+      "completed_at": "2026-10-29T12:58:18.474453Z",
+      "title": "Local scripts: retain the original prerequisites and limits",
+      "summary": "Retain explicit interpreter, resource and permission prerequisites, with no dependency deployment or refresh guarantee from the hypothetical 5 October design. Original 5, 6 and 21 October dates and evidence limits apply; selection, loading and output remain unobserved. No new technical finding, tested remedy or host result is established.",
+      "report_path": "/p/openai-plugin-marketplace/reports/2026-10-29.html",
+      "entrypoint": "reports/2026-10-29.html"
     }
   ]
 }
