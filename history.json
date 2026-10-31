@@ -319,6 +319,17 @@
       "summary": "Retain explicit interpreter, resource and permission prerequisites, with no dependency deployment or refresh guarantee from the hypothetical 5 October design. Original 5, 6 and 21 October dates and evidence limits apply; metadata availability is distinct from unobserved selection, loading and output. No new technical finding, tested remedy or host result is established.",
       "report_path": "/p/openai-plugin-marketplace/reports/2026-10-30.html",
       "entrypoint": "reports/2026-10-30.html"
+    },
+    {
+      "run_id": "report-b01e695136e88fd806413847",
+      "status": "completed",
+      "answer_change": "no_meaningful_change",
+      "started_at": "2026-10-31T12:50:51.950114Z",
+      "completed_at": "2026-10-31T12:57:40.325492Z",
+      "title": "Local scripts: prerequisites are not runtime evidence",
+      "summary": "Retain explicit interpreter, resource and permission prerequisites, with no demonstrated dependency deployment or refresh guarantee from the hypothetical 5 October design. Original 5, 6 and 21 October dates and evidence limits apply; selection, body/reference loading and output remain unobserved. No new technical finding, tested remedy or host result is established.",
+      "report_path": "/p/openai-plugin-marketplace/reports/2026-10-31.html",
+      "entrypoint": "reports/2026-10-31.html"
     }
   ]
 }
